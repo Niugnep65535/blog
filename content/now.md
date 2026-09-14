@@ -19,6 +19,7 @@ comments: false
  
 ## 最近折騰的
  * Arch Linux：別問，[腦子有泡](https://niugnep.idv.tw/posts/back-to-arch-but-i-am-not-happy]
+ * 新電腦：我！要！去！敗！家！
 
 ## 最近看、聽、讀的
  * 原神Lofi合輯：適合讀書時候聽

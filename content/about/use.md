@@ -1,6 +1,6 @@
 ---
 title: Niugnep用些什麼
-date: 2026-08-14
+date: 2026-09-14
 draft: false
 comments: false
 ---
@@ -27,27 +27,25 @@ comments: false
 ## 電腦軟體
  > 我的原則與Wiwi類似。可行前提下以FOSS與開放格式為主；無法使用自由軟體的工作項目也盡力準備替代方案。
 ### 作業系統
- * Arch Linux：問就是腦子有泡，我懶的跳回去了
- * Parabola GNU/Linux-libre：反正跑得動
+ * Arch Linux：我懶的跳了
+ * Debian GNU/Linux：GNOME體驗機 + 備用機
  * Windows 10：裝在隨身碟當工具人
 ### 瀏覽器
- * Librewolf：主力瀏覽器，Firefox自由版
+ * Firefox：主力瀏覽器，同步功能就是香
 ### 終端機相關
- * Kitty：潛力無限的終端機模擬器
- * Konsole：KDE的終端機模擬器
  * yt-dlp：最強影片下載器
  * FFmpeg：最強的影音轉檔工具
  * Git：不用我多說吧
  * Micro：設定檔編輯用
 ### 媒體播放器
- * VLC Player：反正對我而言是最好用的媒體播放器
+ * Elisa：KDE音樂播放器
+ * Dragon：KDE影片播放器
 ### 文字編輯器
  * Notepad++：Windows下的編輯器之神，但是字體很醜
- * Visual Studio Code：開發C#還得是親兒子
- * VSCodium：當我不開發C#
+ * Kate：跟記事本不像的話我吃──
+ * Visual Studio Code：擴充功能還得是親兒子
 ### 辦公軟體
  * LibreOffice：很好用的辦公軟體
- * Microsoft Office：現在也很少在用
 
 ## 雲端服務
  > 商業屬性的我能不用就不用，除非太強。
@@ -61,35 +59,35 @@ comments: false
  * Deepseek：真香定律這一塊
  * ~~Claude~~：我號被封了（未滿18歲）
 ### 其他免費服務
- * Codeberg：好用的託管平台，這網站就是用它託管的
+ * GitHub：好用的程式碼平台，這網站就是用它託管的
+ * Codeberg：不夠穩定
  * Cloudflare：Internet大善人，功德過滿，這網站的網域就是用它託管的
- * ~~Facebook~~：我媽有巴哈，巴哈尊重人多了（停用）
- * ~~Instagram、Threads~~：偽人社群毋庸置疑（30天冷卻結束後移除）
- * YouTube：我拿來放奇葩挑戰
- * Proton：主要Email服務商，目前轉到幕後工作（Cloudflare Forwarding）。限制好多求替代方案
+ * ~~Facebook~~：我媽有巴哈，巴哈尊重人多了（已刪除）
+ * ~~Instagram、Threads~~：偽人社群毋庸置疑（已移除）
+ * YouTube：比較少發片
+ * Gmail：主要Email服務商，目前轉到幕後工作（Cloudflare Forwarding）。我已經釋懷了
  * Resend：每個月100封額度還是很夠用的
 ### 其他付費服務
- > 因為零用錢花到月光，除了父母訂閱的順風車外全退訂了
+ > 因為零用錢花到月光，目前全退訂了
  * ~~臺灣吧會員~~：中國史很好看，推（已退訂）
  * ~~ChatGPT Plus~~：偏貴但不錯（已退訂）
  * ~~YouTube Premium~~：我是肥羊（已覺醒+退訂）
- * Microsoft 365：我爸訂閱的；太希望使用者雞蛋放一起了
 
 ## 手機
- > 我有很強的刷機欲望，終於是給我解欲（指刷機成功沒磚）了
+ > 我目前還是以那台Pixel 7 Pro為主
 ### 系統
- * crDroid：自訂性極為離譜的韌體
+ * crDroid：自訂性極為離譜的韌體，玩膩了打算刷回Pixel UI
 ### 軟體商店
  * F-Droid：全都是自由的好康
  * Aurora Store：不用登入也能裝大眾軟體
 ### 通訊類
  * LINE：我只是在一堆史裡面，被迫挑了身邊人難分難捨的史
  * Discord：依然很有商業味道，但好用多了
+ * Signal：我媽嫌麻煩，但是我在催她嘗試
 ### 網路與網際網路相關
- * Cromite：主要瀏覽器，能擋廣告但沒uBlock強
+ * Firefox：主要瀏覽器，uBlock太權威了
  * Capy Reader：好用的RSS閱讀器
  * NewPipe：看YouTube就沒這麼爽過
- * PipePipe：進化出BiliBili跟NicoNico支援的NewPipe，專門刷B站
  * OpenTune：YouTube Music的超漂亮前端
  * Localsend：好用的檔案傳輸工具
  * Seal：yt-dlp的手機界面

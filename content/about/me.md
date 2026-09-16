@@ -26,6 +26,7 @@ comments: false
  * GitHub：[@StupidestJack](https://github.com/StupidestJack)
  * Codeberg：[@niugnep87](https://codeberg.org/niugnep87)
  * YouTube：[@StupidestJack](https://www.youtube.com/@StupidestJack)
+ * Bluesky：[@niugnep.idv.tw](https://bsky.app/profile/niugnep.idv.tw)
 
 因為我不想變成[殭屍](https://wiwi.blog/blog/meta-ai-cloning-patent)，本人已經將Meta帳號停用或刪除。任何宣稱是我的Meta相關帳號都是假的 / 沒清乾淨的分帳。
 

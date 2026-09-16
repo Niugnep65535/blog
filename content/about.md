@@ -12,3 +12,4 @@ comments: false
  * [本站RSS](about/rss.html)
  * [成就](about/achievements.html)
  * [Niugnep 用些什麼](about/use.html)
+ * [我與我的電腦](about/computing.html)

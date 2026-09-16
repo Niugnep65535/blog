@@ -1,8 +1,7 @@
 ---
 title: 我與我的電腦
 date: 2026-09-16
-draft: true
-comments: false
+draft: false
 ---
 這是一篇~~抄襲~~效仿Stallman.org《How I do my computing》的文章，而且連結構都很像。
 

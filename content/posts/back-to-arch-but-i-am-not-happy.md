@@ -3,7 +3,7 @@ title: 跳回Arch，但是我很幹
 date: 2026-09-02
 tags:
  - Arch Linux
-canetories:
+categories:
  - GNU/Linux或Linux
 draft: false
 ---

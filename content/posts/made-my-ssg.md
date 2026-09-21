@@ -5,7 +5,7 @@ tags:
  - 幹話
  - Python
  - Open Web
-canetories:
+categories:
  - 網際網路與 Web
 draft: false
 ---

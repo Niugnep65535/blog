@@ -4,7 +4,7 @@ date: 2026-07-13
 tags:
  - 技術宅
  - 幹話
-canetories:
+categories:
  - 自由軟體與開源哲學
 draft: false
 ---

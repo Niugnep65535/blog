@@ -4,7 +4,7 @@ date: 2026-08-14
 tags:
  - Arch Linux
  - GNU/Linux
-canetories:
+categories:
  - GNU/Linux 或 Linux
 draft: false
 ---

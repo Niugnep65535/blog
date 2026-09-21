@@ -4,7 +4,7 @@ date: 2026-07-28
 tags:
  - 部落格
  - Hugo
-canetories:
+categories:
  - 網際網路與 Web
 draft: false
 ---

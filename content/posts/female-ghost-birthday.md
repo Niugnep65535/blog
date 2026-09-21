@@ -5,7 +5,7 @@ tags:
  - 連環信
  - 回憶
  - 幹話
-canetories:
+categories:
  - 日常與壓力垃圾桶
 draft: false
 ---

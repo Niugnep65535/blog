@@ -4,7 +4,7 @@ date: 2026-08-02
 tags:
  - NVIDIA
  - 原神
-canetories:
+categories:
  - GNU/Linux 或 Linux
 draft: false
 ---

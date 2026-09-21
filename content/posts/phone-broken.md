@@ -4,7 +4,7 @@ date: 2026-07-21
 tags:
  - 慘案
  - 手機
-canetories:
+categories:
  - 不日常的日常
 draft: false
 ---

@@ -4,7 +4,7 @@ date: 2026-06-14
 tags:
  - 學校
  - 幹話
-canetories:
+categories:
  - 日常與壓力垃圾桶
 draft: false
 ---

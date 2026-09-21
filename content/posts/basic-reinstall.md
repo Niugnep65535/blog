@@ -4,7 +4,7 @@ date: 2026-08-25
 tags:
  - Ubuntu
  - 筆記
-canetories:
+categories:
  - GNU/Linux或Linux
 draft: false
 ---

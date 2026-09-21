@@ -4,7 +4,7 @@ date: 2026-06-29
 tags:
  - 心得
  - Arch Linux
-canetories:
+categories:
  - GNU/Linux 或 Linux
 draft: false
 ---

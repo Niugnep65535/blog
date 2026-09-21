@@ -4,7 +4,7 @@ date: 2026-07-29
 tags:
  - GNU/Linux
  - 新手
-canetories:
+categories:
  - GNU/Linux 或 Linux
 draft: false
 ---

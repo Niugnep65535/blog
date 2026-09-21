@@ -5,7 +5,7 @@ tags:
  - 技術宅
  - 刷機
  - crDroid
-canetories:
+categories:
  - 自由軟體與開源哲學
 draft: false
 ---

@@ -4,7 +4,7 @@ date: 2026-05-10
 tags:
  - Open Web
  - 網際網路
-canetories:
+categories:
  - 網際網路與 Web
 draft: false
 ---

@@ -4,7 +4,7 @@ date: 2026-09-17
 tags:
  - Open Web
  - 心得
-canetories:
+categories:
  - 網際網路與 Web
 draft: false
 ---

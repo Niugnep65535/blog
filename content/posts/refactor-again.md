@@ -4,7 +4,7 @@ date: 2026-08-26
 tags:
  - Codeberg
  - 部落格
-canetories:
+categories:
  - 網際網路與 Web
 draft: false
 ---

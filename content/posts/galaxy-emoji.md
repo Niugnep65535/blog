@@ -5,7 +5,7 @@ tags:
  - 手機
  - 三星
  - 幹話
-canetories:
+categories:
  - 日常與壓力垃圾桶
 draft: false
 ---

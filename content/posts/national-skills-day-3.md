@@ -5,7 +5,7 @@ tags:
  - 技能競賽
  - 心得
  - 幹話
-canetories:
+categories:
  - 技能競賽、技藝班與升學
 draft: false
 ---

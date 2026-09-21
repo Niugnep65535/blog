@@ -4,7 +4,7 @@ date: 2026-08-13
 tags:
  - 幹話
  - 電子書
-canetories:
+categories:
  - 不日常的日常
 draft: false
 ---

@@ -3,7 +3,7 @@ title: 自製的Linux梗圖分享
 date: 2026-05-24
 tags:
  - 迷因
-canetories:
+categories:
  - GNU/Linux 或 Linux
 draft: false
 ---

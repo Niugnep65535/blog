@@ -3,7 +3,7 @@ title: Cloudflare太超過了
 date: 2026-08-28
 tags:
  - 水
-canetories:
+categories:
  - 網際網路與 Web
 draft: false
 ---

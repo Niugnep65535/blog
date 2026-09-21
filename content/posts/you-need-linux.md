@@ -4,7 +4,7 @@ date: 2026-07-31
 tags:
  - 心得
  - GNU/Linux
-canetories:
+categories:
  - GNU/Linux 或 Linux
 draft: false
 ---

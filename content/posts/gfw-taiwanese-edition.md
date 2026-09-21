@@ -5,7 +5,7 @@ tags:
  - Open Web
  - 幹話
  - 政治
-canetories:
+categories:
  - 網際網路與 Web
 draft: false
 ---

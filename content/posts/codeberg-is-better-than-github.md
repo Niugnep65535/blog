@@ -5,7 +5,7 @@ tags:
  - 網際網路
  - Codeberg
  - 部落格
-canetories:
+categories:
  - 網際網路與 Web
 draft: false
 ---

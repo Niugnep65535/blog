@@ -2,9 +2,10 @@
 title: NVIDIA, fuck you!
 date: 2026-08-02
 tags:
-- NVIDIA
-- GNU/Linux
-- 原神
+ - NVIDIA
+ - 原神
+canetories:
+ - GNU/Linux 或 Linux
 draft: false
 ---
 

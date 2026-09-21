@@ -2,9 +2,11 @@
 title: 為什麼 Codeberg 比 GitHub 更適合放部落格？
 date: 2026-07-09
 tags:
-- 網際網路
-- Codeberg
-- 部落格
+ - 網際網路
+ - Codeberg
+ - 部落格
+canetories:
+ - 網際網路與 Web
 draft: false
 ---
 就在今天，我正式把自己的部落格遷移到了Codeberg。

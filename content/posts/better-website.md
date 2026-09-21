@@ -2,8 +2,10 @@
 title: 現在的網站真的有點肥啊，JS濫用之術
 date: 2026-05-10
 tags:
-- Open Web
-- 網際網路
+ - Open Web
+ - 網際網路
+canetories:
+ - 網際網路與 Web
 draft: false
 ---
 實不相瞞，我也是[Ivon的部落格](https://ivonblog.com/)的讀者。  

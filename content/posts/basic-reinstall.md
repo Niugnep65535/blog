@@ -2,9 +2,10 @@
 title: Distro Hopping的一點皮毛筆記
 date: 2026-08-25
 tags:
-- GNU/Linux
-- Ubuntu
-- 筆記
+ - Ubuntu
+ - 筆記
+canetories:
+ - GNU/Linux或Linux
 draft: false
 ---
 因為這陣子常常換系統（Arch -> Debian -> Ubuntu -> Kubuntu），決定把換系統的操作整理一下給大家參考。

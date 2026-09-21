@@ -2,9 +2,10 @@
 title: I use Arch, btw.
 date: 2026-06-29
 tags:
-- 心得
-- GNU/Linux
-- Arch Linux
+ - 心得
+ - Arch Linux
+canetories:
+ - GNU/Linux 或 Linux
 draft: false
 ---
 不知不覺間，我也用了兩個月半的Arch Linux了。  

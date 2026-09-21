@@ -2,8 +2,10 @@
 title: 或許，Debian？
 date: 2026-08-14
 tags:
-- Arch Linux
-- GNU/Linux
+ - Arch Linux
+ - GNU/Linux
+canetories:
+ - GNU/Linux 或 Linux
 draft: false
 ---
 不得不說，我真的是個很容易受別人左右的傢伙。

@@ -2,8 +2,9 @@
 title: 自製的Linux梗圖分享
 date: 2026-05-24
 tags:
-- GNU/Linux
-- 迷因
+ - 迷因
+canetories:
+ - GNU/Linux 或 Linux
 draft: false
 ---
 接下來這些可能會有點離譜，

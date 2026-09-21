@@ -2,8 +2,10 @@
 title: 我媽的Linux Mint使用記
 date: 2026-07-29
 tags:
-- GNU/Linux
-- 新手
+ - GNU/Linux
+ - 新手
+canetories:
+ - GNU/Linux 或 Linux
 draft: false
 ---
 昨天我讓我媽試用了一下Linux Mint，我現在不認為它是對新手*最*好的發行版了  

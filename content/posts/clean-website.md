@@ -2,9 +2,11 @@
 title: 我的網站很乾淨
 date: 2026-07-11
 tags:
-- 網際網路
-- Open Web
-- 部落格
+ - 網際網路
+ - Open Web
+ - 部落格
+canetories:
+ - 網際網路與 Web
 draft: false
 ---
 是的，*我說*我的網站很乾淨。  

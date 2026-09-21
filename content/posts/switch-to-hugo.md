@@ -2,8 +2,10 @@
 title: 我，還是換到Hugo了
 date: 2026-07-28
 tags:
-- 部落格
-- Hugo
+ - 部落格
+ - Hugo
+canetories:
+ - 網際網路與 Web
 draft: false
 ---
 因為我發現我改這倉庫十次有九次在修bug，為了讓我能更專心在寫作上，我決定不再使用我自製的SSG。

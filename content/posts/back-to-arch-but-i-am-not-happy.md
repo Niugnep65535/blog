@@ -2,8 +2,9 @@
 title: 跳回Arch，但是我很幹
 date: 2026-09-02
 tags:
- - GNU/Linux
  - Arch Linux
+canetories:
+ - GNU/Linux或Linux
 draft: false
 ---
 忙碌了一天之後我居然又跳到了Arch。

@@ -2,9 +2,10 @@
 title: 又又又重構
 date: 2026-08-26
 tags:
-- 網際網路
-- Codeberg
-- 部落格
+ - Codeberg
+ - 部落格
+canetories:
+ - 網際網路與 Web
 draft: false
 ---
 [上次](https://niugnep.idv.tw/posts/codeberg-is-better-than-github)剛推薦Codeberg，就被背刺了。

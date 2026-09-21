@@ -2,7 +2,9 @@
 title: Cloudflare太超過了
 date: 2026-08-28
 tags:
-- 水
+ - 水
+canetories:
+ - 網際網路與 Web
 draft: false
 ---
 才發現Cloudflare Pages預設會追蹤使用者。

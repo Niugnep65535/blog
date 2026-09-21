@@ -4,6 +4,8 @@ date: 2026-09-04
 tags:
  - GNU/Linux
  - Arch Linux
+canetories:
+ - GNU/Linux 或 Linux
 draft: false
 ---
 tty好是好，但是沒有中文。

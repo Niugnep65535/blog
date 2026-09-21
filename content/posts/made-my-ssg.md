@@ -2,9 +2,11 @@
 title: 我寫了個自己的SSG...
 date: 2026-05-14
 tags:
-- 幹話
-- Python
-- Open Web
+ - 幹話
+ - Python
+ - Open Web
+canetories:
+ - 網際網路與 Web
 draft: false
 ---
 > ℹ️ 提示

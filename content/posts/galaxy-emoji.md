@@ -2,9 +2,11 @@
 title: 沒見過這麼醜的Emojis!
 date: 2026-06-25
 tags:
-- 手機
-- 三星
-- 幹話
+ - 手機
+ - 三星
+ - 幹話
+canetories:
+ - 日常與壓力垃圾桶
 draft: false
 ---
 用三星的都知道，三星造了自己的Emoji字體。  

@@ -2,8 +2,10 @@
 title: 你需要Linux，不要拖了
 date: 2026-07-31
 tags:
-- 心得
-- GNU/Linux
+ - 心得
+ - GNU/Linux
+canetories:
+ - GNU/Linux 或 Linux
 draft: false
 ---
  > 這篇文章在7/30就寫好了，但是因為我怕今天也寫了一篇會太過頻繁，所以就設定7/31發布。

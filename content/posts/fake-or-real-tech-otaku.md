@@ -2,9 +2,10 @@
 title: 真假技術宅
 date: 2026-07-13
 tags:
-- 技術宅
-- 自由軟體
-- 幹話
+ - 技術宅
+ - 幹話
+canetories:
+ - 自由軟體與開源哲學
 draft: false
 ---
 我之前看到Wiwi官大為寫的[《假宅男 vs 真宅男》](https://wiwi.blog/blog/fake-vs-real-tech-nerd/)，其實挺有意思的，所以我就拿它來水一篇文章。  

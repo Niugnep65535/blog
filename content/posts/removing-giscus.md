@@ -2,9 +2,10 @@
 title: 本網站即將移除Giscus
 date: 2026-08-21
 tags:
-- 網際網路
-- Open Web
-- 部落格
+ - Open Web
+ - 部落格
+canetories:
+ - 網際網路與 Web
 draft: false
 comments: false
 ---

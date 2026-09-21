@@ -2,8 +2,9 @@
 title: 反正我現在用Debian
 date: 2026-08-16
 tags:
- - GNU/Linux
  - Debian GNU/Linux
+categories:
+ - GNU/Linux或Linux
 draft: false
 ---
 你們知道什麼是啪啪打臉嗎？

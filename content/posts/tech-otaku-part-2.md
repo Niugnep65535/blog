@@ -2,11 +2,11 @@
 title: 技術宅．續
 date: 2026-07-22
 tags:
-- 技術宅
-- 自由軟體
-- 刷機
-- Degoogle
-- crDroid
+ - 技術宅
+ - 刷機
+ - crDroid
+canetories:
+ - 自由軟體與開源哲學
 draft: false
 ---
 書接[上回](/posts/fake-or-real-tech-otaku.html)，我提到了我之後的手機會刷掉，但這件事比我想像中來得早。

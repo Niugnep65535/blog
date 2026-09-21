@@ -4,6 +4,8 @@ date: 2026-09-17
 tags:
  - Open Web
  - 心得
+canetories:
+ - 網際網路與 Web
 draft: false
 ---
 反正我就是分心，[不想唸書](https://niugnep.idv.tw/posts/i-hate-capfjhss.html)，無聊滑Wiwi的文章就滑到[這個](https://wiwi.blog/blog/get-your-own-domain/)。

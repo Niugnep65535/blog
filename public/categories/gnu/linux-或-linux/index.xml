@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>GNU/Linux 或 Linux on Niugnep 的部落格</title>
+    <link>http://localhost:1313/categories/gnu/linux-%E6%88%96-linux.html</link>
+    <description>Recent content in GNU/Linux 或 Linux on Niugnep 的部落格</description>
+    <generator>Hugo</generator>
+    <language>zh-Hant</language>
+    <copyright>2026 Niugnep Hsueh · 透過 CC BY 4.0 授權</copyright>
+    <lastBuildDate>Fri, 04 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/gnu/linux-%E6%88%96-linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Foot獨占的假tty環境</title>
+      <link>http://localhost:1313/posts/foot-only-fake-tty.html</link>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/foot-only-fake-tty.html</guid>
+      <description>&lt;p&gt;tty好是好，但是沒有中文。&lt;/p&gt;
+&lt;p&gt;沒有中文就算了，它還有三個最致命的缺陷：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;難看！&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;難看！！&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;&lt;strong&gt;還是ㄊㄇㄉ難看！！！&lt;/strong&gt;&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;那你開個桌面環境好看些了吧，又費電還會誤觸，也難專注：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Mostly I use a text console, for convenience&amp;rsquo;s sake. Most of my work is editing text and that is more efficient on a text console. On the text console, the touchpad can&amp;rsquo;t cause me any trouble if I touch it by accident. The mouse can&amp;rsquo;t make my editing commands fail to work by being on the wrong window.&lt;br&gt;
+&amp;ndash; Richard Stallman &lt;a href=&#34;https://stallman.org/stallman-computing.html&#34;&gt;&amp;ldquo;How I do my computing&amp;rdquo;&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>跳回Arch，但是我很幹</title>
+      <link>http://localhost:1313/posts/back-to-arch-but-i-am-not-happy.html</link>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/back-to-arch-but-i-am-not-happy.html</guid>
+      <description>&lt;p&gt;忙碌了一天之後我居然又跳到了Arch。&lt;/p&gt;
+&lt;p&gt;我腦子大概是有泡。&lt;/p&gt;
+&lt;p&gt;修了半天Hyprland、把GPG私鑰搞沒，然後我只有瀏覽器跟終端機配置好了。&lt;/p&gt;
+&lt;p&gt;事實證明，當你把Minecraft、忘記備份的專案、GPG金鑰、各種檔案跟虛擬機等丟沒之後，看到&lt;code&gt;fastfetch&lt;/code&gt;不能解氣。&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://i.meee.com.tw/bvOGbD3.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;此外，以後請不要使用我現有的GPG公鑰加密，我之後會把新的公鑰上傳到金鑰伺服器。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Distro Hopping的一點皮毛筆記</title>
+      <link>http://localhost:1313/posts/basic-reinstall.html</link>
+      <pubDate>Tue, 25 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/basic-reinstall.html</guid>
+      <description>&lt;p&gt;因為這陣子常常換系統（Arch -&amp;gt; Debian -&amp;gt; Ubuntu -&amp;gt; Kubuntu），決定把換系統的操作整理一下給大家參考。&lt;/p&gt;
+&lt;h2 id=&#34;準備工作&#34;&gt;準備工作&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;備份家目錄下的&lt;code&gt;.ssh&lt;/code&gt;資料夾&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;mkdir &amp;lt;隨身碟&amp;gt;/ssh
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;cp -r ~/.ssh/* &amp;lt;隨身碟&amp;gt;/ssh
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;匯出GPG金鑰：&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;gpg --export &amp;lt;金鑰ID&amp;gt; &amp;gt; gpg_public.asc &lt;span style=&#34;color:#75715e&#34;&gt;# 匯出公鑰&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;gpg --export-secret-keys &amp;lt;金鑰ID&amp;gt; &amp;gt; gpg_private.asc &lt;span style=&#34;color:#75715e&#34;&gt;# 匯出私鑰&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ol start=&#34;3&#34;&gt;
+&lt;li&gt;備份沒有上傳到雲端/GitHub的專案、音樂、圖片等&lt;/li&gt;
+&lt;li&gt;備份設定文件（位在&lt;code&gt;.config&lt;/code&gt;下，對&lt;code&gt;kitty&lt;/code&gt;、Hyprland等使用設定檔設定的軟體尤其重要）&lt;/li&gt;
+&lt;li&gt;備份瀏覽器設定（可選）&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;正式安裝&#34;&gt;正式安裝&lt;/h2&gt;
+&lt;p&gt;主要分為以下步驟：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;更新系統&lt;/li&gt;
+&lt;li&gt;升級系統（如果是舊版point release）&lt;/li&gt;
+&lt;li&gt;安裝驅動&lt;/li&gt;
+&lt;li&gt;解除安裝Snap（Ubuntu系，可選）&lt;/li&gt;
+&lt;li&gt;安裝Flatpak（可選）&lt;/li&gt;
+&lt;li&gt;安裝必要軟體&lt;/li&gt;
+&lt;li&gt;還原設定、還原資料&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;更新系統&#34;&gt;更新系統&lt;/h2&gt;
+&lt;p&gt;依照發行版派系有所不同：&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Debian / Ubuntu&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo apt update; sudo apt upgrade
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Arch / Manjaro / CachyOS&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo pacman -Syu
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;# Fedora / RHEL / Rocky&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;sudo dnf upgrade --refresh
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;對於Linux Mint，可以透過更新管理員進行更新；對於KDE neon，建議透過Discover應用程式更新。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>反正我現在用Debian</title>
+      <link>http://localhost:1313/posts/anyway-debian-now.html</link>
+      <pubDate>Sun, 16 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/anyway-debian-now.html</guid>
+      <description>&lt;p&gt;你們知道什麼是啪啪打臉嗎？&lt;/p&gt;
+&lt;p&gt;就在六月底，我寫了跟Arch有關的文章（&lt;a href=&#34;http://localhost:1313/posts/i-use-arch-btw.html&#34;&gt;這裡&lt;/a&gt;），並提到我暫時不會換別的發行版。然後真香定律把我押來了Debian Trixie。&lt;/p&gt;
+&lt;p&gt;（什麼神經病桌布）&lt;br&gt;
+&lt;img alt=&#34;Debian + Ubuntu&#34; loading=&#34;lazy&#34; src=&#34;https://i.meee.com.tw/wgEvbiO.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;老實講我沒什麼好說的，除了知道自己以後不用擔心滾掛，還真沒什麼心得可言。&lt;/p&gt;
+&lt;p&gt;等我想到再寫awa&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>或許，Debian？</title>
+      <link>http://localhost:1313/posts/maybe-debian.html</link>
+      <pubDate>Fri, 14 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/maybe-debian.html</guid>
+      <description>&lt;p&gt;不得不說，我真的是個很容易受別人左右的傢伙。&lt;/p&gt;
+&lt;p&gt;今天一打開信箱，就看到有一位來自對岸的讀者「心是靈」（&lt;a href=&#34;https://blog.xinsl.xin/&#34;&gt;他的部落格&lt;/a&gt;）在我的crDroid使用心得下留言，還附帶了自己的部落格連結，我想都沒想就點進去看。&lt;/p&gt;
+&lt;p&gt;他寫了篇名為&lt;a href=&#34;https://blog.xinsl.xin/posts/i-use-debian-btw/&#34;&gt;《I Use Debian, btw.》&lt;/a&gt;的文章，提到了為什麼他沒有繼續使用Arch，而是改用Debian。&lt;/p&gt;
+&lt;h2 id=&#34;他說的沒錯&#34;&gt;他說的沒錯&lt;/h2&gt;
+&lt;p&gt;他提到的三個問題：滾動更新、軟體生態跟社區狀態我都懂。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;我也不是沒滾掛過&lt;/li&gt;
+&lt;li&gt;也不是沒遇過軟體只給.deb&lt;/li&gt;
+&lt;li&gt;更不是沒遇過制仗老手給新手推原生Arch配tiling WM的&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;而且他還提到NVIDIA有官方Debian 13驅動倉庫！這又讓我更想再試一次Debian了。&lt;/p&gt;
+&lt;h2 id=&#34;我的狀況&#34;&gt;我的狀況&lt;/h2&gt;
+&lt;p&gt;嘛，我現在跑去用Debian一定會下意識輸入&lt;code&gt;sudo pacman -Syu&lt;/code&gt;然後報錯。&lt;/p&gt;
+&lt;p&gt;不過我會以雙系統或者雙機的方式，同時使用Debian跟Arch。&lt;/p&gt;
+&lt;h2 id=&#34;自肥&#34;&gt;自肥&lt;/h2&gt;
+&lt;p&gt;You see，我用的是Arch，寫這文章也是用Arch，然後加上KDE Plasma桌面環境，跟心是靈用的Debian + GNOME完全是兩個極端，然後我寫文章沒跟他吵。所以我可以以此證明我有風範。（臭不要臉&lt;/p&gt;
+&lt;h2 id=&#34;新手別學&#34;&gt;新手別學！&lt;/h2&gt;
+&lt;p&gt;自從我媽幫我推部落格之後，我就很清楚會有很多圈外朋友會看到我寫這種文章。如果你沒有用過Linux，麻煩考慮一下Linux Mint，那個才是給新手用的。（包含我也是Mint入坑）&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>NVIDIA, fuck you!</title>
+      <link>http://localhost:1313/posts/nvidia-fuck-you.html</link>
+      <pubDate>Sun, 02 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/nvidia-fuck-you.html</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;[!CAUTION]&lt;br&gt;
+我在寫這篇文章的時候情緒很難平復！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;我很少生氣到敲桌子喔！&lt;br&gt;
+你知道這次我有多不爽了吧！！&lt;/p&gt;
+&lt;h2 id=&#34;事情的大概經過&#34;&gt;事情的大概經過&lt;/h2&gt;
+&lt;p&gt;我用的是12500H+3050M的組合，配合Arch Linux跟&lt;code&gt;an-anime-game-launcher&lt;/code&gt;遊玩原神。&lt;br&gt;
+然後我前後折騰了：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;畫面撕裂&lt;/li&gt;
+&lt;li&gt;Gamescope炸KWin&lt;/li&gt;
+&lt;li&gt;全螢幕問題&lt;/li&gt;
+&lt;li&gt;滑鼠漂移&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;玩到一半，畫面突然3/4全黑，然後動不了。&lt;br&gt;
+你知道那ㄊㄇ有多掃興嗎？&lt;br&gt;
+而且這100%是獨顯的問題，因為Iris Xe&lt;strong&gt;根本跑不動！！！&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;而且我還無法登入官方論壇，想去回報問題（吵架）都不行耶！很爛耶！&lt;br&gt;
+ㄊㄇㄉ這老黃是搞了什麼可以讓體驗這麼糟糕？？&lt;/p&gt;
+&lt;h2 id=&#34;nvidia-fuck-you&#34;&gt;NVIDIA, fuck you!&lt;/h2&gt;
+&lt;p&gt;這廠商早在2012就已經被Linus Torvalds送上中指（&lt;a href=&#34;https://youtu.be/Q4SWxWIOVBM?si=54q-lrSGZGmuzpaQ&amp;amp;t=26&#34;&gt;詳情&lt;/a&gt;），十四年過去，老黃沒長記性啊。&lt;br&gt;
+我不會再買綠廠顯卡了。&lt;/p&gt;
+&lt;h2 id=&#34;202682事件後續&#34;&gt;2026/8/2事件後續&lt;/h2&gt;
+&lt;p&gt;本文在2026/8/1撰寫，但今天有些好玩的事情想聊。&lt;br&gt;
+我爸直接問我為什麼不用Windows，還說預設就Windows，刷成Linux然後嫌棄，這樣很怪。&lt;br&gt;
+我不這麼認為。&lt;br&gt;
+首先，Windows的使用體驗極差，我不希望我玩個遊戲要：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;開機&lt;/li&gt;
+&lt;li&gt;轉兩分鐘圈圈，跳出「正在自動修復硬碟」&lt;/li&gt;
+&lt;li&gt;以為能登入，又開始「正在準備Windows」&lt;/li&gt;
+&lt;li&gt;登入、開遊戲，我玩到一半，顯示「正在進行更新，請勿關閉電腦」&lt;/li&gt;
+&lt;li&gt;重新開機，發現我工作的Arch引導沒了&lt;/li&gt;
+&lt;li&gt;拿出隨身碟，修復GRUB&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;我是來玩遊戲，不是跟Microslop玩你追我趕的。&lt;br&gt;
+再來，其實Thinkpad X220本就安裝Windows，但是卻因為極強的相容性，被Linux社群當成寶。&lt;br&gt;
+你說他們奇怪？社群裡一堆人這樣幹。&lt;br&gt;
+而且我本就期待遊戲能直接跑。Hoyoverse下放了反作弊門檻，Valve開發了Proton，An Anime Game Launcher也提供了順暢的體驗，大家都坐好了就NVIDIA不配合，奇怪的是我？&lt;/p&gt;
+&lt;p&gt;然後我還架了個網站：&lt;a href=&#34;https://qiqi.niugnep.idv.tw&#34;&gt;Where is my Qiqi?&lt;/a&gt;&lt;br&gt;
+可以去看看。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>你需要Linux，不要拖了</title>
+      <link>http://localhost:1313/posts/you-need-linux.html</link>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/you-need-linux.html</guid>
+      <description>&lt;blockquote&gt;
+&lt;p&gt;這篇文章在7/30就寫好了，但是因為我怕今天也寫了一篇會太過頻繁，所以就設定7/31發布。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;是的！你需要Linux！&lt;br&gt;
+這樣我說話的口吻像是Wiwi官大為似的（&lt;a href=&#34;https://wiwi.blog/blog/you-should-use-rss&#34;&gt;舉例&lt;/a&gt;），但是這真的很重要。&lt;/p&gt;
+&lt;h2 id=&#34;linux是什麼&#34;&gt;Linux是什麼？&lt;/h2&gt;
+&lt;p&gt;一個由Linus Torvalds撰寫的系統核心，最大特點就是開源。因為這一點，你可以在各種電腦上安裝。小至幾十台幣的控制器，大至世界前五百大超級電腦，都是用Linux。&lt;br&gt;
+你可能覺得這跟你無關，但是實際上，Windows正在變得越來越爛，比如自動更新、監視等。&lt;br&gt;
+舉個例子。假如我今天製作一個茶壺，很多人用，但是後來的產品加上了廣告和監視器，怎麼辦？&lt;br&gt;
+好說嘛，換一個牌子唄。&lt;br&gt;
+為什麼同樣的道理你不換掉Windows呢？作業系統跟茶壺一樣都是工具，為什麼你可以忍受作業系統變爛，不能忍受茶壺變爛呢？你一天泡茶的時間應該比用電腦的時間少吧？&lt;br&gt;
+而且macOS&lt;strong&gt;也有&lt;/strong&gt;同樣的問題，不要以為用Mac就沒差。&lt;/p&gt;
+&lt;h2 id=&#34;linux好多&#34;&gt;Linux好多！&lt;/h2&gt;
+&lt;p&gt;Linux只是個核心，但是作業系統本體有很多，它們叫做發行版，各自代表不同的理念。&lt;br&gt;
+光是我舉得出的例子就有：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Linux Mint&lt;/li&gt;
+&lt;li&gt;Debian Linux&lt;/li&gt;
+&lt;li&gt;Arch Linux&lt;/li&gt;
+&lt;li&gt;Fedora Linux&lt;/li&gt;
+&lt;li&gt;Pop!_OS&lt;/li&gt;
+&lt;li&gt;Red Hat Enterprise Linux（企業用的）&lt;/li&gt;
+&lt;li&gt;Ubuntu&lt;/li&gt;
+&lt;li&gt;SteamOS&lt;/li&gt;
+&lt;li&gt;以及千百種發行版&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;那麼你該選哪個系統呢？&lt;br&gt;
+對於新手而言，最穩定的肯定是Linux Mint。&lt;br&gt;
+它不花錢、有大量教學跟論壇、簡單易用，而且長的像Windows，轉移難度低。&lt;/p&gt;
+&lt;p&gt;如果你是馬上上戰場的新手大學生，我強烈建議在虛擬機裝個Fedora。&lt;br&gt;
+企業很多都是用RHEL，它的組件管理工具（&lt;code&gt;dnf install &amp;lt;東西&amp;gt;&lt;/code&gt;）跟Fedora相通，可以盡早練習。&lt;/p&gt;
+&lt;h2 id=&#34;延伸閱讀&#34;&gt;延伸閱讀&lt;/h2&gt;
+&lt;p&gt;Wiwi - &lt;a href=&#34;https://wiwi.blog/blog/your-computer-is-not-yours&#34;&gt;你的電腦不是你的&lt;/a&gt;&lt;br&gt;
+Ivon - &lt;a href=&#34;https://ivonblog.com/posts/linux-distros-for-beginners/&#34;&gt;【2026年】適合新手入門的GNU/Linux發行版 &lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>我媽的Linux Mint使用記</title>
+      <link>http://localhost:1313/posts/my-mom-with-mint.html</link>
+      <pubDate>Wed, 29 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-mom-with-mint.html</guid>
+      <description>&lt;p&gt;昨天我讓我媽試用了一下Linux Mint，我現在不認為它是對新手&lt;em&gt;最&lt;/em&gt;好的發行版了&lt;br&gt;
+（拿親媽當白老鼠，真是個「大孝子」）&lt;/p&gt;
+&lt;h2 id=&#34;mint最大的問題輸入法&#34;&gt;Mint最大的問題：輸入法&lt;/h2&gt;
+&lt;p&gt;在中文環境下，它預設沒有輸入法；官方給的輸入法教學也是殘廢的，甚至還是上世紀Fcitx 4跟IBus引擎。&lt;br&gt;
+真的要使用輸入法，還得去程式商店找Fcitx 5跟新酷音。&lt;br&gt;
+我想問哪個新手會知道這些？&lt;/p&gt;
+&lt;p&gt;當然，你可以自己去查Wiki。但是現在我身邊這群麻瓜可能連維基百科是什麼都沒用過，怎麼指望他們查Wiki？&lt;/p&gt;
+&lt;h2 id=&#34;之後的嘗試&#34;&gt;之後的嘗試&lt;/h2&gt;
+&lt;p&gt;因為我突然想到，Kubuntu預設有提供輸入法，今晚試試。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>I use Arch, btw.</title>
+      <link>http://localhost:1313/posts/i-use-arch-btw.html</link>
+      <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/i-use-arch-btw.html</guid>
+      <description>&lt;p&gt;不知不覺間，我也用了兩個月半的Arch Linux了。&lt;br&gt;
+那剛好，我段考終於是考完了，就來寫一下使用心得吧。&lt;/p&gt;
+&lt;h2 id=&#34;什麼是arch-linux&#34;&gt;什麼是Arch Linux？&lt;/h2&gt;
+&lt;p&gt;&lt;del&gt;世界上最棒的Linux發行版。&lt;/del&gt;&lt;br&gt;
+我不會這麼說，哪個發行版好用因人而異。比如Linus Torvalds用的是Fedora，或者Wiwi官大為用的是Linux Mint等等。&lt;br&gt;
+Arch Linux是一個從最小基本系統開始安裝的Linux發行版，你需要自行增加你需要的工具，從指令行（TTY界面）開始，疊加視窗管理器、桌面環境等工具。&lt;br&gt;
+在維基百科，Arch被形容成適合「不懼怕命令列的中進階Linux使用者」，還挺貼切。&lt;/p&gt;
+&lt;h2 id=&#34;配置&#34;&gt;配置&lt;/h2&gt;
+&lt;p&gt;我在我的GIGABYTE G5 GE上安裝Arch。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;CPU: 12th Gen Intel(R) Core(TM) i5-12500H&lt;/li&gt;
+&lt;li&gt;RAM: DDR4 3200MHz 16GiB(8+8)&lt;/li&gt;
+&lt;li&gt;硬碟: NVMe PCIe 4.0 512GB SSD&lt;/li&gt;
+&lt;li&gt;GPU: NVIDIA GeForce RTX 3050 Mobile&lt;/li&gt;
+&lt;li&gt;螢幕： 1920x1080 144Hz&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;安裝體驗&#34;&gt;安裝體驗&lt;/h2&gt;
+&lt;p&gt;我也重灌過好幾次了。我最近重灌這一次改用了CachyOS核心，但系統仍然是原生Arch。&lt;br&gt;
+安裝教學我就不放了，請在&lt;a href=&#34;https://wiki.archlinux.org&#34;&gt;Arch Wiki&lt;/a&gt;取得具體的教學 :P&lt;br&gt;
+其實對我來講算簡單的，因為Arch Wiki寫的非常詳細，你可以根據自己的要求來修改。&lt;br&gt;
+我使用過非常多桌面環境和視窗管理器，包含KDE Plasma、Sway、Hyprland、i3-wm、GNOME（幾乎沒怎麼用）、Cinnamon、Xfce&amp;hellip;。&lt;br&gt;
+搞了半天我最後選擇了KDE Plasma作為主力，保留Sway作為需要專注時使用。&lt;/p&gt;
+&lt;h2 id=&#34;使用體驗&#34;&gt;使用體驗&lt;/h2&gt;
+&lt;p&gt;無論如何，我以後應該就真的以Arch為主力，不會在主電腦上長期使用其他發行版了。&lt;br&gt;
+首先，Arch Linux在安裝完成之後真的很有成就感，這個懂的都懂好不好。&lt;br&gt;
+此外，Arch的原版倉庫只有開源的方案，連NVIDIA也改為使用&lt;code&gt;nvidia-open&lt;/code&gt;系列驅動程式，這讓我用的非常舒服。&lt;br&gt;
+而且我現在的工作流，不是不需要Wine，就是Wine不能跑，除了Proton（這個算嗎lol），這讓我不需要做太多思考，Pacman裡面幾乎都有我要的軟體；要是真的沒有，我還可以去AUR裡面翻。&lt;/p&gt;
+&lt;h2 id=&#34;另一個讓我難過的點&#34;&gt;另一個讓我難過的點&lt;/h2&gt;
+&lt;p&gt;我們班上&lt;strong&gt;都是文盲&lt;/strong&gt;。
+不是我說啊，班上連作業系統都不知道的大概有一半以上，導致我只要在班上基本上沒同伴，不是自言自語就是找別的話題。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;em&gt;「I wish everybody was as nice as I am.」&lt;/em&gt; &amp;ndash; Linus Torvalds&lt;br&gt;
+&lt;a href=&#34;https://youtu.be/Q4SWxWIOVBM?si=7TbdoAlGi4jmjLHl&amp;amp;t=76&#34;&gt;這裡來的&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>自製的Linux梗圖分享</title>
+      <link>http://localhost:1313/posts/linux-memes.html</link>
+      <pubDate>Sun, 24 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/linux-memes.html</guid>
+      <description>&lt;p&gt;接下來這些可能會有點離譜，
+大家坐穩了！&lt;/p&gt;
+&lt;p&gt;提示：我使用的是Meee圖床，在國內會有更好的體驗&lt;/p&gt;
+&lt;h2 id=&#34;chroot-overdose&#34;&gt;Chroot Overdose&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://i.meee.com.tw/jAaLFxi.png&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;笑點：
+Arch Linux安裝時需要使用到chroot。
+執行後，會將根目錄(/)設定成指定的位置（e.g. /mnt/）
+而這裡便是使用了《主播女孩重度依賴》的二創圖進行三創。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;arch-超勇的好不好&#34;&gt;Arch 超勇的好不好&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://i.meee.com.tw/edO6zlE.png&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;笑點：
+Arch Linux安裝一般比較硬核，大多Arch使用者會以此自滿。
+但旁邊的Gentoo會從原始碼開始進行編譯，
+看來是要被登dua郎了（怕&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;gnulinux&#34;&gt;GNU/Linux&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://i.meee.com.tw/WiAS43E.png&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;笑點：
+RMS指的是Richard Stallman，&lt;a href=&#34;https://www.fsf.org/&#34;&gt;自由軟體基金會&lt;/a&gt;創始人
+當時的FSF地下的GNU計畫做了一堆工具沒內核；Linux只有內核沒工具
+後來就合而為一，RMS認為只叫Linux讓GNU計畫看起來像空氣，硬要叫GNU/Linux&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;manjaro-rtfm&#34;&gt;Manjaro RTFM&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://i.meee.com.tw/m9SNIv2.png&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;笑點：
+Manjaro是基於Arch的發行版，但是對新手友善
+而Arch社群一直有個梗，RTFM(Read The F**king Manual)
+加上原生Arch使用者的自滿，導致這玩意被常常拿來對付問了&lt;del&gt;制帳&lt;/del&gt;簡單問題的Manjaro使用者&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;mint-vs-ubuntu&#34;&gt;Mint vs Ubuntu&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://i.meee.com.tw/iBVz6f4.png&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;笑點：
+Mint是個對新手極為友善的發行版；Ubuntu是市占率極高的發行版
+導致新手常常不知道選哪個好
+仔細看會發現Linux前面有個超迷你的「GNU/」&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;rm--rf--its-fint&#34;&gt;rm -rf / It&amp;rsquo;s fint&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://i.meee.com.tw/Dzq3zWe.png&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;笑點：
+&lt;code&gt;rm -rf /&lt;/code&gt;是個經久不衰的Linux自毀指令，
+一堆梗圖都引用這指令，包含這個
+不要亂用，尤其是父母的電腦，到時候孝都孝不出來&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;admin-vs-root&#34;&gt;Admin vs root&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://i.meee.com.tw/flJYtQd.png&#34;&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;笑點：
+Windows的管理員常常遇上權限或系統限制；
+Linux是你有權限想毀滅世界都行
+記住那句「能力越大，責任越大」&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;windows-update-大戰-grub&#34;&gt;Windows Update 大戰 GRUB&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://i.meee.com.tw/EEp83Ao.png&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

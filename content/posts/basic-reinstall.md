@@ -5,7 +5,7 @@ tags:
  - Ubuntu
  - 筆記
 categories:
- - GNU/Linux或Linux
+ - GNU/Linux 或 Linux
 draft: false
 ---
 因為這陣子常常換系統（Arch -> Debian -> Ubuntu -> Kubuntu），決定把換系統的操作整理一下給大家參考。

@@ -4,7 +4,7 @@ date: 2026-09-02
 tags:
  - Arch Linux
 categories:
- - GNU/Linux或Linux
+ - GNU/Linux 或 Linux
 draft: false
 ---
 忙碌了一天之後我居然又跳到了Arch。

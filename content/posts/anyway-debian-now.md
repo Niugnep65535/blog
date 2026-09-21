@@ -4,7 +4,7 @@ date: 2026-08-16
 tags:
  - Debian GNU/Linux
 categories:
- - GNU/Linux或Linux
+ - GNU/Linux 或 Linux
 draft: false
 ---
 你們知道什麼是啪啪打臉嗎？

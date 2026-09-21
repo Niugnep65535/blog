@@ -10,6 +10,12 @@ copyright = "© 2026 Niugnep Hsueh · 透過 CC BY 4.0 授權"
   favicon = "/favicon.png"
   comments = true
 
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+
 [[menu.main]]
   name = "貼文"       # 顯示在選單上的文字
   url = "/posts"     # 點擊後的連結

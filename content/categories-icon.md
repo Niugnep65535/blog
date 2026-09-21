@@ -1,6 +1,7 @@
 ---
 title: "分類"
 draft: false
+layout: "category-grid"
 ---
 
 <div class="custom-categories-grid">

@@ -1,49 +1,94 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>心得 on Niugnep 的部落格</title><link>https://niugnep.idv.tw/tags/%E5%BF%83%E5%BE%97.html</link><description>Recent content in 心得 on Niugnep 的部落格</description><generator>Hugo</generator><language>en</language><copyright>2026 Niugnep Hsueh · 透過 CC BY 4.0 授權</copyright><lastBuildDate>Sun, 02 Aug 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://niugnep.idv.tw/tags/%E5%BF%83%E5%BE%97/index.xml" rel="self" type="application/rss+xml"/><item><title>56屆技能競賽決賽第三天</title><link>https://niugnep.idv.tw/posts/national-skills-day-3.html</link><pubDate>Sun, 02 Aug 2026 00:00:00 +0000</pubDate><guid>https://niugnep.idv.tw/posts/national-skills-day-3.html</guid><description>&lt;p&gt;這裡是剛拿完獎牌在自滿的Niugnep。&lt;br&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>心得 on Niugnep 的部落格</title>
+    <link>http://localhost:1313/tags/%E5%BF%83%E5%BE%97.html</link>
+    <description>Recent content in 心得 on Niugnep 的部落格</description>
+    <generator>Hugo</generator>
+    <language>zh-Hant</language>
+    <copyright>2026 Niugnep Hsueh · 透過 CC BY 4.0 授權</copyright>
+    <lastBuildDate>Thu, 17 Sep 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E5%BF%83%E5%BE%97/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>自己的網域？</title>
+      <link>http://localhost:1313/posts/my-own-domain.html</link>
+      <pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/my-own-domain.html</guid>
+      <description>&lt;p&gt;反正我就是分心，&lt;a href=&#34;https://niugnep.idv.tw/posts/i-hate-capfjhss.html&#34;&gt;不想唸書&lt;/a&gt;，無聊滑Wiwi的文章就滑到&lt;a href=&#34;https://wiwi.blog/blog/get-your-own-domain/&#34;&gt;這個&lt;/a&gt;。&lt;/p&gt;
+&lt;p&gt;裡面有這麼一段話：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;想註冊網域可以到 Porkbun 或 Cloudflare Registrar 這類的服務。價格通常一年幾百到一千多台幣不等（非熱門關鍵字的話），比你每個月訂閱的串流服務還便宜。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&#34;先等等不推薦&#34;&gt;先等等，不推薦！&lt;/h2&gt;
+&lt;p&gt;這倆都是國外的平台，如果你要註冊&lt;code&gt;.dev&lt;/code&gt;、&lt;code&gt;.club&lt;/code&gt;、&lt;code&gt;.blog&lt;/code&gt;這種小眾網域就算了，但是如果你要註冊台灣的&lt;code&gt;.tw&lt;/code&gt;，請先等等。&lt;/p&gt;
+&lt;p&gt;眾所周知，在台灣註冊網域，最後得向TWNIC註冊。比如我的&lt;code&gt;niugnep.idv.tw&lt;/code&gt;。那麼通常在國外平台註冊，很容易交手一堆不同企業、平台等，周轉半天費用就超貴。&lt;/p&gt;
+&lt;p&gt;比如&lt;code&gt;niugnepuwu.idv.tw&lt;/code&gt;在GoDaddy一年要1000多。&lt;/p&gt;
+&lt;p&gt;如果搶被搶到的網域，甚至需要請經理人，花一堆服務費還不一定能搶到。（比如我的&lt;code&gt;niugnep.idv.tw&lt;/code&gt;，服務費也要5999）&lt;/p&gt;
+&lt;p&gt;而且大部分人不會把手上網域賣掉吧？尤其是用很久的。比如我就會死守我的網域，別想了！&lt;/p&gt;
+&lt;h2 id=&#34;那要怎麼做&#34;&gt;那要怎麼做？&lt;/h2&gt;
+&lt;p&gt;當然是找本土的註冊商啊！&lt;/p&gt;
+&lt;p&gt;比如&lt;code&gt;niugnepuwu.idv.tw&lt;/code&gt;在HiNet一年只要400塊，便宜兩倍；&lt;code&gt;niugnep.tw&lt;/code&gt;要800塊。&lt;/p&gt;
+&lt;p&gt;雖然HiNet的後台土到爆，而且功能超少，但是可以串Cloudflare啊！&lt;/p&gt;
+&lt;p&gt;至於其他網域的好處，我再貼一遍Wiwi的文章：&lt;a href=&#34;https://wiwi.blog/blog/get-your-own-domain/&#34;&gt;《最重要的「帳號」✦BBP1✦》&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>56屆技能競賽決賽第三天</title>
+      <link>http://localhost:1313/posts/national-skills-day-3.html</link>
+      <pubDate>Sun, 02 Aug 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/national-skills-day-3.html</guid>
+      <description>&lt;p&gt;這裡是剛拿完獎牌在自滿的Niugnep。&lt;br&gt;
 第三天從兩點開始，主要是頒獎跟閉幕典禮。&lt;/p&gt;
-&lt;h2 id="進入會場"&gt;進入會場&lt;/h2&gt;
+&lt;h2 id=&#34;進入會場&#34;&gt;進入會場&lt;/h2&gt;
 &lt;p&gt;這次的會場在二館7樓，還好沒人來找我吼。&lt;br&gt;
 進入前還要做安檢，然後我打開了包包，他們只能對著滿包的垃圾安檢，不知道有沒有笑場。&lt;br&gt;
 我一開始還找不到座位咧&amp;gt;w&amp;lt;&lt;/p&gt;
-&lt;h2 id="會場佈置"&gt;會場佈置&lt;/h2&gt;
+&lt;h2 id=&#34;會場佈置&#34;&gt;會場佈置&lt;/h2&gt;
 &lt;p&gt;冷死了。&lt;br&gt;
 我居然忘了帶外套！（所以我的雞皮疙瘩持續了三個鐘頭）&lt;br&gt;
 場地很大，然後還有個大螢幕，依舊是那個「挑戰！ㄐㄅ魂」。&lt;/p&gt;
-&lt;h2 id="沒有意義的項目"&gt;沒有意義的項目&lt;/h2&gt;
+&lt;h2 id=&#34;沒有意義的項目&#34;&gt;沒有意義的項目&lt;/h2&gt;
 &lt;p&gt;然後勞動部長講了一堆幹話，講完以後輪到贊助商。&lt;br&gt;
 贊助商多到我都數不完，難怪配備這麼好。&lt;br&gt;
 結束之後還有表演咧&amp;hellip;&lt;/p&gt;
-&lt;h2 id="銅牌"&gt;銅牌！！！&lt;/h2&gt;
+&lt;h2 id=&#34;銅牌&#34;&gt;銅牌！！！&lt;/h2&gt;
 &lt;p&gt;好啦，結果就是我拿了「商務軟體設計青少年組」的銅牌。&lt;br&gt;
 其實還挺爽的，因為金銀牌都是九年級，算是比下有餘了（？）。&lt;br&gt;
 而且昨天翻那麼多車居然還能銅牌吼&amp;hellip;&lt;/p&gt;
-&lt;h2 id="再度e04話"&gt;再度e04話&lt;/h2&gt;
+&lt;h2 id=&#34;再度e04話&#34;&gt;再度e04話&lt;/h2&gt;
 &lt;p&gt;主持人為了等總統帶了一堆活動，辛苦了。&lt;br&gt;
 然後，誰能告訴我為什麼總統的e04話可以這麼多啊&amp;hellip;&lt;br&gt;
 他露個頭就好下去了，硬生生講了十分鐘毫無重點的e04話啊！&lt;br&gt;
 而且我打算明年參加網頁，所以可能得再聽一次&amp;hellip;&lt;/p&gt;
-&lt;h2 id="抽獎是吧"&gt;抽獎是吧？&lt;/h2&gt;
+&lt;h2 id=&#34;抽獎是吧&#34;&gt;抽獎是吧？&lt;/h2&gt;
 &lt;p&gt;好，我沒抽到。&lt;/p&gt;
-&lt;p&gt;今天懶的寫，就醬吧&lt;/p&gt;</description></item><item><title>56屆技能競賽決賽第二天</title><link>https://niugnep.idv.tw/posts/national-skills-day-2.html</link><pubDate>Sat, 01 Aug 2026 17:00:00 +0800</pubDate><guid>https://niugnep.idv.tw/posts/national-skills-day-2.html</guid><description>&lt;p&gt;啊，這裡是剛比完賽的Niugnep。&lt;br&gt;
+&lt;p&gt;今天懶的寫，就醬吧&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>56屆技能競賽決賽第二天</title>
+      <link>http://localhost:1313/posts/national-skills-day-2.html</link>
+      <pubDate>Sat, 01 Aug 2026 17:00:00 +0800</pubDate>
+      <guid>http://localhost:1313/posts/national-skills-day-2.html</guid>
+      <description>&lt;p&gt;啊，這裡是剛比完賽的Niugnep。&lt;br&gt;
 今天圖片不會多，因為懶owo&lt;/p&gt;
-&lt;h2 id="比賽前"&gt;比賽前&lt;/h2&gt;
+&lt;h2 id=&#34;比賽前&#34;&gt;比賽前&lt;/h2&gt;
 &lt;p&gt;早餐是麥當勞。&lt;br&gt;
 我選的是豬肉滿福堡+咖啡，其實挺好吃的，但是我咖啡在捷運上撒了，還好沒什麼事。&lt;/p&gt;
-&lt;h2 id="比賽項目1"&gt;比賽項目1&lt;/h2&gt;
+&lt;h2 id=&#34;比賽項目1&#34;&gt;比賽項目1&lt;/h2&gt;
 &lt;p&gt;比賽項目1就是實作程式，這次的題目是&lt;del&gt;微信&lt;/del&gt;滬想生活。&lt;br&gt;
 說白了就是個聊天軟體，參加了青年組商軟設計應該會有印象。&lt;br&gt;
 這次給的資料庫與以往不一樣，給的是&lt;code&gt;.sql&lt;/code&gt;檔案，也就是SQL查詢語言的腳本檔案，要用這檔案建立資料庫。令我不解的是，一堆人不知道這幹嘛的。&lt;br&gt;
 然後就是Entity Framework了。它是一個讓SQL查詢沒那麼反人類的.NET工具。比如SQL指令長這樣：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-sql" data-lang="sql"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;SELECT&lt;/span&gt; &lt;span style="color:#f92672"&gt;*&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;FROM&lt;/span&gt; users
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;WHERE&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;type&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;homo&amp;#39;&lt;/span&gt;;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-sql&#34; data-lang=&#34;sql&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;SELECT&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;*&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;FROM&lt;/span&gt; users
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;WHERE&lt;/span&gt; &lt;span style=&#34;color:#66d9ef&#34;&gt;type&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;homo&amp;#39;&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;然後Entity Framework長這樣：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"&gt;&lt;code class="language-cs" data-lang="cs"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;using&lt;/span&gt; (&lt;span style="color:#66d9ef"&gt;var&lt;/span&gt; db = &lt;span style="color:#66d9ef"&gt;new&lt;/span&gt; Entities()){
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;var&lt;/span&gt; homos = db.users.Where(x =&amp;gt; x.type == homo);
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;}
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-cs&#34; data-lang=&#34;cs&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;using&lt;/span&gt; (&lt;span style=&#34;color:#66d9ef&#34;&gt;var&lt;/span&gt; db = &lt;span style=&#34;color:#66d9ef&#34;&gt;new&lt;/span&gt; Entities()){
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;	&lt;span style=&#34;color:#66d9ef&#34;&gt;var&lt;/span&gt; homos = db.users.Where(x =&amp;gt; x.type == homo);
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;看起來舒服了吧！&lt;br&gt;
 但是我的EF卻一直炸一直炸，後來才發現居然是引用了&lt;code&gt;System.Data&lt;/code&gt;，要引用&lt;code&gt;System.Data.Entity.Core&lt;/code&gt;才能繼續用&amp;hellip;&lt;br&gt;
 我是很不清楚我的分數如何，因為好像只有我把這堆SQL修好，但程式部份我又沒做完&amp;hellip;&lt;/p&gt;
-&lt;h2 id="比賽項目23"&gt;比賽項目2、3&lt;/h2&gt;
+&lt;h2 id=&#34;比賽項目23&#34;&gt;比賽項目2、3&lt;/h2&gt;
 &lt;p&gt;然後就是簡報了。&lt;br&gt;
 簡報部份要用到PowerPoint跟Visio，整個比賽就是微軟全家桶。&lt;br&gt;
 這個簡報其實我沒有太多素材，因為沒做完。雖然可從範例截圖，但我當時沒想到。&lt;/p&gt;
@@ -55,44 +100,51 @@
 &lt;li&gt;還有個直接攤牌「我沒做簡報」的&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;最後一個就看我旁邊那位在憋笑。&lt;/p&gt;
-&lt;h2 id="明天再見"&gt;明天再見！&lt;/h2&gt;
+&lt;h2 id=&#34;明天再見&#34;&gt;明天再見！&lt;/h2&gt;
 &lt;p&gt;沒啦！今天的篇幅比昨天少不少，因為我沒梗了。&lt;br&gt;
-明天頒獎好緊張啊～&lt;/p&gt;</description></item><item><title>56屆技能競賽決賽第一天</title><link>https://niugnep.idv.tw/posts/national-skills-day-1.html</link><pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate><guid>https://niugnep.idv.tw/posts/national-skills-day-1.html</guid><description>&lt;p&gt;好的，這裡是還沒開始繼續練的Niugnep。&lt;br&gt;
+明天頒獎好緊張啊～&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>56屆技能競賽決賽第一天</title>
+      <link>http://localhost:1313/posts/national-skills-day-1.html</link>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/national-skills-day-1.html</guid>
+      <description>&lt;p&gt;好的，這裡是還沒開始繼續練的Niugnep。&lt;br&gt;
 在這個第56屆技能競賽當中，我從北區成功晉級到了全國決賽，與中、南部的同學一起比賽。&lt;br&gt;
-對於技能競賽是什麼，我不想多談，有需要可以去看他們的&lt;a href="https://worldskillstw.wdasec.gov.tw/"&gt;技能競賽主題網&lt;/a&gt;。&lt;/p&gt;
-&lt;h2 id="國中能參賽嗎"&gt;國中能參賽嗎？&lt;/h2&gt;
+對於技能競賽是什麼，我不想多談，有需要可以去看他們的&lt;a href=&#34;https://worldskillstw.wdasec.gov.tw/&#34;&gt;技能競賽主題網&lt;/a&gt;。&lt;/p&gt;
+&lt;h2 id=&#34;國中能參賽嗎&#34;&gt;國中能參賽嗎？&lt;/h2&gt;
 &lt;p&gt;可以喔！我參加的是J09的職類，也就是「青少年組商務軟體設計」——說是商務軟體設計，其實也沒多商務。&lt;br&gt;
 這次的比賽地點是在南港展覽館一館的四樓，要來的話不要刻意來找我，我會覺得很煩。&lt;br&gt;
 總之，大概是這樣，以下就是我今天的行程啦。&lt;br&gt;
 （你再說一次，挑戰什麼！？）&lt;br&gt;
-&lt;img alt="挑戰！ㄐㄅ魂" loading="lazy" src="https://i.meee.com.tw/sffFThR.jpg"&gt;&lt;/p&gt;
-&lt;h2 id="早上"&gt;早上&lt;/h2&gt;
+&lt;img alt=&#34;挑戰！ㄐㄅ魂&#34; loading=&#34;lazy&#34; src=&#34;https://i.meee.com.tw/sffFThR.jpg&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;早上&#34;&gt;早上&lt;/h2&gt;
 &lt;p&gt;我們培訓的學校位在捷運海山站，可以直接乘坐板南線通到南港展覽館。&lt;br&gt;
 到場後要先去報到、領狗牌跟新手教學。&lt;br&gt;
 （你確定這圖片不是AI？）
-&lt;img alt="AI圖" loading="lazy" src="https://i.meee.com.tw/BPGMLHO.jpg"&gt;&lt;/p&gt;
+&lt;img alt=&#34;AI圖&#34; loading=&#34;lazy&#34; src=&#34;https://i.meee.com.tw/BPGMLHO.jpg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;好玩的是這狗牌的掛繩還是條C to C的傳輸線呢。
-&lt;img alt="C to C" loading="lazy" src="https://i.meee.com.tw/NCmNlhp.jpg"&gt;&lt;/p&gt;
+&lt;img alt=&#34;C to C&#34; loading=&#34;lazy&#34; src=&#34;https://i.meee.com.tw/NCmNlhp.jpg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;領完這倆之後我們就上樓了。&lt;br&gt;
 因為比賽場地在四樓，我們今天的行動也全都集中在四樓。&lt;br&gt;
 不過我想吐嘈的是，這地方長的也太像IKEA的倉庫了吧！&lt;br&gt;
 都是那種天花板支架不藏起來，然後灰白色的感覺。&lt;br&gt;
-&lt;img alt="IKEA展覽館" loading="lazy" src="https://i.meee.com.tw/j6WA8QL.jpg"&gt;&lt;/p&gt;
-&lt;h2 id="中午"&gt;中午&lt;/h2&gt;
+&lt;img alt=&#34;IKEA展覽館&#34; loading=&#34;lazy&#34; src=&#34;https://i.meee.com.tw/j6WA8QL.jpg&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;中午&#34;&gt;中午&lt;/h2&gt;
 &lt;p&gt;其實剛領完就吃飯了。
 中午吃的是他們發的便當，其實不難吃。&lt;br&gt;
 雖說是由蓮藕、地瓜、青菜、雞腿、紫米飯組成的「養生全餐」，但是可能我家口味本就比較淡，我覺得挺好吃的。&lt;br&gt;
 嘛，一堆同學在靠腰就是了。&lt;br&gt;
 還有一根香蕉，應該是飯後水果，&lt;del&gt;或是純粹呼應標語的&lt;/del&gt;。
-&lt;img alt="養生全餐" loading="lazy" src="https://i.meee.com.tw/zvy47Tg.jpg"&gt;&lt;/p&gt;
+&lt;img alt=&#34;養生全餐&#34; loading=&#34;lazy&#34; src=&#34;https://i.meee.com.tw/zvy47Tg.jpg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;此外就是大螢幕輪播選手製作的個人介紹簡報，好像只有我的用的是幾乎純英文？
-&lt;img alt="低清全碼" loading="lazy" src="https://i.meee.com.tw/pBGyapt.jpg"&gt;&lt;/p&gt;
-&lt;h2 id="下午"&gt;下午&lt;/h2&gt;
+&lt;img alt=&#34;低清全碼&#34; loading=&#34;lazy&#34; src=&#34;https://i.meee.com.tw/pBGyapt.jpg&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;下午&#34;&gt;下午&lt;/h2&gt;
 &lt;p&gt;今天青少年組沒有要比賽。&lt;br&gt;
 我們要做的就是聽&lt;del&gt;幹話&lt;/del&gt;規則，然後測試場地。&lt;br&gt;
 話說這裡的電腦桌布是技能競賽吉祥物，長得超ㄎㄧㄤ，因為我想拍的時候好像禁止拍照，所以我沒圖片。&lt;br&gt;
 但是我有那隻吉祥物的徽章。&lt;br&gt;
-&lt;img alt="這啥啊" loading="lazy" src="https://i.meee.com.tw/SHHXc11.jpg"&gt;&lt;/p&gt;
+&lt;img alt=&#34;這啥啊&#34; loading=&#34;lazy&#34; src=&#34;https://i.meee.com.tw/SHHXc11.jpg&#34;&gt;&lt;/p&gt;
 &lt;p&gt;此外還有一個新手大禮包，裡面有：&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;戰袍（T-shirt）&lt;/li&gt;
@@ -103,27 +155,34 @@
 &lt;li&gt;便條紙&lt;/li&gt;
 &lt;li&gt;徽章&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="晚上"&gt;晚上&lt;/h2&gt;
+&lt;h2 id=&#34;晚上&#34;&gt;晚上&lt;/h2&gt;
 &lt;p&gt;我們入住的又是高級飯店，叫什麼我就不多說了。&lt;br&gt;
 （為什麼要說又呢）&lt;/p&gt;
 &lt;p&gt;我是不太明白學校哪來那麼多錢去定這些超高級飯店的，大概是政府出錢吧！&lt;br&gt;
 晚餐有整整250元可以報銷（一定還是政府），所以我就吃的不錯。&lt;br&gt;
 麥當勞只花了一百多（我平時都剛好一百）；手搖飲55；泡麵23。&lt;br&gt;
 &lt;del&gt;麥當勞變成數學題了&lt;/del&gt;&lt;/p&gt;
-&lt;h2 id="明天再加油吧"&gt;明天再加油吧！&lt;/h2&gt;
-&lt;p&gt;今天先到這樣，第一天還是沒什麼好寫的。&lt;/p&gt;</description></item><item><title>你需要Linux，不要拖了</title><link>https://niugnep.idv.tw/posts/you-need-linux.html</link><pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate><guid>https://niugnep.idv.tw/posts/you-need-linux.html</guid><description>&lt;blockquote&gt;
+&lt;h2 id=&#34;明天再加油吧&#34;&gt;明天再加油吧！&lt;/h2&gt;
+&lt;p&gt;今天先到這樣，第一天還是沒什麼好寫的。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>你需要Linux，不要拖了</title>
+      <link>http://localhost:1313/posts/you-need-linux.html</link>
+      <pubDate>Fri, 31 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/you-need-linux.html</guid>
+      <description>&lt;blockquote&gt;
 &lt;p&gt;這篇文章在7/30就寫好了，但是因為我怕今天也寫了一篇會太過頻繁，所以就設定7/31發布。&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;是的！你需要Linux！&lt;br&gt;
-這樣我說話的口吻像是Wiwi官大為似的（&lt;a href="https://wiwi.blog/blog/you-should-use-rss"&gt;舉例&lt;/a&gt;），但是這真的很重要。&lt;/p&gt;
-&lt;h2 id="linux是什麼"&gt;Linux是什麼？&lt;/h2&gt;
+這樣我說話的口吻像是Wiwi官大為似的（&lt;a href=&#34;https://wiwi.blog/blog/you-should-use-rss&#34;&gt;舉例&lt;/a&gt;），但是這真的很重要。&lt;/p&gt;
+&lt;h2 id=&#34;linux是什麼&#34;&gt;Linux是什麼？&lt;/h2&gt;
 &lt;p&gt;一個由Linus Torvalds撰寫的系統核心，最大特點就是開源。因為這一點，你可以在各種電腦上安裝。小至幾十台幣的控制器，大至世界前五百大超級電腦，都是用Linux。&lt;br&gt;
 你可能覺得這跟你無關，但是實際上，Windows正在變得越來越爛，比如自動更新、監視等。&lt;br&gt;
 舉個例子。假如我今天製作一個茶壺，很多人用，但是後來的產品加上了廣告和監視器，怎麼辦？&lt;br&gt;
 好說嘛，換一個牌子唄。&lt;br&gt;
 為什麼同樣的道理你不換掉Windows呢？作業系統跟茶壺一樣都是工具，為什麼你可以忍受作業系統變爛，不能忍受茶壺變爛呢？你一天泡茶的時間應該比用電腦的時間少吧？&lt;br&gt;
 而且macOS&lt;strong&gt;也有&lt;/strong&gt;同樣的問題，不要以為用Mac就沒差。&lt;/p&gt;
-&lt;h2 id="linux好多"&gt;Linux好多！&lt;/h2&gt;
+&lt;h2 id=&#34;linux好多&#34;&gt;Linux好多！&lt;/h2&gt;
 &lt;p&gt;Linux只是個核心，但是作業系統本體有很多，它們叫做發行版，各自代表不同的理念。&lt;br&gt;
 光是我舉得出的例子就有：&lt;/p&gt;
 &lt;ul&gt;
@@ -142,16 +201,23 @@
 它不花錢、有大量教學跟論壇、簡單易用，而且長的像Windows，轉移難度低。&lt;/p&gt;
 &lt;p&gt;如果你是馬上上戰場的新手大學生，我強烈建議在虛擬機裝個Fedora。&lt;br&gt;
 企業很多都是用RHEL，它的組件管理工具（&lt;code&gt;dnf install &amp;lt;東西&amp;gt;&lt;/code&gt;）跟Fedora相通，可以盡早練習。&lt;/p&gt;
-&lt;h2 id="延伸閱讀"&gt;延伸閱讀&lt;/h2&gt;
-&lt;p&gt;Wiwi - &lt;a href="https://wiwi.blog/blog/your-computer-is-not-yours"&gt;你的電腦不是你的&lt;/a&gt;&lt;br&gt;
-Ivon - &lt;a href="https://ivonblog.com/posts/linux-distros-for-beginners/"&gt;【2026年】適合新手入門的GNU/Linux發行版 &lt;/a&gt;&lt;/p&gt;</description></item><item><title>I use Arch, btw.</title><link>https://niugnep.idv.tw/posts/i-use-arch-btw.html</link><pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate><guid>https://niugnep.idv.tw/posts/i-use-arch-btw.html</guid><description>&lt;p&gt;不知不覺間，我也用了兩個月半的Arch Linux了。&lt;br&gt;
+&lt;h2 id=&#34;延伸閱讀&#34;&gt;延伸閱讀&lt;/h2&gt;
+&lt;p&gt;Wiwi - &lt;a href=&#34;https://wiwi.blog/blog/your-computer-is-not-yours&#34;&gt;你的電腦不是你的&lt;/a&gt;&lt;br&gt;
+Ivon - &lt;a href=&#34;https://ivonblog.com/posts/linux-distros-for-beginners/&#34;&gt;【2026年】適合新手入門的GNU/Linux發行版 &lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>I use Arch, btw.</title>
+      <link>http://localhost:1313/posts/i-use-arch-btw.html</link>
+      <pubDate>Mon, 29 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/i-use-arch-btw.html</guid>
+      <description>&lt;p&gt;不知不覺間，我也用了兩個月半的Arch Linux了。&lt;br&gt;
 那剛好，我段考終於是考完了，就來寫一下使用心得吧。&lt;/p&gt;
-&lt;h2 id="什麼是arch-linux"&gt;什麼是Arch Linux？&lt;/h2&gt;
+&lt;h2 id=&#34;什麼是arch-linux&#34;&gt;什麼是Arch Linux？&lt;/h2&gt;
 &lt;p&gt;&lt;del&gt;世界上最棒的Linux發行版。&lt;/del&gt;&lt;br&gt;
 我不會這麼說，哪個發行版好用因人而異。比如Linus Torvalds用的是Fedora，或者Wiwi官大為用的是Linux Mint等等。&lt;br&gt;
 Arch Linux是一個從最小基本系統開始安裝的Linux發行版，你需要自行增加你需要的工具，從指令行（TTY界面）開始，疊加視窗管理器、桌面環境等工具。&lt;br&gt;
 在維基百科，Arch被形容成適合「不懼怕命令列的中進階Linux使用者」，還挺貼切。&lt;/p&gt;
-&lt;h2 id="配置"&gt;配置&lt;/h2&gt;
+&lt;h2 id=&#34;配置&#34;&gt;配置&lt;/h2&gt;
 &lt;p&gt;我在我的GIGABYTE G5 GE上安裝Arch。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;CPU: 12th Gen Intel(R) Core(TM) i5-12500H&lt;/li&gt;
@@ -160,20 +226,23 @@ Arch Linux是一個從最小基本系統開始安裝的Linux發行版，你需�
 &lt;li&gt;GPU: NVIDIA GeForce RTX 3050 Mobile&lt;/li&gt;
 &lt;li&gt;螢幕： 1920x1080 144Hz&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id="安裝體驗"&gt;安裝體驗&lt;/h2&gt;
+&lt;h2 id=&#34;安裝體驗&#34;&gt;安裝體驗&lt;/h2&gt;
 &lt;p&gt;我也重灌過好幾次了。我最近重灌這一次改用了CachyOS核心，但系統仍然是原生Arch。&lt;br&gt;
-安裝教學我就不放了，請在&lt;a href="https://wiki.archlinux.org"&gt;Arch Wiki&lt;/a&gt;取得具體的教學 :P&lt;br&gt;
+安裝教學我就不放了，請在&lt;a href=&#34;https://wiki.archlinux.org&#34;&gt;Arch Wiki&lt;/a&gt;取得具體的教學 :P&lt;br&gt;
 其實對我來講算簡單的，因為Arch Wiki寫的非常詳細，你可以根據自己的要求來修改。&lt;br&gt;
 我使用過非常多桌面環境和視窗管理器，包含KDE Plasma、Sway、Hyprland、i3-wm、GNOME（幾乎沒怎麼用）、Cinnamon、Xfce&amp;hellip;。&lt;br&gt;
 搞了半天我最後選擇了KDE Plasma作為主力，保留Sway作為需要專注時使用。&lt;/p&gt;
-&lt;h2 id="使用體驗"&gt;使用體驗&lt;/h2&gt;
+&lt;h2 id=&#34;使用體驗&#34;&gt;使用體驗&lt;/h2&gt;
 &lt;p&gt;無論如何，我以後應該就真的以Arch為主力，不會在主電腦上長期使用其他發行版了。&lt;br&gt;
 首先，Arch Linux在安裝完成之後真的很有成就感，這個懂的都懂好不好。&lt;br&gt;
 此外，Arch的原版倉庫只有開源的方案，連NVIDIA也改為使用&lt;code&gt;nvidia-open&lt;/code&gt;系列驅動程式，這讓我用的非常舒服。&lt;br&gt;
 而且我現在的工作流，不是不需要Wine，就是Wine不能跑，除了Proton（這個算嗎lol），這讓我不需要做太多思考，Pacman裡面幾乎都有我要的軟體；要是真的沒有，我還可以去AUR裡面翻。&lt;/p&gt;
-&lt;h2 id="另一個讓我難過的點"&gt;另一個讓我難過的點&lt;/h2&gt;
+&lt;h2 id=&#34;另一個讓我難過的點&#34;&gt;另一個讓我難過的點&lt;/h2&gt;
 &lt;p&gt;我們班上&lt;strong&gt;都是文盲&lt;/strong&gt;。
 不是我說啊，班上連作業系統都不知道的大概有一半以上，導致我只要在班上基本上沒同伴，不是自言自語就是找別的話題。&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;em&gt;「I wish everybody was as nice as I am.」&lt;/em&gt; &amp;ndash; Linus Torvalds&lt;br&gt;
-&lt;a href="https://youtu.be/Q4SWxWIOVBM?si=7TbdoAlGi4jmjLHl&amp;amp;t=76"&gt;這裡來的&lt;/a&gt;&lt;/p&gt;</description></item></channel></rss>
+&lt;a href=&#34;https://youtu.be/Q4SWxWIOVBM?si=7TbdoAlGi4jmjLHl&amp;amp;t=76&#34;&gt;這裡來的&lt;/a&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

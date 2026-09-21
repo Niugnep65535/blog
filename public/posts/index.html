@@ -1,23 +1,320 @@
-<!doctype html><html lang=en dir=auto data-theme=auto><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>Posts | Niugnep 的部落格</title><meta name=keywords content><meta name=description content="Posts - Niugnep 的部落格"><meta name=author content><link rel=canonical href=https://niugnep.idv.tw/posts/index.html><link crossorigin=anonymous href=/assets/css/stylesheet.6ff46447b1fa3f8a5cc0bcae48088decc3ae37f5fbc99406a3aefc3bf0e6044a.css integrity="sha256-b/RkR7H6P4pcwLyuSAiN7MOuN/X7yZQGo678O/DmBEo=" rel="preload stylesheet" as=style><link rel=icon href=https://niugnep.idv.tw/favicon.ico><link rel=icon type=image/png sizes=16x16 href=https://niugnep.idv.tw/favicon-16x16.png><link rel=icon type=image/png sizes=32x32 href=https://niugnep.idv.tw/favicon-32x32.png><link rel=apple-touch-icon href=https://niugnep.idv.tw/apple-touch-icon.png><link rel=mask-icon href=https://niugnep.idv.tw/safari-pinned-tab.svg><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate type=application/rss+xml href=https://niugnep.idv.tw/posts/index.xml title=rss><link rel=alternate hreflang=en href=https://niugnep.idv.tw/posts/index.html><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--code-block-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51);color-scheme:dark}.list{background:var(--theme)}.toc{background:var(--entry)}}</style></noscript><script>localStorage.getItem("pref-theme")==="dark"?document.querySelector("html").dataset.theme="dark":localStorage.getItem("pref-theme")==="light"?document.querySelector("html").dataset.theme="light":window.matchMedia("(prefers-color-scheme: dark)").matches?document.querySelector("html").dataset.theme="dark":document.querySelector("html").dataset.theme="light"</script><meta property="og:url" content="https://niugnep.idv.tw/posts/index.html"><meta property="og:site_name" content="Niugnep 的部落格"><meta property="og:title" content="Posts"><meta property="og:locale" content="en"><meta property="og:type" content="website"><meta name=twitter:card content="summary"><meta name=twitter:title content="Posts"><script type=application/ld+json>{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Posts","item":"https://niugnep.idv.tw/posts/index.html"}]}</script></head><body class=list id=top><header class=header><nav class=header-nav><div class=logo><a href=https://niugnep.idv.tw/ accesskey=h title="Niugnep 的部落格 (Alt + H)">Niugnep 的部落格</a><div class=logo-switches><button id=theme-toggle class=theme-toggle accesskey=t title="(Alt + T)" aria-label="Toggle theme">
-<svg class="moon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg>
-<svg class="sun" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></div></div><ul id=menu class=menu><li><a href=https://niugnep.idv.tw/posts title=貼文><span>貼文</span></a></li><li><a href=https://niugnep.idv.tw/tags title=標籤><span>標籤</span></a></li><li><a href=https://niugnep.idv.tw/recommend.html title=我推><span>我推</span></a></li><li><a href=https://niugnep.idv.tw/news title=新聞><span>新聞</span></a></li><li><a href=https://niugnep.idv.tw/about.html title=關於><span>關於</span></a></li><li><a href=https://niugnep.idv.tw/worldline title=小說><span>小說</span></a></li><li><a href=https://niugnep.idv.tw/now.html title=近況><span>近況</span></a></li><li><a href=https://niugnep.idv.tw/search.html title=🔎><span>🔎</span></a></li></ul></nav></header><main class=main><header class=page-header><h1>Posts</h1></header><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>Distro Hopping的一點皮毛筆記</h2></header><div class=entry-content><p>因為這陣子常常換系統（Arch -> Debian -> Ubuntu -> Kubuntu），決定把換系統的操作整理一下給大家參考。
-準備工作 備份家目錄下的.ssh資料夾 mkdir &lt;隨身碟>/ssh cp -r ~/.ssh/* &lt;隨身碟>/ssh 匯出GPG金鑰： gpg --export &lt;金鑰ID> > gpg_public.asc # 匯出公鑰 gpg --export-secret-keys &lt;金鑰ID> > gpg_private.asc # 匯出私鑰 備份沒有上傳到雲端/GitHub的專案、音樂、圖片等 備份設定文件（位在.config下，對kitty、Hyprland等使用設定檔設定的軟體尤其重要） 備份瀏覽器設定（可選） 正式安裝 主要分為以下步驟：
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>Posts | Niugnep 的部落格</title>
+<meta name="keywords" content="">
+<meta name="description" content="Posts - Niugnep 的部落格">
+<meta name="author" content="">
+<link rel="canonical" href="http://localhost:1313/posts/index.html">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.cd9298b33628769aa1bc1acebbbfd7aa11ce81dfe03484d479e1907760249a1d.css" integrity="sha256-zZKYszYodpqhvBrOu7/XqhHOgd/gNITUeeGQd2Akmh0=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/posts/index.xml" title="rss">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/index.html">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script src="http://localhost:1313/js/theme-loader.js"></script><link rel="jslicense" href="/javascript.html" />
+</head>
+<body class="list" id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="Niugnep 的部落格 (Alt + H)">Niugnep 的部落格</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="http://localhost:1313/posts" title="貼文">
+                    <span>貼文</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/tags" title="標籤">
+                    <span>標籤</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/recommend.html" title="我推">
+                    <span>我推</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about.html" title="關於">
+                    <span>關於</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/worldline" title="小說">
+                    <span>小說</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/now.html" title="近況">
+                    <span>近況</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/search.html" title="🔎">
+                    <span>🔎</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header">
+  <h1>
+    Posts
+  </h1>
+</header>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">自己的網域？
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>反正我就是分心，不想唸書，無聊滑Wiwi的文章就滑到這個。
+裡面有這麼一段話：
+想註冊網域可以到 Porkbun 或 Cloudflare Registrar 這類的服務。價格通常一年幾百到一千多台幣不等（非熱門關鍵字的話），比你每個月訂閱的串流服務還便宜。
+先等等，不推薦！ 這倆都是國外的平台，如果你要註冊.dev、.club、.blog這種小眾網域就算了，但是如果你要註冊台灣的.tw，請先等等。
+眾所周知，在台灣註冊網域，最後得向TWNIC註冊。比如我的niugnep.idv.tw。那麼通常在國外平台註冊，很容易交手一堆不同企業、平台等，周轉半天費用就超貴。
+比如niugnepuwu.idv.tw在GoDaddy一年要1000多。
+如果搶被搶到的網域，甚至需要請經理人，花一堆服務費還不一定能搶到。（比如我的niugnep.idv.tw，服務費也要5999）
+而且大部分人不會把手上網域賣掉吧？尤其是用很久的。比如我就會死守我的網域，別想了！
+那要怎麼做？ 當然是找本土的註冊商啊！
+比如niugnepuwu.idv.tw在HiNet一年只要400塊，便宜兩倍；niugnep.tw要800塊。
+雖然HiNet的後台土到爆，而且功能超少，但是可以串Cloudflare啊！
+至於其他網域的好處，我再貼一遍Wiwi的文章：《最重要的「帳號」✦BBP1✦》
+</p>
+  </div>
+  <footer class="entry-footer">
+
+<span title='2026-09-17 00:00:00 +0000 UTC'>2026年9月17日</span></footer>
+  <a class="entry-link" aria-label="post link to 自己的網域？" href="http://localhost:1313/posts/my-own-domain.html"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Foot獨占的假tty環境
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>tty好是好，但是沒有中文。
+沒有中文就算了，它還有三個最致命的缺陷：
+難看！ 難看！！ 還是ㄊㄇㄉ難看！！！ 那你開個桌面環境好看些了吧，又費電還會誤觸，也難專注：
+Mostly I use a text console, for convenience’s sake. Most of my work is editing text and that is more efficient on a text console. On the text console, the touchpad can’t cause me any trouble if I touch it by accident. The mouse can’t make my editing commands fail to work by being on the wrong window.
+– Richard Stallman “How I do my computing”
+...</p>
+  </div>
+  <footer class="entry-footer">
+
+<span title='2026-09-04 00:00:00 +0000 UTC'>2026年9月4日</span></footer>
+  <a class="entry-link" aria-label="post link to Foot獨占的假tty環境" href="http://localhost:1313/posts/foot-only-fake-tty.html"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">跳回Arch，但是我很幹
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>忙碌了一天之後我居然又跳到了Arch。
+我腦子大概是有泡。
+修了半天Hyprland、把GPG私鑰搞沒，然後我只有瀏覽器跟終端機配置好了。
+事實證明，當你把Minecraft、忘記備份的專案、GPG金鑰、各種檔案跟虛擬機等丟沒之後，看到fastfetch不能解氣。
+此外，以後請不要使用我現有的GPG公鑰加密，我之後會把新的公鑰上傳到金鑰伺服器。
+</p>
+  </div>
+  <footer class="entry-footer">
+
+<span title='2026-09-02 00:00:00 +0000 UTC'>2026年9月2日</span></footer>
+  <a class="entry-link" aria-label="post link to 跳回Arch，但是我很幹" href="http://localhost:1313/posts/back-to-arch-but-i-am-not-happy.html"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Cloudflare太超過了
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>才發現Cloudflare Pages預設會追蹤使用者。
+如果你也用Cloudflare Pages，記得關掉，不然不尊重人。
+這篇文章除了水，還有就是透過Actions讓Cloudflare更新。
+</p>
+  </div>
+  <footer class="entry-footer">
+
+<span title='2026-08-28 00:00:00 +0000 UTC'>2026年8月28日</span></footer>
+  <a class="entry-link" aria-label="post link to Cloudflare太超過了" href="http://localhost:1313/posts/turn-off-analytics.html"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">又又又重構
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>上次剛推薦Codeberg，就被背刺了。
+不知為何，我競賽那陣子Codeberg被炸的亂七八糟，我的部落格也非常不穩定，所以我又把架構換了。
+這次的架構：
+我 -&gt; GitHub -&gt; Actions -&gt; Cloudflare Pages 畢竟GitHub還是穩定的多，套Cloudflare是因為GSC沒法存取GitHub Pages的Sitemap。
+反正就這樣。
+補充：Cloudflare居然會自動把Ugly URLs轉成Pretty　URLs，還好Ugly URLs有個308讓我不用挨家挨戶請大家改我在blogroll的連結（
+</p>
+  </div>
+  <footer class="entry-footer">
+
+<span title='2026-08-26 00:00:00 +0000 UTC'>2026年8月26日</span></footer>
+  <a class="entry-link" aria-label="post link to 又又又重構" href="http://localhost:1313/posts/refactor-again.html"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Distro Hopping的一點皮毛筆記
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>因為這陣子常常換系統（Arch -&gt; Debian -&gt; Ubuntu -&gt; Kubuntu），決定把換系統的操作整理一下給大家參考。
+準備工作 備份家目錄下的.ssh資料夾 mkdir &lt;隨身碟&gt;/ssh cp -r ~/.ssh/* &lt;隨身碟&gt;/ssh 匯出GPG金鑰： gpg --export &lt;金鑰ID&gt; &gt; gpg_public.asc # 匯出公鑰 gpg --export-secret-keys &lt;金鑰ID&gt; &gt; gpg_private.asc # 匯出私鑰 備份沒有上傳到雲端/GitHub的專案、音樂、圖片等 備份設定文件（位在.config下，對kitty、Hyprland等使用設定檔設定的軟體尤其重要） 備份瀏覽器設定（可選） 正式安裝 主要分為以下步驟：
 更新系統 升級系統（如果是舊版point release） 安裝驅動 解除安裝Snap（Ubuntu系，可選） 安裝Flatpak（可選） 安裝必要軟體 還原設定、還原資料 更新系統 依照發行版派系有所不同：
 # Debian / Ubuntu sudo apt update; sudo apt upgrade # Arch / Manjaro / CachyOS sudo pacman -Syu # Fedora / RHEL / Rocky sudo dnf upgrade --refresh 對於Linux Mint，可以透過更新管理員進行更新；對於KDE neon，建議透過Discover應用程式更新。
-...</p></div><footer class=entry-footer><span title='2026-08-25 00:00:00 +0000 UTC'>August 25, 2026</span></footer><a class=entry-link aria-label="post link to Distro Hopping的一點皮毛筆記" href=https://niugnep.idv.tw/posts/basic-reinstall.html></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>本網站即將移除Giscus</h2></header><div class=entry-content><p>我其實有想讓我的網頁能達到100%自由，但是那不太可能。
-接下來我會移除Giscus，至少我會關閉本文章的留言板，再看看怎麼樣。</p></div><footer class=entry-footer><span title='2026-08-21 00:00:00 +0000 UTC'>August 21, 2026</span></footer><a class=entry-link aria-label="post link to 本網站即將移除Giscus" href=https://niugnep.idv.tw/posts/removing-giscus.html></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>反正我現在用Debian</h2></header><div class=entry-content><p>你們知道什麼是啪啪打臉嗎？
+...</p>
+  </div>
+  <footer class="entry-footer">
+
+<span title='2026-08-25 00:00:00 +0000 UTC'>2026年8月25日</span></footer>
+  <a class="entry-link" aria-label="post link to Distro Hopping的一點皮毛筆記" href="http://localhost:1313/posts/basic-reinstall.html"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">本網站即將移除Giscus
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>我其實有想讓我的網頁能達到100%自由，但是那不太可能。
+接下來我會移除Giscus，至少我會關閉本文章的留言板，再看看怎麼樣。
+</p>
+  </div>
+  <footer class="entry-footer">
+
+<span title='2026-08-21 00:00:00 +0000 UTC'>2026年8月21日</span></footer>
+  <a class="entry-link" aria-label="post link to 本網站即將移除Giscus" href="http://localhost:1313/posts/removing-giscus.html"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">反正我現在用Debian
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>你們知道什麼是啪啪打臉嗎？
 就在六月底，我寫了跟Arch有關的文章（這裡），並提到我暫時不會換別的發行版。然後真香定律把我押來了Debian Trixie。
 （什麼神經病桌布）
 老實講我沒什麼好說的，除了知道自己以後不用擔心滾掛，還真沒什麼心得可言。
-等我想到再寫awa</p></div><footer class=entry-footer><span title='2026-08-16 00:00:00 +0000 UTC'>August 16, 2026</span></footer><a class=entry-link aria-label="post link to 反正我現在用Debian" href=https://niugnep.idv.tw/posts/anyway-debian-now.html></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>或許，Debian？</h2></header><div class=entry-content><p>不得不說，我真的是個很容易受別人左右的傢伙。
+等我想到再寫awa
+</p>
+  </div>
+  <footer class="entry-footer">
+
+<span title='2026-08-16 00:00:00 +0000 UTC'>2026年8月16日</span></footer>
+  <a class="entry-link" aria-label="post link to 反正我現在用Debian" href="http://localhost:1313/posts/anyway-debian-now.html"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">或許，Debian？
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>不得不說，我真的是個很容易受別人左右的傢伙。
 今天一打開信箱，就看到有一位來自對岸的讀者「心是靈」（他的部落格）在我的crDroid使用心得下留言，還附帶了自己的部落格連結，我想都沒想就點進去看。
 他寫了篇名為《I Use Debian, btw.》的文章，提到了為什麼他沒有繼續使用Arch，而是改用Debian。
 他說的沒錯 他提到的三個問題：滾動更新、軟體生態跟社區狀態我都懂。
 我也不是沒滾掛過 也不是沒遇過軟體只給.deb 更不是沒遇過制仗老手給新手推原生Arch配tiling WM的 而且他還提到NVIDIA有官方Debian 13驅動倉庫！這又讓我更想再試一次Debian了。
 我的狀況 嘛，我現在跑去用Debian一定會下意識輸入sudo pacman -Syu然後報錯。
 不過我會以雙系統或者雙機的方式，同時使用Debian跟Arch。
-自肥 You see，我用的是Arch，寫這文章也是用Arch，然後加上KDE Plasma桌面環境，跟心是靈用的Debian + GNOME完全是兩個極端，然後我寫文章沒跟他吵。所以我可以以此證明我有風範。（臭不要臉
-新手別學！ 自從我媽幫我推部落格之後，我就很清楚會有很多圈外朋友會看到我寫這種文章。如果你沒有用過Linux，麻煩考慮一下Linux Mint，那個才是給新手用的。（包含我也是Mint入坑）</p></div><footer class=entry-footer><span title='2026-08-14 00:00:00 +0000 UTC'>August 14, 2026</span></footer><a class=entry-link aria-label="post link to 或許，Debian？" href=https://niugnep.idv.tw/posts/maybe-debian.html></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>我媽跟她的甲狀腺癌</h2></header><div class=entry-content><p>前陣子刷完了《我與我的甲狀腺癌》漫畫。
+自肥 You see，我用的是Arch，寫這文章也是用Arch，然後加上KDE Plasma桌面環境，跟心是靈用的Debian &#43; GNOME完全是兩個極端，然後我寫文章沒跟他吵。所以我可以以此證明我有風範。（臭不要臉
+新手別學！ 自從我媽幫我推部落格之後，我就很清楚會有很多圈外朋友會看到我寫這種文章。如果你沒有用過Linux，麻煩考慮一下Linux Mint，那個才是給新手用的。（包含我也是Mint入坑）
+</p>
+  </div>
+  <footer class="entry-footer">
+
+<span title='2026-08-14 00:00:00 +0000 UTC'>2026年8月14日</span></footer>
+  <a class="entry-link" aria-label="post link to 或許，Debian？" href="http://localhost:1313/posts/maybe-debian.html"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">我媽跟她的甲狀腺癌
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>前陣子刷完了《我與我的甲狀腺癌》漫畫。
 這是什麼？ 不瞞各位說，這我媽畫的。
 總之她當時因為操勞過度，導致自己罹患甲狀腺癌。康復後她利用漫畫，把自己的經歷分享給大家。
 經過開刀跟碘-131治療，她現在基本上已經康復。（除了要天天吃甲狀腺素）
@@ -29,111 +326,39 @@ ePub 我本人其實很想把她的漫畫轉成ePub，因為Facebook被蜥蜴人
 那個檔案我不會公開，因為有解析度等問題。
 她說她會把整個系列的高解析度圖片抓給我，然後配上封面再發布。
 屆時（應該）會在她的社群平台跟本部落格開放下載，大家可以來看看。
-當然，因為我的堅持，不會有莫名其妙的DRM</p></div><footer class=entry-footer><span title='2026-08-13 00:00:00 +0000 UTC'>August 13, 2026</span></footer><a class=entry-link aria-label="post link to 我媽跟她的甲狀腺癌" href=https://niugnep.idv.tw/posts/my-moms-cancer.html></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>56屆技能競賽決賽第三天</h2></header><div class=entry-content><p>這裡是剛拿完獎牌在自滿的Niugnep。
-第三天從兩點開始，主要是頒獎跟閉幕典禮。
-進入會場 這次的會場在二館7樓，還好沒人來找我吼。
-進入前還要做安檢，然後我打開了包包，他們只能對著滿包的垃圾安檢，不知道有沒有笑場。
-我一開始還找不到座位咧>w&lt;
-會場佈置 冷死了。
-我居然忘了帶外套！（所以我的雞皮疙瘩持續了三個鐘頭）
-場地很大，然後還有個大螢幕，依舊是那個「挑戰！ㄐㄅ魂」。
-沒有意義的項目 然後勞動部長講了一堆幹話，講完以後輪到贊助商。
-贊助商多到我都數不完，難怪配備這麼好。
-結束之後還有表演咧…
-銅牌！！！ 好啦，結果就是我拿了「商務軟體設計青少年組」的銅牌。
-其實還挺爽的，因為金銀牌都是九年級，算是比下有餘了（？）。
-而且昨天翻那麼多車居然還能銅牌吼…
-再度e04話 主持人為了等總統帶了一堆活動，辛苦了。
-然後，誰能告訴我為什麼總統的e04話可以這麼多啊…
-他露個頭就好下去了，硬生生講了十分鐘毫無重點的e04話啊！
-而且我打算明年參加網頁，所以可能得再聽一次…
-抽獎是吧？ 好，我沒抽到。
-今天懶的寫，就醬吧</p></div><footer class=entry-footer><span title='2026-08-02 00:00:00 +0000 UTC'>August 2, 2026</span></footer><a class=entry-link aria-label="post link to 56屆技能競賽決賽第三天" href=https://niugnep.idv.tw/posts/national-skills-day-3.html></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>NVIDIA, fuck you!</h2></header><div class=entry-content><p>[!CAUTION]
-我在寫這篇文章的時候情緒很難平復！
-我很少生氣到敲桌子喔！
-你知道這次我有多不爽了吧！！
-事情的大概經過 我用的是12500H+3050M的組合，配合Arch Linux跟an-anime-game-launcher遊玩原神。
-然後我前後折騰了：
-畫面撕裂 Gamescope炸KWin 全螢幕問題 滑鼠漂移 玩到一半，畫面突然3/4全黑，然後動不了。
-你知道那ㄊㄇ有多掃興嗎？
-而且這100%是獨顯的問題，因為Iris Xe根本跑不動！！！
-而且我還無法登入官方論壇，想去回報問題（吵架）都不行耶！很爛耶！
-ㄊㄇㄉ這老黃是搞了什麼可以讓體驗這麼糟糕？？
-NVIDIA, fuck you! 這廠商早在2012就已經被Linus Torvalds送上中指（詳情），十四年過去，老黃沒長記性啊。
-我不會再買綠廠顯卡了。
-2026/8/2事件後續 本文在2026/8/1撰寫，但今天有些好玩的事情想聊。
-我爸直接問我為什麼不用Windows，還說預設就Windows，刷成Linux然後嫌棄，這樣很怪。
-我不這麼認為。
-首先，Windows的使用體驗極差，我不希望我玩個遊戲要：
-開機 轉兩分鐘圈圈，跳出「正在自動修復硬碟」 以為能登入，又開始「正在準備Windows」 登入、開遊戲，我玩到一半，顯示「正在進行更新，請勿關閉電腦」 重新開機，發現我工作的Arch引導沒了 拿出隨身碟，修復GRUB 我是來玩遊戲，不是跟Microslop玩你追我趕的。
-再來，其實Thinkpad X220本就安裝Windows，但是卻因為極強的相容性，被Linux社群當成寶。
-你說他們奇怪？社群裡一堆人這樣幹。
-而且我本就期待遊戲能直接跑。Hoyoverse下放了反作弊門檻，Valve開發了Proton，An Anime Game Launcher也提供了順暢的體驗，大家都坐好了就NVIDIA不配合，奇怪的是我？
-然後我還架了個網站：Where is my Qiqi?
-可以去看看。</p></div><footer class=entry-footer><span title='2026-08-02 00:00:00 +0000 UTC'>August 2, 2026</span></footer><a class=entry-link aria-label="post link to NVIDIA, fuck you!" href=https://niugnep.idv.tw/posts/nvidia-fuck-you.html></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>56屆技能競賽決賽第二天</h2></header><div class=entry-content><p>啊，這裡是剛比完賽的Niugnep。
-今天圖片不會多，因為懶owo
-比賽前 早餐是麥當勞。
-我選的是豬肉滿福堡+咖啡，其實挺好吃的，但是我咖啡在捷運上撒了，還好沒什麼事。
-比賽項目1 比賽項目1就是實作程式，這次的題目是微信滬想生活。
-說白了就是個聊天軟體，參加了青年組商軟設計應該會有印象。
-這次給的資料庫與以往不一樣，給的是.sql檔案，也就是SQL查詢語言的腳本檔案，要用這檔案建立資料庫。令我不解的是，一堆人不知道這幹嘛的。
-然後就是Entity Framework了。它是一個讓SQL查詢沒那麼反人類的.NET工具。比如SQL指令長這樣：
-SELECT * FROM users WHERE type = 'homo'; 然後Entity Framework長這樣：
-using (var db = new Entities()){ var homos = db.users.Where(x => x.type == homo); } 看起來舒服了吧！
-但是我的EF卻一直炸一直炸，後來才發現居然是引用了System.Data，要引用System.Data.Entity.Core才能繼續用…
-我是很不清楚我的分數如何，因為好像只有我把這堆SQL修好，但程式部份我又沒做完…
-比賽項目2、3 然後就是簡報了。
-簡報部份要用到PowerPoint跟Visio，整個比賽就是微軟全家桶。
-這個簡報其實我沒有太多素材，因為沒做完。雖然可從範例截圖，但我當時沒想到。
-報告的部份每個人各有風格，其中有幾位我比較有印象的：
-一個用英文講的同學 一個只有簡報不報告的同學 好幾個全中文的同學（簡報要求英文；報告語言不拘） 還有個直接攤牌「我沒做簡報」的 最後一個就看我旁邊那位在憋笑。
-明天再見！ 沒啦！今天的篇幅比昨天少不少，因為我沒梗了。
-明天頒獎好緊張啊～</p></div><footer class=entry-footer><span title='2026-08-01 17:00:00 +0800 CST'>August 1, 2026</span></footer><a class=entry-link aria-label="post link to 56屆技能競賽決賽第二天" href=https://niugnep.idv.tw/posts/national-skills-day-2.html></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>56屆技能競賽決賽第一天</h2></header><div class=entry-content><p>好的，這裡是還沒開始繼續練的Niugnep。
-在這個第56屆技能競賽當中，我從北區成功晉級到了全國決賽，與中、南部的同學一起比賽。
-對於技能競賽是什麼，我不想多談，有需要可以去看他們的技能競賽主題網。
-國中能參賽嗎？ 可以喔！我參加的是J09的職類，也就是「青少年組商務軟體設計」——說是商務軟體設計，其實也沒多商務。
-這次的比賽地點是在南港展覽館一館的四樓，要來的話不要刻意來找我，我會覺得很煩。
-總之，大概是這樣，以下就是我今天的行程啦。
-（你再說一次，挑戰什麼！？）
-早上 我們培訓的學校位在捷運海山站，可以直接乘坐板南線通到南港展覽館。
-到場後要先去報到、領狗牌跟新手教學。
-（你確定這圖片不是AI？） 好玩的是這狗牌的掛繩還是條C to C的傳輸線呢。 領完這倆之後我們就上樓了。
-因為比賽場地在四樓，我們今天的行動也全都集中在四樓。
-不過我想吐嘈的是，這地方長的也太像IKEA的倉庫了吧！
-都是那種天花板支架不藏起來，然後灰白色的感覺。
-中午 其實剛領完就吃飯了。 中午吃的是他們發的便當，其實不難吃。
-雖說是由蓮藕、地瓜、青菜、雞腿、紫米飯組成的「養生全餐」，但是可能我家口味本就比較淡，我覺得挺好吃的。
-嘛，一堆同學在靠腰就是了。
-還有一根香蕉，應該是飯後水果，或是純粹呼應標語的。 此外就是大螢幕輪播選手製作的個人介紹簡報，好像只有我的用的是幾乎純英文？ 下午 今天青少年組沒有要比賽。
-我們要做的就是聽幹話規則，然後測試場地。
-話說這裡的電腦桌布是技能競賽吉祥物，長得超ㄎㄧㄤ，因為我想拍的時候好像禁止拍照，所以我沒圖片。
-但是我有那隻吉祥物的徽章。
-此外還有一個新手大禮包，裡面有：
-戰袍（T-shirt） 飲料提袋 購物袋 原子筆 素描本 便條紙 徽章 晚上 我們入住的又是高級飯店，叫什麼我就不多說了。
-（為什麼要說又呢）
-我是不太明白學校哪來那麼多錢去定這些超高級飯店的，大概是政府出錢吧！
-晚餐有整整250元可以報銷（一定還是政府），所以我就吃的不錯。
-麥當勞只花了一百多（我平時都剛好一百）；手搖飲55；泡麵23。
-麥當勞變成數學題了
-明天再加油吧！ 今天先到這樣，第一天還是沒什麼好寫的。</p></div><footer class=entry-footer><span title='2026-07-31 00:00:00 +0000 UTC'>July 31, 2026</span></footer><a class=entry-link aria-label="post link to 56屆技能競賽決賽第一天" href=https://niugnep.idv.tw/posts/national-skills-day-1.html></a></article><article class=post-entry><header class=entry-header><h2 class=entry-hint-parent>你需要Linux，不要拖了</h2></header><div class=entry-content><p>這篇文章在7/30就寫好了，但是因為我怕今天也寫了一篇會太過頻繁，所以就設定7/31發布。
-是的！你需要Linux！
-這樣我說話的口吻像是Wiwi官大為似的（舉例），但是這真的很重要。
-Linux是什麼？ 一個由Linus Torvalds撰寫的系統核心，最大特點就是開源。因為這一點，你可以在各種電腦上安裝。小至幾十台幣的控制器，大至世界前五百大超級電腦，都是用Linux。
-你可能覺得這跟你無關，但是實際上，Windows正在變得越來越爛，比如自動更新、監視等。
-舉個例子。假如我今天製作一個茶壺，很多人用，但是後來的產品加上了廣告和監視器，怎麼辦？
-好說嘛，換一個牌子唄。
-為什麼同樣的道理你不換掉Windows呢？作業系統跟茶壺一樣都是工具，為什麼你可以忍受作業系統變爛，不能忍受茶壺變爛呢？你一天泡茶的時間應該比用電腦的時間少吧？
-而且macOS也有同樣的問題，不要以為用Mac就沒差。
-Linux好多！ Linux只是個核心，但是作業系統本體有很多，它們叫做發行版，各自代表不同的理念。
-光是我舉得出的例子就有：
-Linux Mint Debian Linux Arch Linux Fedora Linux Pop!_OS Red Hat Enterprise Linux（企業用的） Ubuntu SteamOS 以及千百種發行版 那麼你該選哪個系統呢？
-對於新手而言，最穩定的肯定是Linux Mint。
-它不花錢、有大量教學跟論壇、簡單易用，而且長的像Windows，轉移難度低。
-如果你是馬上上戰場的新手大學生，我強烈建議在虛擬機裝個Fedora。
-企業很多都是用RHEL，它的組件管理工具（dnf install &lt;東西>）跟Fedora相通，可以盡早練習。
-延伸閱讀 Wiwi - 你的電腦不是你的
-Ivon - 【2026年】適合新手入門的GNU/Linux發行版</p></div><footer class=entry-footer><span title='2026-07-31 00:00:00 +0000 UTC'>July 31, 2026</span></footer><a class=entry-link aria-label="post link to 你需要Linux，不要拖了" href=https://niugnep.idv.tw/posts/you-need-linux.html></a></article><footer class=page-footer><nav class=pagination><a class=next href=https://niugnep.idv.tw/posts/page/2/index.html>Next&nbsp;&nbsp;»</a></nav></footer></main><footer class=footer><span>© 2026 Niugnep Hsueh · 透過 CC BY 4.0 授權</span> ·
-<span>Powered by
-<a href="https://gohugo.io/?utm_source=papermod" rel=noopener target=_blank>Hugo</a> &
-<a href=https://github.com/adityatelange/hugo-PaperMod/ rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top id=top-link class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey=g><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up"><polyline points="17 11 12 6 7 11"/><polyline points="17 18 12 13 7 18"/></svg>
-</a><script>let menu=document.getElementById("menu");if(menu){const e=localStorage.getItem("menu-scroll-position");e&&(menu.scrollLeft=parseInt(e,10)),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}}document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(e){e.preventDefault();var t=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(t)}']`).scrollIntoView({behavior:"smooth"}),t==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${t}`)})})</script><script>var toplink=document.getElementById("top-link");window.onscroll=function(){const e=window.innerHeight;document.body.scrollTop>e||document.documentElement.scrollTop>e?toplink.classList.remove("hidden"):toplink.classList.add("hidden")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{const e=document.querySelector("html");e.dataset.theme==="dark"?(e.dataset.theme="light",localStorage.setItem("pref-theme","light")):(e.dataset.theme="dark",localStorage.setItem("pref-theme","dark"))})</script></body></html>
+當然，因為我的堅持，不會有莫名其妙的DRM
+</p>
+  </div>
+  <footer class="entry-footer">
+
+<span title='2026-08-13 00:00:00 +0000 UTC'>2026年8月13日</span></footer>
+  <a class="entry-link" aria-label="post link to 我媽跟她的甲狀腺癌" href="http://localhost:1313/posts/my-moms-cancer.html"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="next" href="http://localhost:1313/posts/page/2/index.html">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<footer class="footer">
+        <span>© 2026 Niugnep Hsueh · 透過 CC BY 4.0 授權</span> · 
+    
+    <span>
+        Powered by
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script src="http://localhost:1313/js/papermod-core.js"></script></body>
+
+</html>

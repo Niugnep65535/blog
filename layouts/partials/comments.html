@@ -15,4 +15,9 @@
         crossorigin="anonymous"
         async>
 </script>
+  {{ if .Date.Before (time "2026-08-21") }}
+    <p class="old-comments-notice">
+      （歷史留言在<a href="https://github.com/StupidestJack/stupidestjack.github.io/discussions" target="_blank" rel="noopener">這裡</a>。）
+    </p>
+  {{ end }}
 {{- end -}}

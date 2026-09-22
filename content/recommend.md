@@ -23,3 +23,4 @@ url: "/recommend.html"
 | [SamHacker Blog](https://blog.samhacker.xyz/) | 一個熱愛 Coding 的高中生的科技部落格 | 這麼可愛一定是男孩子對吧 |
 | [It's小白不是小白](https://itsxiaobai.codeberg.page/pages) | 喜歡開源跟自由軟體，偶爾玩一下混音的高中生 | 哥們部落格太像Wiwi的了吧 |
 | [心是灵的博客](https://itsxiaobai.github.io/) | 發表一些電腦使用技巧與個人觀點的地方 | 哥們小心點pwp |
+| [Tommy's blog](https://calke.bearblog.dev/) | 一個國中生(國一)創的簡單部落格。＊ | 現在居然也有國一生開部落格，抽到SSR了 |

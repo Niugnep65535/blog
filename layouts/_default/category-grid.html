@@ -13,7 +13,7 @@
       <!-- 1. GNU/Linux 或 Linux -->
       <a href="/categories/gnu/linux-%E6%88%96-linux.html" class="category-card">
         <div class="category-icon">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Tux_Mono.svg" alt="Tux" class="svg-logo" width="32" height="32">
+          <i class="fab fa-linux"></i>
         </div>
         <div class="category-name">GNU/Linux 或 Linux</div>
       </a>
@@ -21,7 +21,7 @@
       <!-- 2. 不日常的日常 -->
       <a href="/categories/%E4%B8%8D%E6%97%A5%E5%B8%B8%E7%9A%84%E6%97%A5%E5%B8%B8.html" class="category-card">
         <div class="category-icon">
-          <svg viewBox="0 0 24 24" width="32" height="32" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          <i class="fas fa-feather-alt"></i>
         </div>
         <div class="category-name">不日常的日常</div>
       </a>
@@ -29,7 +29,7 @@
       <!-- 3. 技能競賽、技藝班與升學 -->
       <a href="/categories/%E6%8A%80%E8%83%BD%E7%AB%B6%E8%B3%BD%E6%8A%80%E8%97%9D%E7%8F%AD%E8%88%87%E5%8D%87%E5%AD%B8.html" class="category-card">
         <div class="category-icon">
-          <svg viewBox="0 0 24 24" width="32" height="32" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+          <i class="fas fa-graduation-cap"></i>
         </div>
         <div class="category-name">技能競賽、技藝班與升學</div>
       </a>
@@ -37,7 +37,7 @@
       <!-- 4. 日常與壓力垃圾桶 -->
       <a href="/categories/%E6%97%A5%E5%B8%B8%E8%88%87%E5%A3%93%E5%8A%9B%E5%9E%83%E5%9C%BE%E6%A1%B6.html" class="category-card">
         <div class="category-icon">
-          <svg viewBox="0 0 24 24" width="32" height="32" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path></svg>
+          <i class="fas fa-trash-alt"></i>
         </div>
         <div class="category-name">日常與壓力垃圾桶</div>
       </a>
@@ -45,7 +45,7 @@
       <!-- 5. 網際網路與 Web -->
       <a href="/categories/%E7%B6%B2%E9%9A%9B%E7%B6%B2%E8%B7%AF%E8%88%87-web.html" class="category-card">
         <div class="category-icon">
-          <svg viewBox="0 0 24 24" width="32" height="32" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+          <i class="fas fa-globe"></i>
         </div>
         <div class="category-name">網際網路與 Web</div>
       </a>
@@ -102,18 +102,8 @@
   height: 32px;
 }
 
-.category-icon svg {
-  stroke: var(--primary);
-}
-
-/* 針對 SVG 在不同模式下的智慧調整 */
-.svg-logo {
-  width: 32px;
-  height: 32px;
-}
-
-/* 當 PaperMod 處於暗黑模式（body 帶有 dark 類別）時，將黑色 svg 圖標反轉為白色 */
-body.dark .svg-logo {
+/* 針對 GNU 圖片在暗黑模式下的自動反轉（如果你的 GNU 圖示原本是黑色的話） */
+body.dark .gnu-logo {
   filter: brightness(0) invert(1);
 }
 

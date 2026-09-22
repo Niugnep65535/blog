@@ -5,10 +5,7 @@ draft: false
 comments: false
 url: "/recommend.html"
 ---
-這也是一個類似友站的地方。  
-不過我也（為什麼是「也」呢）沒有與他人交換連結，  
-所以只有推薦而非直接叫友站啦>_<  
-出場順序憑我心情，我想排哪就排哪（bruh）。  
+說白了就是blogroll。
 
 |部落格名稱/連結|客觀介紹(＊表示來自該網站官方介紹)|個人評語|
 |:--|:--|:--|
@@ -18,7 +15,7 @@ url: "/recommend.html"
 | [编程随想的博客](https://program-think.blogspot.com/?m=1) | 中國大陸IT行業從業者、部落客作家、異見人士。 | *誰說淤泥滿身的不算英雄？* |
 | [Wiwi 官大為的部落格](https://wiwi.blog/) | Wiwi 官大為發廢文和分享經驗的地方 | 很少看到用GrapheneOS的人了|
 | [Richard Stallman's Personal Site](https://www.stallman.org/) | Richard Stallman的個人網站 | bro已經走火入魔了 |
-| [A吉胖的部落格](https://fatapple0406.github.io/) | 放置各種隨興創作、日常紀錄和人生啟發的地方＊ | 「喜好冷門到無處討論」我也一個樣lol |
+| [A吉胖的部落格](https://fatapple0406.github.io/) | 放置各種隨興創作、日常紀錄和人生啟發的地方＊ | 怎麼到哪都有腐 |
 | [Leaftechblog](https://www.leaftechblog.cloudns.biz/) | Leaf的科技部落格 | 挖過CVE的大佬 |
 | [SamHacker Blog](https://blog.samhacker.xyz/) | 一個熱愛 Coding 的高中生的科技部落格 | 這麼可愛一定是男孩子對吧 |
 | [It's小白不是小白](https://itsxiaobai.codeberg.page/pages) | 喜歡開源跟自由軟體，偶爾玩一下混音的高中生 | 哥們部落格太像Wiwi的了吧 |

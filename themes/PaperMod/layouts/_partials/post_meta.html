@@ -18,6 +18,13 @@
     {{- end }}
 {{- end }}
 
+{{- /* 整合：加入 Markdown 原始檔連結 */ -}}
+{{- if .File -}}
+    {{- $mdURL := printf "markdown/%s.md" .File.TranslationBaseName | relURL -}}
+    {{- $mdLink := printf "<a href='%s' target='_blank' rel='noopener noreferrer' title='查看原始 Markdown 檔案'>Markdown</a>" $mdURL -}}
+    {{- $scratch.Add "meta" (slice $mdLink) -}}
+{{- end -}}
+
 {{/* Combine all meta information into a single string with separators and render it as HTML.*/}}
 
 {{- with ($scratch.Get "meta") }}

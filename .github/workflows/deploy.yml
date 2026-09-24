@@ -26,7 +26,7 @@ jobs:
       - name: Read control file
         id: read_file
         run: |
-          FILE_PATH="action-control.txt"
+          FILE_PATH=dontbuild-flag"
           if [ -f "$FILE_PATH" ]; then
             # 讀取檔案，過濾掉空行，並移除前後空白
             CONTENT=$(grep -v '^[[:space:]]*$' "$FILE_PATH" | tr -d '[:space:]')
@@ -36,21 +36,10 @@ jobs:
           fi
 
       - name: Stop action if dontbuild
-        if: steps.read_file.outputs.control_content == 'dontbuild'
+        if: steps.read_file.outputs.control_content == '1'
         run: |
           echo "偵測到 dontbuild，停止後續的建置與部署流程。"
-          exit 0
-
-      - name: Clear file if rebuild
-        if: steps.read_file.outputs.control_content == 'rebuild'
-        run: |
-          echo "偵測到 rebuild，正在清空控制檔案並推回..."
-          > action-control.txt
-          git config --global user.name "GitHub Actions Bot"
-          git config --global user.email "actions@github.com"
-          git add action-control.txt
-          git commit -m "Clear control file after rebuild" || echo "No changes to commit"
-          git push || echo "Push failed or not needed"
+          exit 1
       # ----------------------------------------
 
       - name: Setup Hugo

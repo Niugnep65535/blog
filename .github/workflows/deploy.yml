@@ -5,9 +5,9 @@ on:
     branches:
       - master
 
-# GitHub Pages 部署需要的權限
+# GitHub Pages 部署需要的權限（為了讓 rebuild 能寫入檔案，需將 contents 改為 write）
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
@@ -22,11 +22,43 @@ jobs:
           submodules: true
           fetch-depth: 0
 
+      # --- 插入的控制邏輯（位於 Build 之前）---
+      - name: Read control file
+        id: read_file
+        run: |
+          FILE_PATH="action-control.txt"
+          if [ -f "$FILE_PATH" ]; then
+            # 讀取檔案，過濾掉空行，並移除前後空白
+            CONTENT=$(grep -v '^[[:space:]]*$' "$FILE_PATH" | tr -d '[:space:]')
+            echo "control_content=$CONTENT" >> $GITHUB_OUTPUT
+          else
+            echo "control_content=continue" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Stop action if dontbuild
+        if: steps.read_file.outputs.control_content == 'dontbuild'
+        run: |
+          echo "偵測到 dontbuild，停止後續的建置與部署流程。"
+          exit 0
+
+      - name: Clear file if rebuild
+        if: steps.read_file.outputs.control_content == 'rebuild'
+        run: |
+          echo "偵測到 rebuild，正在清空控制檔案並推回..."
+          > action-control.txt
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "actions@github.com"
+          git add action-control.txt
+          git commit -m "Clear control file after rebuild" || echo "No changes to commit"
+          git push || echo "Push failed or not needed"
+      # ----------------------------------------
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
           extended: true
+
       - name: Copy Markdown source files
         run: |
           mkdir -p static/markdown

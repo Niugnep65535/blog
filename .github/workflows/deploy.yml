@@ -3,7 +3,7 @@ name: Deploy Hugo Site to GitHub Pages
 on:
   push:
     branches:
-      - master
+      - main
 
 # GitHub Pages 部署需要的權限（為了讓 rebuild 能寫入檔案，需將 contents 改為 write）
 permissions:

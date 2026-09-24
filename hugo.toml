@@ -1,4 +1,4 @@
-baseURL = 'https://niugnep.idv.tw/'
+baseURL = '/'
 locale = 'zh-Hant'
 title = 'Niugnep 的部落格'
 theme = "PaperMod" 

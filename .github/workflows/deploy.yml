@@ -26,20 +26,11 @@ jobs:
       - name: Read control file
         id: read_file
         run: |
-          FILE_PATH=dontbuild-flag"
+          FILE_PATH="dontbuild-flag"
           if [ -f "$FILE_PATH" ]; then
-            # 讀取檔案，過濾掉空行，並移除前後空白
-            CONTENT=$(grep -v '^[[:space:]]*$' "$FILE_PATH" | tr -d '[:space:]')
-            echo "control_content=$CONTENT" >> $GITHUB_OUTPUT
-          else
-            echo "control_content=continue" >> $GITHUB_OUTPUT
+            echo "偵測到 dontbuild-flag，停止後續的建置與部署流程。"
+            exit 1
           fi
-
-      - name: Stop action if dontbuild
-        if: steps.read_file.outputs.control_content == '1'
-        run: |
-          echo "偵測到 dontbuild，停止後續的建置與部署流程。"
-          exit 1
       # ----------------------------------------
 
       - name: Setup Hugo

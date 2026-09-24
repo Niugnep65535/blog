@@ -19,7 +19,7 @@
 {{- end }}
 
 {{- /* 整合：加入 Markdown 原始檔連結 */ -}}
-{{- if .File -}}
+{{- if .File and (eq .Type "posts") .IsPage -}}
     {{- $mdURL := printf "markdown/%s.md" .File.TranslationBaseName | relURL -}}
     {{- $mdLink := printf "<a href='%s' target='_blank' rel='noopener noreferrer' title='查看原始 Markdown 檔案'>Markdown</a>" $mdURL -}}
     {{- $scratch.Add "meta" (slice $mdLink) -}}

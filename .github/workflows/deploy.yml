@@ -27,6 +27,10 @@ jobs:
         with:
           hugo-version: 'latest'
           extended: true
+      - name: Copy Markdown source files
+        run: |
+          mkdir -p static/markdown
+          cp -r content/posts/* static/markdown/
 
       - name: Build
         run: hugo --minify

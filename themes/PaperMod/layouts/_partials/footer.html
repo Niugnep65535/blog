@@ -6,19 +6,23 @@
         {{- else }}
         <span>&copy; {{ now.Year }} <a href="{{ "" | absLangURL }}">{{ site.Title }}</a></span>
         {{- end }}
-        {{- print " · "}}
     {{- end }}
-
+    <br>
+    <span>
+        基於
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> 和
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+    {{- print " · "}}
     {{- with site.Params.footer.text }}
         {{ . | markdownify }}
         {{- print " · "}}
     {{- end }}
-    
-    <span>
-        Powered by
-        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
-    </span>
+    <span>桌布來自 LineageOS 23.3 的 </span>
+    <a href="https://github.com/LineageOS/android_packages_apps_Backgrounds/blob/lineage-23.2/res/drawable-nodpi/ascension_sunset.jpg" 
+        id="light-wallpaper-copyright">「Scension Sunset」</a>
+    <a href="https://github.com/LineageOS/android_packages_apps_Backgrounds/blob/lineage-23.2/res/drawable-nodpi/ascension_blaze.jpg" 
+        id="dark-wallpaper-copyright">「Scension Blaze」</a>
 </footer>
 {{- end }}
 

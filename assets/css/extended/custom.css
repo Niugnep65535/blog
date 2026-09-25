@@ -1,0 +1,90 @@
+:root[data-theme="dark"] {
+    --accent: rgb(219, 176, 107);
+    --secondary: rgb(203, 185, 156);
+}
+:root {
+    --accent: rgb(144, 77, 60);
+    --secondary: rgb(72, 35, 26);
+}
+
+* {
+    transition: 0.3s;
+}
+
+.post-entry { 
+    background-color: color-mix(in srgb, var(--entry) 50%, transparent) !important;
+}
+
+.category-card {
+    background-color: color-mix(in srgb, var(--entry) 50%, transparent) !important;
+    border-radius: var(--radius);
+}
+
+.post-tags li a, .terms-tags li {
+    background-color: color-mix(in srgb, var(--entry) 50%, transparent) !important;
+    border-radius: var(--radius);
+    border: none !important;
+}
+
+.post-tags li a:hover,
+.terms-tags li:hover {
+    background-color: color-mix(in srgb, var(--entry) 80%, transparent) !important;
+    transform: translateY(-3px);
+}
+
+code {
+    background-color: color-mix(in srgb, var(--entry) 70%, transparent) !important;
+}
+
+/* 讓容器與 pre 保持一致的半透明 */
+.highlight, pre {
+    background-color: transparent !important;
+}
+
+main a {
+    color: var(--accent);
+}
+
+/* ==========================================
+   背景設定：區分淺色模式與深色模式
+   ========================================== */
+
+/* 1. 預設 / 淺色模式下的背景（使用偏白的半透明遮罩，讓圖片能透出來且文字看得見） */
+body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('https://raw.githubusercontent.com/LineageOS/android_packages_apps_Backgrounds/refs/heads/lineage-23.2/res/drawable-nodpi/ascension_sunset.jpg') !important;
+    background-attachment: fixed !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+}
+
+/* 2. 深色模式下的背景（套用原本的深色漸層遮罩，適應 .dark 類別） */
+[data-theme="dark"] body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://raw.githubusercontent.com/LineageOS/android_packages_apps_Backgrounds/refs/heads/lineage-23.2/res/drawable-nodpi/ascension_blaze.jpg') !important;
+}
+
+[data-theme="light"] #dark-wallpaper-copyright {
+    display: none;
+}
+
+[data-theme="dark"] #light-wallpaper-copyright {
+    display: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+@font-face {
+    font-family: 'Huninn';
+    src: url('/huninn.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /* 讓字型載入時有更好的效能體驗 */
+}
+
+/* 將全站主字體設定為粉圓字體，後面加上系統備用字體 */
+body {
+    font-family: 'Huninn', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+code, pre, kbd, samp {
+    font-family: 'JetBrains Mono', -apple-system, BlinkMacSystemFont, monospace !important;
+}

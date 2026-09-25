@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Huninn';
+    src: url('/huninn.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap; /* 讓字型載入時有更好的效能體驗 */
+}
+
+/* 將全站主字體設定為粉圓字體，後面加上系統備用字體 */
+body {
+    font-family: 'Huninn', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}

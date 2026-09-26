@@ -13,7 +13,7 @@ comments: false
 ### 電腦(x86)
  * GIGABYTE G5 GE：目前的主力機，很好用，但是貼牌機的Linux韌體拉完了
  * Acer Aspire K50-10：目前的外出裝置，除非效能不夠用
- * B360M Gaming HD：我爸給我的電腦，通常在主力機需要長期帶出去時在家用
+ * B360M Gaming HD[^1]：我爸給我的電腦，當伺服器使用
  * Acer TravelMate 3020：上古神機，非常少用
 ### 手機(AArch64)
  * Pixel 7 Pro：目前主力機，在我[上一台手機壞掉之後](posts/phone-broken.html)我爸給我的
@@ -109,3 +109,5 @@ comments: false
  * Secure Camera：GrapheneOS唯一好看又好用的軟體，甚至上架了Play Store
  * Xed-Editor：與Linux Mint的Xed淵源未知，好用就對了
  * GMS服務：放棄掙扎
+
+[^1]: 處理器是i5-8400；RAM有8GiB；系統碟256GB；附贈一顆戰損版750GB WD藍標碟（指格式化一半`I/O Error`）；新硬碟等連假吧

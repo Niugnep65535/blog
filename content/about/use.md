@@ -84,7 +84,7 @@ comments: false
 ## 手機
  > 我目前還是以那台Pixel 7 Pro為主
 ### 系統
- * crDroid：自訂性極為離譜的韌體，玩膩了打算刷回Pixel UI
+ * crDroid：自訂性極為離譜的韌體
 ### 軟體商店
  * F-Droid：全都是自由的好康
  * Aurora Store：不用登入也能裝大眾軟體
@@ -108,3 +108,4 @@ comments: false
  * VLC：看影片很棒，聽音樂很怪
  * Secure Camera：GrapheneOS唯一好看又好用的軟體，甚至上架了Play Store
  * Xed-Editor：與Linux Mint的Xed淵源未知，好用就對了
+ * GMS服務：放棄掙扎

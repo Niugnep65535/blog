@@ -27,11 +27,16 @@ comments: false
 ## 電腦軟體
  > 我的原則與Wiwi類似。可行前提下以FOSS與開放格式為主；無法使用自由軟體的工作項目也盡力準備替代方案。
 ### 作業系統
- * Arch Linux：我懶的跳了
- * Debian GNU/Linux：GNOME體驗機 + 備用機
+ * Arch Linux：習慣了滾動更新跟Pacman，跳不起——話說我沒怎麼滾掛過，該不會是有緣？
+ * Debian GNU/Linux：外出機還是穩一點好，畢竟不能拿出來天天滾
  * Windows 10：裝在隨身碟當工具人
+### 桌面環境 / 視窗管理員
+ * KDE Plasma：風格最現代的桌面環境[之一](https://blog.xinsl.xin/use/#%e6%a1%8c%e9%9d%a2%e7%8e%af%e5%a2%83)，其實也挺穩定了
+ * GNOME：觸控板優化最好的桌面環境，同時也是風格最現代的桌面環境之一。外掛容易爆炸，但是Debian穩定性與其抵銷了
+ * i3：這人是個ㄅㄊ，在手機上用i3折磨自己
 ### 瀏覽器
  * Firefox：主力瀏覽器，同步功能就是香
+ * Google Chrome：[某些狀況下](https://tes.wdasec.gov.tw/F07/F070301EX)還是得假裝是正常人
 ### 終端機相關
  * yt-dlp：最強影片下載器
  * FFmpeg：最強的影音轉檔工具

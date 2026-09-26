@@ -1,14 +1,39 @@
 :root[data-theme="dark"] {
-    --accent: rgb(219, 176, 107);
-    --secondary: rgb(203, 185, 156);
+    --accent: rgb(202, 180, 144);
+    --secondary: rgb(255, 243, 224);
 }
 :root {
-    --accent: rgb(144, 77, 60);
-    --secondary: rgb(72, 35, 26);
+    --accent: rgb(60, 136, 144);
+    --secondary: rgb(41, 46, 48);
 }
 
+/*
+ * Avoid a global color transition here: it animates every theme-change on every
+ * element and produces a visible flash when the background image and custom colors
+ * switch between light/dark modes.
+ * Only transition the UI pieces that actually need it.
+ */
 * {
-    transition: 0.3s;
+    transition: none;
+}
+
+body,
+a,
+button,
+input,
+textarea,
+select,
+.post-entry,
+.category-card,
+.post-tags li a,
+.terms-tags li,
+code,
+pre,
+.highlight {
+    transition: color 0.2s ease,
+                background-color 0.2s ease,
+                border-color 0.2s ease,
+                box-shadow 0.2s ease;
 }
 
 .post-entry { 
@@ -51,7 +76,7 @@ main a {
 
 /* 1. 預設 / 淺色模式下的背景（使用偏白的半透明遮罩，讓圖片能透出來且文字看得見） */
 body {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('https://raw.githubusercontent.com/LineageOS/android_packages_apps_Backgrounds/refs/heads/lineage-23.2/res/drawable-nodpi/ascension_sunset.jpg') !important;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('https://raw.githubusercontent.com/LineageOS/android_packages_apps_Backgrounds/refs/heads/lineage-23.2/res/drawable-nodpi/ascension_ice.jpg') !important;
     background-attachment: fixed !important;
     background-size: cover !important;
     background-position: center !important;

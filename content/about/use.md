@@ -27,8 +27,9 @@ comments: false
 ## 電腦軟體
  > 我的原則與Wiwi類似。可行前提下以FOSS與開放格式為主；無法使用自由軟體的工作項目也盡力準備替代方案。
 ### 作業系統
- * Arch Linux：習慣了滾動更新跟Pacman，跳不起——話說我沒怎麼滾掛過，該不會是有緣？
+ * Arch Linux：習慣了滾動更新跟Pacman，跳不起——話說我沒怎麼滾掛過，這緣份夠結婚嗎？
  * Debian GNU/Linux：外出機還是穩一點好，畢竟不能拿出來天天滾
+ * Rocky Linux：用企業級標準開伺服器折磨自己
  * Windows 10：裝在隨身碟當工具人
 ### 桌面環境 / 視窗管理員
  * KDE Plasma：風格最現代的桌面環境[之一](https://blog.xinsl.xin/use/#%e6%a1%8c%e9%9d%a2%e7%8e%af%e5%a2%83)，其實也挺穩定了
@@ -63,6 +64,8 @@ comments: false
  * ChatGPT：免費版也還夠用，實務方面不錯
  * Deepseek：真香定律這一塊
  * ~~Claude~~：我號被封了（未滿18歲）
+### 自架累
+ * Nextcloud：最方便的自架雲端服務，不過我的代理好像有點問題
 ### 其他免費服務
  * GitHub：好用的程式碼平台，這網站就是用它託管的
  * Codeberg：不夠穩定

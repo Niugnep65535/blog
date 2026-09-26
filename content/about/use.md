@@ -1,6 +1,6 @@
 ---
 title: Niugnep用些什麼
-date: 2026-09-14
+date: 2026-09-26
 draft: false
 comments: false
 ---
@@ -94,11 +94,11 @@ comments: false
  * Signal：我媽嫌麻煩，但是我在催她嘗試
 ### 網路與網際網路相關
  * Firefox：主要瀏覽器，uBlock太權威了
- * Capy Reader：好用的RSS閱讀器
  * NewPipe：看YouTube就沒這麼爽過
  * OpenTune：YouTube Music的超漂亮前端
  * Localsend：好用的檔案傳輸工具
  * Seal：yt-dlp的手機界面
+ * Google Photos：等我硬碟到貨
 ### 輸入法
  * Trime：基於中州韻輸入法引擎的手機輸入法
  * 洋蔥手機注音：功能最多的Trime注音輸入法模組，超好用
@@ -108,8 +108,3 @@ comments: false
  * VLC：看影片很棒，聽音樂很怪
  * Secure Camera：GrapheneOS唯一好看又好用的軟體，甚至上架了Play Store
  * Xed-Editor：與Linux Mint的Xed淵源未知，好用就對了
-### 遊戲
- * Stack Tower 3D：不得不說有創意
- * Paper Loop 2：這不就Paper.io，我還買那去廣告幹嘛
- * 2048 Open Fun Game：開源版2048
- * Cube Run：我好像在Play商店看過類似的

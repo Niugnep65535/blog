@@ -14,7 +14,7 @@
  * Only transition the UI pieces that actually need it.
  */
 * {
-    transition: none;
+    transition: translateY 0.2s;
 }
 
 body,
@@ -34,8 +34,7 @@ pre,
     transition: color 0.2s ease,
                 background-color 0.2s ease,
                 border-color 0.2s ease,
-                box-shadow 0.2s ease,
-                translateY 0.2s;
+                box-shadow 0.2s ease;
 }
 
 .post-entry { 

@@ -39,10 +39,13 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
-      - name: Copy Markdown source files
+      - name: Copy custom files
         run: |
+          echo "Copying: Markdown files"
           mkdir -p static/markdown
           cp -r content/posts/* static/markdown/
+          echo "Copying: RSS"
+          cp /content/index.xml /content/rss.xml
 
       - name: Build
         run: hugo --minify

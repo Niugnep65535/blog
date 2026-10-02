@@ -45,7 +45,7 @@ jobs:
           mkdir -p static/markdown
           cp -r content/posts/* static/markdown/
           echo "Copying: RSS"
-          cp /content/index.xml /content/rss.xml
+          cp /static/index.xml /static/rss.xml
 
       - name: Build
         run: hugo --minify

@@ -39,16 +39,17 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
+      - name: Build
+        run: hugo --minify
+
       - name: Copy custom files
         run: |
           echo "Copying: Markdown files"
           mkdir -p static/markdown
-          cp -r content/posts/* static/markdown/
+          cp -r content/posts/* public/markdown/
           echo "Copying: RSS"
-          cp /static/index.xml /static/rss.xml
+          cp public/index.xml public/rss.xml
 
-      - name: Build
-        run: hugo --minify
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

@@ -45,7 +45,7 @@ jobs:
       - name: Copy custom files
         run: |
           echo "Copying: Markdown files"
-          mkdir -p static/markdown
+          mkdir -p public/markdown
           cp -r content/posts/* public/markdown/
           echo "Copying: RSS"
           cp public/index.xml public/rss.xml

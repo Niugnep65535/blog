@@ -19,7 +19,7 @@ comments: false
  * Galaxy A33 5G：發現換手機對考試沒幫助後吃灰中
  * iPhone 11：灰塵山
 ### 平板電腦(AArch64)
- * Galaxy Tab S9 FE：吃灰最慘的一個，因為面積夠大
+ * Galaxy Tab S9 FE：頂替外出機，以後應該會買 ARM 筆電替代
 ### 遊戲機
  * Nintendo DSi：我後悔了
 

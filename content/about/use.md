@@ -26,80 +26,79 @@ comments: false
 ## 電腦軟體
  > 我的原則與Wiwi類似。可行前提下以FOSS與開放格式為主；無法使用自由軟體的工作項目也盡力準備替代方案。
 ### 作業系統
- * Arch Linux：習慣了滾動更新跟Pacman，跳不起——話說我沒怎麼滾掛過呢
- * Debian GNU/Linux：外出機還是穩一點好，畢竟不能拿出來天天滾
- * Rocky Linux：用企業級標準開伺服器折磨自己
+ * [Arch Linux](https://archlinux.org/)：習慣了滾動更新跟Pacman，跳不起——話說我沒怎麼滾掛過呢
+ * [Debian GNU/Linux](https://www.debian.org/)：外出機還是穩一點好，畢竟不能拿出來天天滾
+ * [Rocky Linux](https://rockylinux.org/)：用企業級標準開伺服器折磨自己
 ### 桌面環境 / 視窗管理員
- * KDE Plasma：風格最現代的桌面環境[之一](https://blog.xinsl.xin/use/#%e6%a1%8c%e9%9d%a2%e7%8e%af%e5%a2%83)，其實也挺穩定了
- * GNOME：觸控板優化最好的桌面環境，同時也是風格最現代的桌面環境之一。外掛容易爆炸，但是Debian穩定性與其抵銷了
- * Xfce：Termux還是不能跑大型桌面環境
+ * [KDE Plasma](https://kde.org/plasma-desktop/)：風格最現代的桌面環境[之一](https://blog.xinsl.xin/use/#%e6%a1%8c%e9%9d%a2%e7%8e%af%e5%a2%83)，其實也挺穩定了
+ * [GNOME](https://www.gnome.org/)：觸控板優化最好的桌面環境，同時也是風格最現代的桌面環境之一。外掛容易爆炸，但是Debian穩定性與其抵銷了
+ * [Xfce](https://www.xfce.org/)：Termux還是不能跑大型桌面環境
 ### 瀏覽器
- * Firefox：主力瀏覽器，同步功能就是香
- * Google Chrome：[某些狀況下](https://tes.wdasec.gov.tw/F07/F070301EX)還是得假裝是正常人
+ * [Firefox](https://www.firefox.com/)：主力瀏覽器，同步功能就是香
+ * [Google Chrome](https://www.google.com/intl/zh-TW/chrome/)：[某些狀況下](https://tes.wdasec.gov.tw/F07/F070301EX)還是得假裝是正常人
 ### 終端機相關
- * fzf：加強版tab選單
- * lolcat：讓輸出內容變成彩色
- * micro：好用的終端機編輯器
- * sl：火車
- * yay：Arch的AUR助手
- * git：程式碼管理工具
- * fastfetch：系統狀態檢視器
- * nano：改設定檔還是它對味
+ * [fzf](https://github.com/junegunn/fzf)：加強版tab選單
+ * [lolcat](https://github.com/jaseg/lolcat)：讓輸出內容變成彩色
+ * [micro](https://micro-editor.github.io/)：好用的終端機編輯器
+ * [sl](https://github.com/mtoyoda/sl)：火車
+ * [yay](https://github.com/jguer/yay)：Arch的AUR助手
+ * [git](https://git-scm.com/)：程式碼管理工具
+ * [fastfetch](https://github.com/fastfetch-cli/fastfetch)：系統狀態檢視器
+ * [nano](https://www.nano-editor.org/)：改設定檔還是它對味
 ### 媒體播放器
- * mpv：好用但是長得像終端機
+ * [mpv](https://mpv.io/)：好用但是長得像終端機
 ### 文字編輯器
- * Kate：當記事本用
- * Visual Studio Code：擴充功能還得是親兒子
+ * [Kate](https://apps.kde.org/zh-tw/kate/)：當記事本用
+ * [Visual Studio Code](https://code.visualstudio.com/)：擴充功能還得是親兒子
 ### 辦公軟體
- * LibreOffice：很好用的辦公軟體
+ * [LibreOffice](https://www.libreoffice.org/)：很好用的辦公軟體
 
 ## 雲端服務
  > 商業屬性的我能不用就不用，除非太強。
 ### 學習相關
- * 翰林雲端學院：學校給的羊毛當然薅
- * Google Workspace：Classroom是真的主宰臺灣數位學習
- * ~~橘子蘋果~~：我畢業了用什麼用
+ * 翰林雲端學院：學校給的羊毛當然薅（學校特供網址不能貼）
+ * [Google Workspace](https://workspace.google.com/intl/zh-TW/?hl=zh-TW)：Classroom是真的主宰臺灣數位學習
+ * [~~橘子蘋果~~](https://learn.orangeapple.co/)：我畢業了用什麼用
 ### AI相關
- * Gemini：我爸訂閱的超香，但是有變笨的趨勢，然後神人開發者讓防火牆過於嚴格
- * ChatGPT：免費版也還夠用，實務方面不錯
- * Deepseek：真香定律這一塊
- * ~~Claude~~：我號被封了（未滿18歲）
+ * [Gemini](https://gemini.google.com/app)：我爸訂閱的超香，但是有變笨的趨勢，然後神人開發者讓防火牆過於嚴格
+ * [ChatGPT](https://chatgpt.com/)：免費版也還夠用，實務方面不錯
+ * [Deepseek](https://deepseek.com/)：真香定律這一塊
+ * [~~Claude~~](https://claude.ai/)：我號被封了（未滿18歲）
 ### 自架類
- * Nextcloud：全家桶式的雲端硬碟，非常好用
- * Gitea：都沒在用
+ * [Nextcloud](https://nextcloud.com/)：全家桶式的雲端硬碟，非常好用
+ * [Gitea](https://about.gitea.com/)：都沒在用
 ### 其他免費服務
- * GitHub：好用的程式碼平台，這網站就是用它託管的
- * Codeberg：不夠穩定
- * Cloudflare：Internet大善人，功德過滿，這網站的網域就是用它託管的
- * ~~Facebook~~：沒有留下的理由（已刪除）
- * ~~Instagram、Threads~~：偽人社群毋庸置疑（已移除）
- * YouTube：比較少發片
- * Gmail：主要Email服務商，目前轉到幕後工作（Cloudflare Forwarding）。我已經釋懷了
- * Resend：每個月100封額度還是很夠用的
+ * [GitHub](https://github.com/)：好用的程式碼平台，這網站就是用它託管的
+ * [Codeberg](https://codeberg.org/)：不夠穩定
+ * [Cloudflare](https://www.cloudflare.com/)：Internet大善人，功德過滿，這網站的網域就是用它託管的
+ * [~~Facebook~~](http://facebook.com/)：沒有留下的理由（已刪除）
+ * ~~[Instagram](https://www.instagram.com/)、[Threads](https://www.threads.com/)~~：偽人社群毋庸置疑（已移除）
+ * [YouTube](https://www.youtube.com/)：比較少發片
+ * [Gmail](http://mail.google.com/)：主要Email服務商，目前轉到幕後工作（Cloudflare Forwarding）。我已經釋懷了
+ * [Resend](http://resend.com/)：每個月100封額度還是很夠用的
 ### 其他付費服務
  > 因為零用錢花到月光，目前全退訂了
- * ~~臺灣吧會員~~：中國史很好看，推（已退訂）
- * ~~ChatGPT Plus~~：偏貴但不錯（已退訂）
- * ~~YouTube Premium~~：我是肥羊（已覺醒+退訂）
+ * [~~臺灣吧會員~~](https://www.youtube.com/@TaiwanBar)：中國史很好看，推（已退訂）
+ * [~~ChatGPT Plus~~](https://chatgpt.com/zh-Hant/pricing/)：偏貴但不錯（已退訂）
+ * [~~YouTube Premium~~](https://www.youtube.com/watch?v=dQw4w9WgXcQ)：我是肥羊（已覺醒+退訂）
 
 ## 手機
  > 我目前還是以那台Pixel 7 Pro為主
 ### 系統
- * GrapheneOS：安全性高到假設使用者是間諜的韌體
+ * [GrapheneOS](https://grapheneos.org/)：安全性高到假設使用者是間諜的韌體
 ### 軟體商店
- * F-Droid：全都是自由的好康（你啥時候更新 M3E 的）
- * Aurora Store：不用登入也能裝大眾軟體
+ * [F-Droid](https://f-droid.org/zh_Hant/)：全都是自由的好康（你啥時候更新 M3E 的）
+ * [Aurora Store](https://auroraoss.com/)：不用登入也能裝大眾軟體
 ### 通訊類
- * LINE：我只是在一堆史裡面，被迫挑了身邊人難分難捨的史
- * Discord：依然很有商業味道，但好用多了
- * Signal：我媽嫌麻煩，但是我在催她嘗試
+ * [LINE](https://www.line.me/tw/)：我只是在一堆史裡面，被迫挑了身邊人難分難捨的史
+ * [Discord](https://discord.com/)：依然很有商業味道，但好用多了
+ * [Signal](https://signal.org/)：我媽嫌麻煩，但是我在催她嘗試
 ### 網路與網際網路相關
- * Fennec F-Droid：可以同步但是移除 Mozilla 追蹤的 Firefox
- * NewPipe：看YouTube就沒這麼爽過
- * PipePipe：長出BiliBili跟NicoNico支援的NewPipe
- * InnerTune：YouTube Music的超漂亮前端
- * Localsend：好用的檔案傳輸工具
- * DAVx^5：行事曆跟聯絡人的同步工具
+ * [Fennec F-Droid](https://f-droid.org/zh_Hant/packages/org.mozilla.fennec_fdroid/)：可以同步但是移除 Mozilla 追蹤的 Firefox
+ * [NewPipe](https://newpipe.net/)：看YouTube就沒這麼爽過
+ * [PipePipe](https://github.com/InfinityLoop1308/PipePipe)：長出BiliBili跟NicoNico支援的NewPipe
+ * [OpenTune](https://opentune.netlify.app/en)：YouTube Music的超漂亮前端，被噘了
+ * DAVx⁵：行事曆跟聯絡人的同步工具
 ### 輸入法
  * Trime：基於中州韻輸入法引擎的手機輸入法
  * 洋蔥手機注音：功能最多的Trime注音輸入法模組，超好用

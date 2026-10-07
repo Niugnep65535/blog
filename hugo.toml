@@ -35,6 +35,11 @@ copyright = "© 2026 Niugnep Hsueh · 透過 CC BY 4.0 授權"
   name = "關於"
   url = "/about.html"
   weight = 40
+  
+[[menu.main]]
+  name = "愛用"
+  url = "/use.html"
+  weight = 40
 
 [[menu.main]]
   name = "近況"

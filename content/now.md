@@ -1,6 +1,6 @@
 ---
 title: Niugnep 的近況
-date: 2026-09-22
+date: 2026-10-07
 draft: false
 comments: false
 ---
@@ -10,7 +10,7 @@ comments: false
  * 一模結束：爛透了
  
 ## 最近放上網路的
- * [晚上不睡覺 feat. BlogBlogParty 09](https://niugnep.idv.tw/posts/stay-up.html)：終於有個我會寫的了
+ * [靠腰 feat. BlogBlogParty 10](https://niugnep.idv.tw/posts/languages-bbp10.html)：再度參加 BlogBlog 同樂會
  
 ## 食物跟飲料
  * 檸檬柚子茶：這種能當果醬的沖泡飲料我一直很喜歡
@@ -18,7 +18,8 @@ comments: false
  
 ## 最近忙的
  * 技藝班：走個過場，坐等Arduino課程，然後幫技優甄審加個分
+ * 自架服務：Nextcloud真的很棒
 
 ## 最近看、聽、讀的
  * [貓咪學園](https://www.youtube.com/@NekoGakuen)：適合讀書時候聽
- * Artcore：我從小就喜歡電音，但是聽多會燥
+ * Mixes：非常不錯

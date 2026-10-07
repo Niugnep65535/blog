@@ -16,8 +16,12 @@ comments: false
  
 本站透過Hugo架設，使用PaperMod主題。
 
+您可能會覺得這不像是PaperMod。確實，因為這是經過大量修改的PaperMod。[^1]
+
 所有文章基於CC BY 4.0發布，在標注作者的前提下，允許改作、引用或商業使用。但我並不喜歡全文搬運。
 
 如果想要，也請訂閱本站的RSS，詳情請見[這裡](https://niugnep.idv.tw/about/rss.html)。
 
 本站還有其它空間，詳情請見[這裡](https://niugnep.idv.tw/about/map.html)
+
+[^1]: 這個主題長得像液態玻璃，所以我稱其為GlassMod。

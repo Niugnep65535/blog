@@ -1,7 +1,7 @@
 ---
 title: 靠腰 feat. BlogBlogParty 10
-date: 2026-10-02
-draft: true
+date: 2026-10-07
+draft: false
 tags:
  - 幹話
  - BlogBlogParty

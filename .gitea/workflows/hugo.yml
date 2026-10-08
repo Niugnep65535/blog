@@ -1,4 +1,4 @@
-name: Hugo Build
+name: Hugo Build and Deploy
 
 on:
   push:
@@ -11,6 +11,9 @@ jobs:
 
     container:
       image: hugomods/hugo:exts
+      privileged: true
+      volumes:
+        - /mnt/data/blog/public:/deploy
 
     steps:
       - name: Checkout
@@ -19,9 +22,14 @@ jobs:
       - name: Build Hugo site
         run: hugo --gc --minify
 
-      - name: Verify output
+      - name: Deploy
         run: |
-          test -f public/index.html
-          echo "Hugo build successful."
-          echo "Generated files:"
-          find public -maxdepth 2 -type f | sort | head -50
+          rm -rf /deploy/*
+          cp -a public/. /deploy/
+
+      - name: Verify deployment
+        run: |
+          test -f /deploy/index.html
+          echo "Hugo deploy successful."
+          echo "Deployed files:"
+          find /deploy -maxdepth 2 -type f | sort | head -50

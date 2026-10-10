@@ -33,6 +33,7 @@ comments: false
  * [KDE Plasma](https://kde.org/plasma-desktop/)：風格最現代的桌面環境[之一](https://blog.xinsl.xin/use/#%e6%a1%8c%e9%9d%a2%e7%8e%af%e5%a2%83)，其實也挺穩定了
  * [GNOME](https://www.gnome.org/)：觸控板優化最好的桌面環境，同時也是風格最現代的桌面環境之一。外掛容易爆炸，但是Debian穩定性與其抵銷了
  * [Xfce](https://www.xfce.org/)：Termux還是不能跑大型桌面環境
+ * [i3](https://i3wm.org/)：我只是個喜歡折磨自己的
 ### 瀏覽器
  * [Firefox](https://www.firefox.com/)：主力瀏覽器，同步功能就是香
  * [Google Chrome](https://www.google.com/intl/zh-TW/chrome/)：[某些狀況下](https://tes.wdasec.gov.tw/F07/F070301EX)還是得假裝是正常人

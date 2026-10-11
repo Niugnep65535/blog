@@ -34,6 +34,7 @@ comments: false
  * [GNOME](https://www.gnome.org/)：觸控板優化最好的桌面環境，同時也是風格最現代的桌面環境之一。外掛容易爆炸，但是Debian穩定性與其抵銷了
  * [Xfce](https://www.xfce.org/)：Termux還是不能跑大型桌面環境
  * [i3](https://i3wm.org/)：我只是個喜歡折磨自己的
+ * [Niri](https://niri-wm.github.io/niri/index.html)：好用的橫向捲軸視窗管理器
 ### 瀏覽器
  * [Firefox](https://www.firefox.com/)：主力瀏覽器，同步功能就是香
  * [Google Chrome](https://www.google.com/intl/zh-TW/chrome/)：[某些狀況下](https://tes.wdasec.gov.tw/F07/F070301EX)還是得假裝是正常人

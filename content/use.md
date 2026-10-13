@@ -1,7 +1,6 @@
 ---
 title: Niugnep用些什麼
-date: 2026-10-14
-draft: false
+date: 2026-10-13
 comments: false
 ---
 這個地方參考了[Wiwi 官大為的部落格的《Wiwi 現在愛用什麼》](https://wiwi.blog/use)，  
@@ -65,7 +64,7 @@ comments: false
  * [~~Claude~~](https://claude.ai/)：我號被封了（未滿18歲）
 ### 自架類
  * [Nextcloud](https://nextcloud.com/)：全家桶式的雲端硬碟，非常好用
- * [Gitea](https://about.gitea.com/)：自架Git程式碼庫，部落格就在這上面
+ * [Gitea](https://about.gitea.com/)：自架Git程式碼庫，部落格原始碼就在這上面
  * [Nginx](https://nginx.org/)：部落格非得放port 1337嗎？(tunnel連結你看不到內部port的)
 ### 其他免費服務
  * [GitHub](https://github.com/)：好用的程式碼平台

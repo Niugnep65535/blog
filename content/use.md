@@ -44,7 +44,7 @@ comments: false
  * [yay](https://github.com/jguer/yay)：Arch的AUR助手
  * [git](https://git-scm.com/)：程式碼管理工具
  * [fastfetch](https://github.com/fastfetch-cli/fastfetch)：系統狀態檢視器
- * [nano](https://www.nano-editor.org/)：改設定檔還是它對味
+ * [vim](https://www.vim.org/)：方便的文字編輯器（不適合新手）
 ### 媒體播放器
  * [mpv](https://mpv.io/)：好用但是長得像終端機
 ### 文字編輯器

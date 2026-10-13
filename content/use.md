@@ -1,6 +1,6 @@
 ---
 title: Niugnep用些什麼
-date: 2026-10-11
+date: 2026-10-14
 draft: false
 comments: false
 ---
@@ -30,11 +30,9 @@ comments: false
  * [Debian GNU/Linux](https://www.debian.org/)：外出機還是穩一點好，畢竟不能拿出來天天滾
  * [Rocky Linux](https://rockylinux.org/)：用企業級標準開伺服器折磨自己
 ### 桌面環境 / 視窗管理員
- * [KDE Plasma](https://kde.org/plasma-desktop/)：風格最現代的桌面環境[之一](https://blog.xinsl.xin/use/#%e6%a1%8c%e9%9d%a2%e7%8e%af%e5%a2%83)，其實也挺穩定了
+ * [Niri](https://niri-wm.github.io)：無限捲軸用過就回不去了
  * [GNOME](https://www.gnome.org/)：觸控板優化最好的桌面環境，同時也是風格最現代的桌面環境之一。外掛容易爆炸，但是Debian穩定性與其抵銷了
- * [Xfce](https://www.xfce.org/)：Termux還是不能跑大型桌面環境
- * [i3](https://i3wm.org/)：我只是個喜歡折磨自己的
- * [Niri](https://niri-wm.github.io/niri/index.html)：好用的橫向捲軸視窗管理器
+ * [LXQt](https://lxqt-project.org/)：亞運奧運什麼的一邊去，這才是真正的台灣之光
 ### 瀏覽器
  * [Firefox](https://www.firefox.com/)：主力瀏覽器，同步功能就是香
  * [Google Chrome](https://www.google.com/intl/zh-TW/chrome/)：[某些狀況下](https://tes.wdasec.gov.tw/F07/F070301EX)還是得假裝是正常人
@@ -50,7 +48,7 @@ comments: false
 ### 媒體播放器
  * [mpv](https://mpv.io/)：好用但是長得像終端機
 ### 文字編輯器
- * [Kate](https://apps.kde.org/zh-tw/kate/)：當記事本用
+ * [Kate](https://apps.kde.org/zh-tw/kate/)：當記事本用亞運
  * [Visual Studio Code](https://code.visualstudio.com/)：擴充功能還得是親兒子
 ### 辦公軟體
  * [LibreOffice](https://www.libreoffice.org/)：很好用的辦公軟體

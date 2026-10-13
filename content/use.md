@@ -38,7 +38,6 @@ comments: false
 ### 終端機相關
  * [fzf](https://github.com/junegunn/fzf)：加強版tab選單
  * [lolcat](https://github.com/jaseg/lolcat)：讓輸出內容變成彩色
- * [micro](https://micro-editor.github.io/)：好用的終端機編輯器
  * [sl](https://github.com/mtoyoda/sl)：火車
  * [yay](https://github.com/jguer/yay)：Arch的AUR助手
  * [git](https://git-scm.com/)：程式碼管理工具

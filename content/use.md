@@ -48,7 +48,6 @@ comments: false
 ### 媒體播放器
  * [mpv](https://mpv.io/)：好用但是長得像終端機
 ### 文字編輯器
- * [Kate](https://apps.kde.org/zh-tw/kate/)：當記事本用亞運
  * [Visual Studio Code](https://code.visualstudio.com/)：擴充功能還得是親兒子
 ### 辦公軟體
  * [LibreOffice](https://www.libreoffice.org/)：很好用的辦公軟體
@@ -66,9 +65,10 @@ comments: false
  * [~~Claude~~](https://claude.ai/)：我號被封了（未滿18歲）
 ### 自架類
  * [Nextcloud](https://nextcloud.com/)：全家桶式的雲端硬碟，非常好用
- * [Gitea](https://about.gitea.com/)：都沒在用
+ * [Gitea](https://about.gitea.com/)：自架Git程式碼庫，部落格就在這上面
+ * [Nginx](https://nginx.org/)：部落格非得放port 1337嗎？(tunnel連結你看不到內部port的)
 ### 其他免費服務
- * [GitHub](https://github.com/)：好用的程式碼平台，這網站就是用它託管的
+ * [GitHub](https://github.com/)：好用的程式碼平台
  * [Codeberg](https://codeberg.org/)：不夠穩定
  * [Cloudflare](https://www.cloudflare.com/)：Internet大善人，功德過滿，這網站的網域就是用它託管的
  * [~~Facebook~~](http://facebook.com/)：沒有留下的理由（已刪除）
@@ -80,7 +80,7 @@ comments: false
  > 因為零用錢花到月光，目前全退訂了
  * [~~臺灣吧會員~~](https://www.youtube.com/@TaiwanBar)：中國史很好看，推（已退訂）
  * [~~ChatGPT Plus~~](https://chatgpt.com/zh-Hant/pricing/)：偏貴但不錯（已退訂）
- * [~~YouTube Premium~~](https://www.youtube.com/watch?v=dQw4w9WgXcQ)：我是肥羊（已覺醒+退訂）
+ * [~~YouTube Premium~~](https://www.youtube.com/watch?v=dQw4w9WgXcQ)：我以前是韭菜（已覺醒+退訂）
 
 ## 手機
  > 我目前還是以那台Pixel 7 Pro為主

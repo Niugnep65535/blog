@@ -7,7 +7,7 @@ comments: false
 
 ## 生活方面
  * 住在新北市板橋區：學校、生活跟熟悉的食物都在這，暫時搬不走了
- * 一模結束：爛透了
+ * 一段準備中：理化跟地科雙雙掛彩，有人有招嗎
  
 ## 最近放上網路的
  * [靠腰 feat. BlogBlogParty 10](https://niugnep.idv.tw/posts/languages-bbp10.html)：再度參加 BlogBlog 同樂會

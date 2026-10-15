@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     container:
-      image: hugomods/hugo:0.168.0
+      image: hugomods/hugo:latest
       privileged: true
       volumes:
         - /mnt/data/blog/public:/deploy

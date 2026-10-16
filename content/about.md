@@ -1,6 +1,6 @@
 ---
 title: 關於我
-date: 2026-10-15
+date: 2026-10-16
 draft: false
 comments: false
 ---
@@ -12,13 +12,13 @@ comments: false
 本站點的部落格部份，主要撰寫以下內容：
  * 自由軟體：GNU/Linux或者其它FOSS軟體的使用心得。
  * 軟體開發：分享一些本人開發的小工具。
- * 日常隨筆：日常生活遇到的瑣事。（簡稱[幹話](https://niugnep.idv.tw/tags/%E5%B9%B9%E8%A9%B1.html)）
+ * 日常隨筆：日常生活遇到的瑣事。（簡稱[幹話](https://niugnep.idv.tw/tags/%E5%B9%B9%E8%A9%B1)）
  
-本站透過Hugo架設，暫時使用Stack主題。
+本站透過Hugo架設，使用Stack主題。
 
-本站點預計於10/18進行重構，但是有可能拖到本月底。
+本站點預計於10/18進行第二階段重構，但是有可能拖到本月底。
 
-所有文章基於CC BY 4.0發布，在標注作者的前提下，允許改作、引用或商業使用。但我並不喜歡全文搬運。
+所有文章基於CC BY-SA 4.0發布，在標注作者的前提下，允許改作、引用或商業使用。但我並不喜歡全文搬運。
 
 如果想要，也請訂閱本站的RSS，詳情請見[這裡](https://niugnep.idv.tw/index.xml)。
 
@@ -32,10 +32,9 @@ comments: false
  * 性別：男
  * 血型：O
  * 星座：雙魚座
- * 暱稱：豆子、Niugnep、StupidestJack
+ * 暱稱：Niugnep
  * 喜歡的東西：程式、GNU/Linux、水果、食物、新奇的小東西、獨立遊戲
- * 討厭的東西：考試、香菜、Apple Inc.、ring -3
- * 座右銘（？）：「野狗不需要墓碑，狂奔到腐爛就好了。」
+ * 討厭的東西：考試、香菜、學校資訊課[^1]、老爸碎念
 
 ### 聯絡資訊
  * 網站：[https://niugnep.idv.tw](https://niugnep.idv.tw)，也就是這裡！

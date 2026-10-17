@@ -27,15 +27,48 @@
   {{ if .Params.slug }}
     {{ $slug = .Params.slug }}
   {{ end }}
+    <div class="custom-comments" style="margin-top: 2rem;">
+      <iframe
+        id="comment-board-frame"
+        src="https://comments.niugnep.idv.tw/?slug={{ $slug }}"
+        title="留言板"
+        width="100%"
+        height="600"
+        loading="lazy"
+        style="border: 0; border-radius: 12px; background: var(--card-background);"
+      ></iframe>
+    </div>
 
-  <div class="custom-comments" style="margin-top: 2rem;">
-    <iframe
-      src="https://comments.niugnep.idv.tw/?slug={{ $slug }}"
-      title="留言板"
-      width="100%"
-      height="600"
-      loading="lazy"
-      style="border: 0; border-radius: 12px; background: var(--card-background);"
-    ></iframe>
-  </div>
+    <script>
+    (() => {
+      const frame = document.getElementById("comment-board-frame");
+      if (!frame) return;
+
+      const boardOrigin = "https://comments.niugnep.idv.tw";
+
+      function sendTheme() {
+        const scheme =
+          document.documentElement.dataset.scheme === "dark"
+            ? "dark"
+            : "light";
+
+        frame.contentWindow?.postMessage(
+          { type: "stack-theme", scheme },
+          boardOrigin
+        );
+      }
+
+      frame.addEventListener("load", sendTheme);
+
+      new MutationObserver(sendTheme).observe(
+        document.documentElement,
+        {
+          attributes: true,
+          attributeFilter: ["data-scheme"]
+        }
+      );
+
+      sendTheme();
+    })();
+    </script>
 {{ end }}

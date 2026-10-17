@@ -2,6 +2,7 @@
 baseurl = "/"
 locale  = "zh-Hant"
 title   = "Niugnep 的部落格"
+theme   = "stack"
 
 # Theme i18n support
 # See all available values at https://github.com/CaiJimmy/hugo-theme-stack/tree/master/i18n

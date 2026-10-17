@@ -45,9 +45,9 @@ SortBy              = "default"
     default = "auto"
 
 ## Comments
-#[comments]
-#    enabled  = true
-#    provider = "disqus"
+[comments]
+    enabled  = true
+    provider = "custom"
 
     # See all the available configurations at https://github.com/CaiJimmy/hugo-theme-stack/blob/master/config/_default/params.toml
     # Copy the configurations you need from there and paste it here.

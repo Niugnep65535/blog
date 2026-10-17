@@ -1,74 +1,89 @@
 {{/*
   1. 判斷是否為 /posts/ 底下的文章
-  2. 檢查 front matter 是否有手動設定 comments (true 或 false)
+  2. 支援 front matter 的 comments = true / false
 */}}
+
 {{ $isPost := strings.HasPrefix .RelPermalink "/posts/" }}
 {{ $frontMatterComments := .Params.comments }}
 
-{{/*
-  決定是否顯示留言板的邏輯：
-  - 如果手動設定了 comments = false，則強制關閉
-  - 如果手動設定了 comments = true，則強制開啟（無視是否在 /posts/ 底下）
-  - 如果沒有手動設定，則預設只有在 /posts/ 底下才開啟
-*/}}
 {{ $showComments := false }}
 
 {{ if eq $frontMatterComments false }}
   {{ $showComments = false }}
 {{ else if eq $frontMatterComments true }}
   {{ $showComments = true }}
-{{ else if and $isPost (ne $frontMatterComments false) }}
+{{ else if $isPost }}
   {{ $showComments = true }}
 {{ end }}
 
 {{ if $showComments }}
-  {{/* 取得當前頁面的 slug 或相對路徑作為識別參數 */}}
   {{ $slug := .File.BaseFileName | default .Title | urlize }}
-  {{ if .Params.slug }}
-    {{ $slug = .Params.slug }}
+  {{ with .Params.slug }}
+    {{ $slug = . }}
   {{ end }}
-    <div class="custom-comments" style="margin-top: 2rem;">
-      <iframe
-        id="comment-board-frame"
-        src="https://comments.niugnep.idv.tw/?slug={{ $slug }}"
-        title="留言板"
-        width="100%"
-        height="600"
-        loading="lazy"
-        style="border: 0; border-radius: 12px; background: var(--card-background);"
-      ></iframe>
-    </div>
 
-    <script>
-    (() => {
-      const frame = document.getElementById("comment-board-frame");
-      if (!frame) return;
+  <section
+    class="custom-comments"
+    id="comments"
+    data-comment-slug="{{ $slug }}"
+  >
+    <h2 class="custom-comments__title">留言</h2>
 
-      const boardOrigin = "https://comments.niugnep.idv.tw";
+    <form class="custom-comments__form" id="comment-form">
+      <div class="custom-comments__field">
+        <label for="comment-nickname">暱稱</label>
+        <input
+          id="comment-nickname"
+          name="nickname"
+          type="text"
+          maxlength="40"
+          autocomplete="nickname"
+          required
+        >
+      </div>
 
-      function sendTheme() {
-        const scheme =
-          document.documentElement.dataset.scheme === "dark"
-            ? "dark"
-            : "light";
+      <div class="custom-comments__field">
+        <label for="comment-email">電子郵件（選填，不公開）</label>
+        <input
+          id="comment-email"
+          name="email"
+          type="email"
+          autocomplete="email"
+        >
+      </div>
 
-        frame.contentWindow?.postMessage(
-          { type: "stack-theme", scheme },
-          boardOrigin
-        );
-      }
+      <div class="custom-comments__field">
+        <label for="comment-content">留言（支援 Markdown）</label>
+        <textarea
+          id="comment-content"
+          name="content"
+          maxlength="1000"
+          rows="6"
+          required
+        ></textarea>
+      </div>
 
-      frame.addEventListener("load", sendTheme);
+      <div id="comment-turnstile"></div>
 
-      new MutationObserver(sendTheme).observe(
-        document.documentElement,
-        {
-          attributes: true,
-          attributeFilter: ["data-scheme"]
-        }
-      );
+      <p
+        class="custom-comments__notice"
+        id="comment-notice"
+        aria-live="polite"
+      ></p>
 
-      sendTheme();
-    })();
-    </script>
+      <button type="submit">送出留言</button>
+    </form>
+
+    <div class="custom-comments__list" id="comment-list"></div>
+  </section>
+
+  {{ $commentsCSS := resources.Get "css/extended/custom-comments.css" }}
+  {{ with $commentsCSS }}
+    <link rel="stylesheet" href="{{ .RelPermalink }}">
+  {{ end }}
+
+  {{ $commentsJS := resources.Get "js/comments.js" }}
+  {{ with $commentsJS }}
+    <script src="{{ .RelPermalink }}" defer></script>
+  {{ end }}
 {{ end }}

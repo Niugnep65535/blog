@@ -91,6 +91,19 @@
     min-width: 0;
 }
 
+.custom-comments,
+#comments article {
+    background: var(--card-background);
+    border-radius: var(--card-border-radius);
+    box-shadow: var(--shadow-l1);
+    padding: var(--card-padding);
+    overflow: hidden;
+}
+
+#comments article {
+    background: var(--table-border-color);
+}
+
 .custom-comments #comment-form > * {
     min-width: 0;
     max-width: 100%;

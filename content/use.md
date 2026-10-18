@@ -25,11 +25,11 @@ comments: false
 ## 電腦軟體
  > 我的原則與Wiwi類似。可行前提下以FOSS與開放格式為主；無法使用自由軟體的工作項目也盡力準備替代方案。
 ### 作業系統
- * [Arch Linux](https://archlinux.org/)：習慣了滾動更新跟Pacman，跳不起——話說我沒怎麼滾掛過呢
+ * [CachyOS](https://cachyos.org/)：習慣了滾動更新跟Pacman，跳不起——話說我沒怎麼滾掛過呢
  * [Debian GNU/Linux](https://www.debian.org/)：外出機還是穩一點好，畢竟不能拿出來天天滾
  * [Rocky Linux](https://rockylinux.org/)：用企業級標準開伺服器折磨自己
 ### 桌面環境 / 視窗管理員
- * [Niri](https://niri-wm.github.io)：無限捲軸用過就回不去了
+ * [KDE Plasma](https://kde.org/plasma-desktop/)：肯定是好用的
  * [GNOME](https://www.gnome.org/)：觸控板優化最好的桌面環境，同時也是風格最現代的桌面環境之一。外掛容易爆炸，但是Debian穩定性與其抵銷了
  * [LXQt](https://lxqt-project.org/)：亞運奧運什麼的一邊去，這才是真正的台灣之光
 ### 瀏覽器

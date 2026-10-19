@@ -18,22 +18,22 @@ draft: false
 這次的比賽地點是在南港展覽館一館的四樓，要來的話不要刻意來找我，我會覺得很煩。  
 總之，大概是這樣，以下就是我今天的行程啦。  
 （你再說一次，挑戰什麼！？）  
-![挑戰！ㄐㄅ魂](https://i.meee.com.tw/sffFThR.jpg)
+![挑戰！ㄐㄅ魂](/img/isnt-it-c-ck.jpg)
 
 ## 早上
 我們培訓的學校位在捷運海山站，可以直接乘坐板南線通到南港展覽館。  
 到場後要先去報到、領狗牌跟新手教學。  
 （你確定這圖片不是AI？）
-![AI圖](https://i.meee.com.tw/BPGMLHO.jpg)
+![AI圖](/img/ai-flyer.jpg)
 
 好玩的是這狗牌的掛繩還是條C to C的傳輸線呢。
-![C to C](https://i.meee.com.tw/NCmNlhp.jpg)
+![C to C](/img/usb-c-rope.jpg)
 
 領完這倆之後我們就上樓了。  
 因為比賽場地在四樓，我們今天的行動也全都集中在四樓。  
 不過我想吐嘈的是，這地方長的也太像IKEA的倉庫了吧！  
 都是那種天花板支架不藏起來，然後灰白色的感覺。  
-![IKEA展覽館](https://i.meee.com.tw/j6WA8QL.jpg)
+![IKEA展覽館](/img/nangang-ikea.jpg)
 
 ## 中午
 其實剛領完就吃飯了。
@@ -41,17 +41,17 @@ draft: false
 雖說是由蓮藕、地瓜、青菜、雞腿、紫米飯組成的「養生全餐」，但是可能我家口味本就比較淡，我覺得挺好吃的。  
 嘛，一堆同學在靠腰就是了。  
 還有一根香蕉，應該是飯後水果，~~或是純粹呼應標語的~~。
-![養生全餐](https://i.meee.com.tw/zvy47Tg.jpg)
+![養生全餐](/img/healthy-lunch.jpg)
 
 此外就是大螢幕輪播選手製作的個人介紹簡報，好像只有我的用的是幾乎純英文？
-![低清全碼](https://i.meee.com.tw/pBGyapt.jpg)
+![低清全碼](/img/self-introduction.jpg)
 
 ## 下午
 今天青少年組沒有要比賽。  
 我們要做的就是聽~~幹話~~規則，然後測試場地。  
 話說這裡的電腦桌布是技能競賽吉祥物，長得超ㄎㄧㄤ，因為我想拍的時候好像禁止拍照，所以我沒圖片。  
 但是我有那隻吉祥物的徽章。  
-![這啥啊](https://i.meee.com.tw/SHHXc11.jpg)
+![這啥啊](/img/ruby.jpg)
 
 此外還有一個新手大禮包，裡面有：  
  * 戰袍（T-shirt）

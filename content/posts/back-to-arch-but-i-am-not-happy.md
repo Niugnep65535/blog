@@ -15,6 +15,6 @@ draft: false
 
 事實證明，當你把Minecraft、忘記備份的專案、GPG金鑰、各種檔案跟虛擬機等丟沒之後，看到`fastfetch`不能解氣。
 
-![](https://i.meee.com.tw/bvOGbD3.png)
+![](/img/back-to-arch.png)
 
 此外，以後請不要使用我現有的GPG公鑰加密，我之後會把新的公鑰上傳到金鑰伺服器。

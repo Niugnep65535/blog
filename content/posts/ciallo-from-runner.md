@@ -13,4 +13,4 @@ categories:
 
 放張圖：
 
-![](https://i.meee.com.tw/ocNVEuk.png)
+![](/img/ciallo-runner.png)

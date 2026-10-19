@@ -23,11 +23,11 @@ GrapheneOS我幾乎用不到它的功能；LineageOS我雖然有興趣但玩過�
 
 ## 使用體驗
 先上截圖：  
-![鎖定畫面](https://i.meee.com.tw/hGbSrEM.webp)![主畫面](https://i.meee.com.tw/Q1dNTjy.webp)  
+![鎖定畫面](/img/crdroid-lock.webp)![主畫面](/img/crdroid-home.webp)  
 只能說：真的好用。  
 身為一個能把KDE改成MATE界面的屁孩（當然比不上那些改成tiling wm樣式的），crDroid那個設定畫面簡直把我感動哭了。  
 最重要的是沒有Google，我終於不用自稱half-degoogle了！太棒啦！  
 
 咳咳。這只是第一天，還沒什麼好講的。以後再寫
-[下集預告（404的話就是還沒寫）](/posts/tech-otaku-part-3.html)
+[下集預告（404的話就是還沒寫）](/posts/tech-otaku-part-3)
 

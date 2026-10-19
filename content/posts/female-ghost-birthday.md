@@ -20,7 +20,7 @@ draft: false
 因為多少有點可怕，所以請容我最後再放。  
 然後我當年就真的相信了，這訊息我就到處傳，我給他，他再傳給我，我再傳給十個群...
 
-![](https://i.meee.com.tw/QuvEJIl.png)
+![](/img/femghost-birthday.png)
 
 還好現在已經沒什麼這種離譜玩意了，不然光是開LINE就要煩死了。
 

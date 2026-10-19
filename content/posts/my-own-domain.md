@@ -32,3 +32,5 @@ draft: false
 雖然HiNet的後台土到爆，而且功能超少，但是可以串Cloudflare啊！
 
 至於其他網域的好處，我再貼一遍Wiwi的文章：[《最重要的「帳號」✦BBP1✦》](https://wiwi.blog/blog/get-your-own-domain/)
+
+ > 2026/10/09補充：對不起我說錯了，其實Porkbun確實比較便宜

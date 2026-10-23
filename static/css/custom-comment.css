@@ -1,0 +1,649 @@
+
+/*
+ * Hugo Stack - Custom Comments
+ * Responsive layout + light/dark theme
+ */
+
+/* ========================================
+ *   1. Theme and base
+ *   ======================================== */
+
+.custom-comments {
+    --comments-border: var(--card-separator-color, #dadada);
+    --comments-input-bg: var(--card-background, #fff);
+    --comments-text: var(--body-text-color, #707070);
+    --comments-main: var(--card-text-color-main, #222);
+    --comments-muted: var(--card-text-color-secondary, #747474);
+    --comments-radius: var(--card-border-radius, 10px);
+    --comments-accent: var(--accent-color, #34495e);
+    --comments-accent-text: var(--accent-color-text, #fff);
+
+    width: 100%;
+    min-width: 0;
+    margin-top: var(--section-separation, 40px);
+    color: var(--comments-text);
+    font-family: var(--base-font-family, sans-serif);
+    overflow-wrap: anywhere;
+}
+
+.custom-comments,
+.custom-comments * {
+    box-sizing: border-box;
+}
+
+.custom-comments .hidden,
+.custom-comments [hidden] {
+    display: none !important;
+}
+
+/* ========================================
+ *   2. Headings and descriptions
+ *   ======================================== */
+
+.custom-comments h1,
+.custom-comments h2,
+.custom-comments h3 {
+    color: var(--comments-main);
+    font-family: var(--base-font-family, sans-serif);
+}
+
+.custom-comments h1 {
+    margin-top: 0;
+    margin-bottom: var(--spacing-sm, 10px);
+}
+
+.custom-comments h2 {
+    margin-top: 0;
+    margin-bottom: var(--spacing-lg, 20px);
+}
+
+.custom-comments > header {
+    margin-bottom: var(--spacing-xl, 25px);
+}
+
+.custom-comments > header p {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.8;
+}
+
+.custom-comments .muted,
+.custom-comments .hint,
+.custom-comments small {
+    color: var(--comments-muted);
+    font-size: 0.875rem;
+}
+
+.custom-comments .required {
+    color: #d44;
+}
+
+/* ========================================
+ *   3. Form layout
+ *   ======================================== */
+
+.custom-comments #comment-form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: var(--spacing-sm, 10px);
+    width: 100%;
+    min-width: 0;
+}
+
+.custom-comments,
+#comments article {
+    background: var(--card-background);
+    border-radius: var(--card-border-radius);
+    box-shadow: var(--shadow-l1);
+    padding: var(--card-padding);
+    overflow: hidden;
+}
+
+#comments article {
+    background: var(--table-border-color);
+}
+
+.custom-comments #comment-form > * {
+    min-width: 0;
+    max-width: 100%;
+}
+
+.custom-comments #comment-form > label:not(.check) {
+    display: block;
+    width: 100%;
+    margin: var(--spacing-sm, 10px) 0 0;
+    padding: 0;
+    color: var(--comments-main);
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.6;
+}
+
+/* ========================================
+ *   4. Inputs and textarea
+ *   ======================================== */
+
+.custom-comments #comment-form input:not([type="checkbox"]),
+.custom-comments #comment-form textarea {
+    display: block;
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+    margin: 0;
+    padding: 12px 14px;
+
+    appearance: none;
+    -webkit-appearance: none;
+
+    border: 1px solid var(--comments-border);
+    border-radius: var(--comments-radius);
+
+    background-color: var(--comments-input-bg);
+    color: var(--comments-main);
+    -webkit-text-fill-color: var(--comments-main);
+    caret-color: var(--comments-main);
+
+    font-family: var(--base-font-family, sans-serif);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.6;
+
+    box-shadow: none;
+    opacity: 1;
+    transition: border-color 0.15s ease;
+}
+
+.custom-comments #comment-form input:not([type="checkbox"]) {
+    height: 48px;
+}
+
+.custom-comments #comment-form textarea {
+    min-height: 180px;
+    height: auto;
+    resize: vertical;
+}
+
+/* Placeholder */
+
+.custom-comments #comment-form input::placeholder,
+.custom-comments #comment-form textarea::placeholder {
+    color: var(--card-text-color-tertiary, #767676);
+    -webkit-text-fill-color: var(--card-text-color-tertiary, #767676);
+    opacity: 1;
+}
+
+/* Focus */
+
+.custom-comments #comment-form input:focus,
+.custom-comments #comment-form textarea:focus {
+    border-color: var(--comments-accent);
+    outline: 2px solid var(--comments-accent);
+    outline-offset: 2px;
+}
+
+/* ========================================
+ *   5. Explicit dark mode input fix
+ *   ======================================== */
+
+/*
+ * Stack uses data-scheme on <html>.
+ * Explicit colors prevent inherited black input text.
+ */
+
+html[data-scheme="dark"] .custom-comments #comment-form input:not([type="checkbox"]),
+html[data-scheme="dark"] .custom-comments #comment-form textarea {
+    background-color: #424242 !important;
+    color: #f2f2f2 !important;
+    -webkit-text-fill-color: #f2f2f2 !important;
+    caret-color: #ffffff !important;
+    border-color: rgba(255, 255, 255, 0.18);
+}
+
+html[data-scheme="dark"] .custom-comments #comment-form input::placeholder,
+html[data-scheme="dark"] .custom-comments #comment-form textarea::placeholder {
+    color: #bdbdbd !important;
+    -webkit-text-fill-color: #bdbdbd !important;
+    opacity: 1;
+}
+
+/* Dark mode autofill */
+
+html[data-scheme="dark"] .custom-comments #comment-form input:-webkit-autofill,
+html[data-scheme="dark"] .custom-comments #comment-form input:-webkit-autofill:hover,
+html[data-scheme="dark"] .custom-comments #comment-form input:-webkit-autofill:focus,
+html[data-scheme="dark"] .custom-comments #comment-form input:-webkit-autofill:active {
+    -webkit-text-fill-color: #f2f2f2 !important;
+    caret-color: #ffffff !important;
+    -webkit-box-shadow: 0 0 0 1000px #424242 inset !important;
+    box-shadow: 0 0 0 1000px #424242 inset !important;
+}
+
+/* ========================================
+ *   6. Light mode input colors
+ *   ======================================== */
+
+html[data-scheme="light"] .custom-comments #comment-form input:not([type="checkbox"]),
+html[data-scheme="light"] .custom-comments #comment-form textarea {
+    background-color: #fff;
+    color: #222;
+    -webkit-text-fill-color: #222;
+    caret-color: #222;
+}
+
+html[data-scheme="light"] .custom-comments #comment-form input::placeholder,
+html[data-scheme="light"] .custom-comments #comment-form textarea::placeholder {
+    color: #767676;
+    -webkit-text-fill-color: #767676;
+}
+
+/* ========================================
+ *   7. Editor footer and character count
+ *   ======================================== */
+
+.custom-comments .editor-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: var(--spacing-sm, 10px);
+    width: 100%;
+    margin-top: var(--spacing-sm, 10px);
+}
+
+.custom-comments #count {
+    font-variant-numeric: tabular-nums;
+}
+
+/* ========================================
+ *   8. Buttons
+ *   ======================================== */
+
+.custom-comments button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing-sm, 10px);
+
+    width: fit-content;
+    max-width: 100%;
+    min-height: 48px;
+    padding: 12px 24px;
+
+    border: 1px solid var(--comments-accent);
+    border-radius: var(--comments-radius);
+
+    background: var(--comments-accent);
+    color: var(--comments-accent-text);
+
+    font-family: var(--base-font-family, sans-serif);
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: center;
+
+    cursor: pointer;
+    transition: opacity 0.15s ease;
+}
+
+.custom-comments button:hover:not(:disabled) {
+    opacity: 0.85;
+}
+
+.custom-comments button:active:not(:disabled) {
+    opacity: 0.75;
+}
+
+.custom-comments button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.custom-comments button.secondary {
+    background: var(--card-background);
+    color: var(--card-text-color-main);
+    border-color: var(--comments-border);
+}
+
+.custom-comments button.secondary:hover:not(:disabled) {
+    background: var(--card-background-selected);
+    opacity: 1;
+}
+
+.custom-comments button:focus-visible {
+    outline: 2px solid var(--comments-accent);
+    outline-offset: 3px;
+}
+
+.custom-comments #submit-button {
+    align-self: flex-start;
+    min-width: 150px;
+    min-height: 52px;
+    margin-top: var(--spacing-sm, 10px);
+    padding: 14px 28px;
+}
+
+/* ========================================
+ *   9. Checkboxes
+ *   ======================================== */
+
+.custom-comments #comment-form > label.check {
+    display: flex;
+    align-items: flex-start;
+    gap: var(--spacing-sm, 10px);
+    width: 100%;
+    margin: var(--spacing-sm, 10px) 0;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.custom-comments #comment-form label.check input[type="checkbox"] {
+    flex: 0 0 18px;
+    width: 18px;
+    height: 18px;
+    margin: 4px 0 0;
+    accent-color: var(--comments-accent);
+    cursor: pointer;
+}
+
+/* ========================================
+ *   10. Hints, Turnstile and status messages
+ *   ======================================== */
+
+.custom-comments #comment-form > .hint {
+    margin: 0 0 var(--spacing-sm, 10px);
+    color: var(--comments-muted);
+    font-size: 0.875rem;
+    line-height: 1.7;
+}
+
+.custom-comments .turnstile-wrap {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    margin: var(--spacing-sm, 10px) 0;
+    overflow-x: auto;
+}
+
+.custom-comments .cf-turnstile {
+    max-width: 100%;
+}
+
+.custom-comments .message {
+    width: 100%;
+    min-width: 0;
+    margin: var(--spacing-sm, 10px) 0;
+    padding: 12px 15px;
+    border: 1px solid var(--comments-border);
+    border-radius: var(--comments-radius);
+    background: var(--card-background);
+    color: var(--comments-text);
+    overflow-wrap: anywhere;
+}
+
+.custom-comments .message:empty {
+    display: none;
+}
+
+.custom-comments .message.error {
+    color: #d44;
+    border-color: #d44;
+}
+
+.custom-comments .message.success {
+    color: #27864a;
+    border-color: #27864a;
+}
+
+/* ========================================
+ *   11. Markdown preview and content
+ *   ======================================== */
+
+.custom-comments #preview {
+    width: 100%;
+    min-width: 0;
+    margin: var(--spacing-sm, 10px) 0;
+    padding: var(--card-padding, 20px);
+    border: 1px solid var(--comments-border);
+    border-radius: var(--comments-radius);
+    background: var(--card-background);
+    color: var(--card-text-color-main);
+    overflow-wrap: anywhere;
+}
+
+.custom-comments #preview:empty {
+    display: none;
+}
+
+.custom-comments .markdown {
+    min-width: 0;
+    max-width: 100%;
+    overflow-wrap: anywhere;
+    line-height: var(--article-line-height, 1.85);
+    color: var(--card-text-color-main);
+}
+
+.custom-comments .markdown > :first-child {
+    margin-top: 0;
+}
+
+.custom-comments .markdown > :last-child {
+    margin-bottom: 0;
+}
+
+.custom-comments .markdown img,
+.custom-comments .markdown video {
+    max-width: 100%;
+    height: auto;
+}
+
+.custom-comments .markdown pre {
+    max-width: 100%;
+    padding: var(--spacing-md, 15px);
+    overflow-x: auto;
+    border-radius: var(--tag-border-radius, 4px);
+    background: var(--pre-background-color, var(--card-background));
+    color: var(--pre-text-color, var(--card-text-color-main));
+}
+
+.custom-comments .markdown code {
+    overflow-wrap: anywhere;
+    font-family: var(--code-font-family, monospace);
+}
+
+.custom-comments .markdown :not(pre) > code {
+    padding: 0.15em 0.35em;
+    border-radius: var(--tag-border-radius, 4px);
+    background: var(--code-background-color);
+    color: var(--code-text-color);
+}
+
+.custom-comments .markdown blockquote {
+    margin-left: 0;
+    padding: 10px 15px;
+    border-left: var(--blockquote-border-size, 4px) solid var(--comments-border);
+    border-radius: 0 var(--tag-border-radius, 4px) var(--tag-border-radius, 4px) 0;
+    background: var(--blockquote-background-color);
+    color: var(--card-text-color-secondary);
+}
+
+.custom-comments .markdown table {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    border-collapse: collapse;
+}
+
+.custom-comments .markdown th,
+.custom-comments .markdown td {
+    padding: 10px 12px;
+    border: 1px solid var(--table-border-color, var(--comments-border));
+}
+
+.custom-comments .markdown tr:nth-child(even) {
+    background: var(--tr-even-background-color, transparent);
+}
+
+/* ========================================
+ *   12. Comments list and pagination
+ *   ======================================== */
+
+.custom-comments hr {
+    margin: var(--section-separation, 40px) 0;
+    border: 0;
+    border-top: 1px solid var(--comments-border);
+}
+
+.custom-comments > section[aria-labelledby="comments-heading"] {
+    width: 100%;
+    min-width: 0;
+    margin-top: var(--spacing-xl, 25px);
+}
+
+.custom-comments #comments-heading {
+    margin-top: 0;
+    margin-bottom: var(--spacing-lg, 20px);
+}
+
+.custom-comments .comments {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0;
+    width: 100%;
+    margin-top: var(--spacing-lg, 20px);
+}
+
+.custom-comments .comment {
+    min-width: 0;
+    padding: var(--spacing-xl, 25px) 0;
+    border: 0;
+    border-bottom: 1px solid var(--comments-border);
+    background: transparent;
+    color: var(--comments-text);
+}
+
+.custom-comments .comment:first-child {
+    padding-top: 0;
+}
+
+.custom-comments .comment-header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: var(--spacing-xs, 5px) var(--spacing-md, 15px);
+    margin-bottom: var(--spacing-md, 15px);
+}
+
+.custom-comments .comment-header time {
+    color: var(--card-text-color-tertiary);
+    font-size: 0.8rem;
+}
+
+.custom-comments .pagination {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: var(--spacing-sm, 10px);
+    width: 100%;
+    margin-top: var(--spacing-xl, 25px);
+}
+
+.custom-comments #page-label {
+    padding: 0 var(--spacing-xs, 5px);
+    font-variant-numeric: tabular-nums;
+}
+
+.custom-comments > footer {
+    margin-top: var(--section-separation, 40px);
+    padding-top: var(--spacing-sm, 10px);
+}
+
+.custom-comments > footer p {
+    line-height: 1.8;
+}
+
+/* ========================================
+ *   13. Mobile and accessibility
+ *   ======================================== */
+
+@media (max-width: 480px) {
+    .custom-comments .comment-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: var(--spacing-xs, 5px);
+    }
+
+    .custom-comments .editor-footer {
+        align-items: stretch;
+    }
+
+    .custom-comments .editor-footer button {
+        width: 100%;
+    }
+
+    .custom-comments #submit-button {
+        width: 100%;
+        align-self: stretch;
+    }
+
+    .custom-comments .pagination button {
+        flex: 1 1 auto;
+        padding: 12px 16px;
+    }
+
+    .custom-comments #page-label {
+        text-align: center;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .custom-comments input,
+    .custom-comments textarea,
+    .custom-comments button {
+        transition: none;
+    }
+}
+
+/* 留言區整體字體放大 */
+.custom-comments {
+    font-size: 16px;
+}
+
+/* 標題 */
+.custom-comments h1 {
+    font-size: 2rem;
+}
+
+.custom-comments h2 {
+    font-size: 1.6rem;
+}
+
+/* 輸入框 */
+.custom-comments #comment-form input:not([type="checkbox"]),
+.custom-comments #comment-form textarea {
+    font-size: 16px !important;
+    line-height: 1.7;
+}
+
+/* 按鈕 */
+.custom-comments button {
+    font-size: 16px;
+}
+
+/* 留言內容 */
+.custom-comments #comments {
+    font-size: 16px;
+    line-height: 1.8;
+}
+
+/* 提示文字、日期、分頁 */
+.custom-comments small,
+.custom-comments .pagination,
+.custom-comments .muted,
+.custom-comments .hint,
+label.label,
+.custom-comments #message {
+    font-size: 14px !important;
+}

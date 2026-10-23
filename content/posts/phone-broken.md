@@ -15,7 +15,7 @@ draft: false
 然後就在昨天晚上，我把手機往床上一丟，我弟沒看好一個肘擊——  
 悲劇，就這麼發生了。  
 
-![悲劇現場](https://i.meee.com.tw/RNabsEG.webp)
+![悲劇現場](/img/lightsaber.webp)
 
 ## 折疊手機的缺陷
 那其實這就是折疊機一個很大的問題——脆弱。  

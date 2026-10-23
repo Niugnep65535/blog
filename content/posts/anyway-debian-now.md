@@ -12,7 +12,7 @@ draft: false
 就在六月底，我寫了跟Arch有關的文章（[這裡](/posts/i-use-arch-btw.html)），並提到我暫時不會換別的發行版。然後真香定律把我押來了Debian Trixie。
 
 （什麼神經病桌布）  
-![Debian + Ubuntu](https://i.meee.com.tw/wgEvbiO.png)
+![Debian + Ubuntu](/img/debian-ubuntu.png)
 
 老實講我沒什麼好說的，除了知道自己以後不用擔心滾掛，還真沒什麼心得可言。
 

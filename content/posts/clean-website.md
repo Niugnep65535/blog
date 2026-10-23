@@ -16,7 +16,7 @@ draft: false
 uBlock Origin 是一個方便的廣告攔截器，在Firefox上有 10,688,871 位使用者（來自Firefox Add-ons網站，截至2026/7/11）。  
 而它在我的網站裡查出了幾個廣告呢？答案是：  
 **0個。**  
-![沒廣告喔！awa](https://i.meee.com.tw/GQK1GIa.png)  
+![沒廣告喔！awa](/img/no-ads.png)  
 以此可證明，我沒在網站裡塞任何廣告或者追蹤器。  
  > 其實開啟文章後由於Giscus，網站連接數量會從一個變成三個。
 

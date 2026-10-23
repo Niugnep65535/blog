@@ -12,7 +12,7 @@ draft: false
 用三星的都知道，三星造了自己的Emoji字體。  
 我最受不了三星的就是這點。  
 
-![🐕💩](https://i.meee.com.tw/wLv9iFc.jpg)
+![🐕💩](/img/bullst-emoji.jpg)
 可能是因為我個人比較不喜歡這種畫風，  
 也就是這腫硬造立體感的黃色人頭，  
 看起來很有物理感？我覺得這是無力感。  

@@ -27,7 +27,7 @@ tty好是好，但是沒有中文。
 
 ## 吊胃口 / 理論基礎
 最終效果：  
-![真漂亮](https://i.meee.com.tw/yUHhRNg.jpg)
+![真漂亮](/img/better-tty-preview.jpg)
 
 與Ivon老師的操作類似，他把Waydroid塞進一個無邊框、全螢幕的Sway環境下；我則是把Foot放進一樣無邊框、全螢幕的Sway環境下，然後設定桌布跟輸入法。
 

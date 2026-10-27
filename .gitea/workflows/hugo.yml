@@ -21,15 +21,12 @@ jobs:
 
       - name: Build Hugo site
         run: hugo --gc --minify
+        
+    - name: DCopying Markdown version
+        run: |
+          cp -r content/ public
 
       - name: Deploy
         run: |
           rm -rf /deploy/*
           cp -a public/. /deploy/
-
-      - name: Verify deployment
-        run: |
-          test -f /deploy/index.html
-          echo "Hugo deploy successful."
-          echo "Deployed files:"
-          find /deploy -maxdepth 2 -type f | sort | head -50

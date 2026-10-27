@@ -1,6 +1,7 @@
 ---
 title: "公告"
 date: 2026-10-16
+draft: true
 weight: -1
 url: /posts/announcement
 ---

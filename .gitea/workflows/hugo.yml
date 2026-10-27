@@ -22,7 +22,7 @@ jobs:
       - name: Build Hugo site
         run: hugo --gc --minify
         
-    - name: DCopying Markdown version
+    - name: Copying Markdown version
         run: |
           cp -r content/ public
 

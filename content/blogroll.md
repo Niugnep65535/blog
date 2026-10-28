@@ -22,5 +22,6 @@ comments: false
 - [It's 小白不是小白](https://itsxiaobai.codeberg.page/pages)：喜歡開源跟自由軟體，偶爾玩一下混音的高中生。
 - [心是灵的博客](https://blog.xinsl.xin/)：發表一些電腦使用技巧與個人觀點的地方。
 - [Tommy's blog](https://calke.bearblog.dev/)：一個國中生（國一）創的簡單部落格。＊
+- [拉米的日誌](https://lami.lemigame.com/zh-TW/journal)：獨立遊戲《拉米：程式與咖啡》作者雷米的開發日誌。
 
 ＊表示介紹來自該網站的官方說明。

@@ -38,7 +38,7 @@ comments: false
 
 ### 聯絡資訊
  * 網站：[https://niugnep.idv.tw](https://niugnep.idv.tw)，也就是這裡！
- * Email：[penguin@niugnep.idv.tw](mailto:penguin@niugnep.idv.tw)
+ * Email：penguin [at] niu gn ep __dot__ idv。tw
  * GnuPG公鑰：338A E72F 23DE 1D38 C89C F1DF 6087 0264 2EC6 1B5C \| [OpenPGP.org](https://keys.openpgp.org/search?q=penguin%40niugnep.idv.tw)
  * GitHub：[@StupidestJack](https://github.com/StupidestJack)
  * Codeberg：[@niugnep87](https://codeberg.org/niugnep87)

@@ -26,7 +26,8 @@
     >
       <div class="hx:flex hx:w-full hx:flex-col hx:items-center hx:sm:items-start">
         {{- if (.Site.Params.footer.displayPoweredBy | default true) }}<div class="hx:font-semibold">{{ template "theme-credit" $poweredBy }}</div>{{- end -}}
-        {{- if .Site.Params.footer.displayCopyright }}<div class="hx:mt-6 hx:text-xs">{{ $copyright | markdownify }}</div>{{- end -}}
+        <p>© 2026 Niugnep Hsueh · 透過 CC BY 4.0 授權 · 基於 <a href="https://gohugo.io/">Hugo</a> 與 <a href="https://imfing.github.io/hextra/">Hextra</a> 主題</p>
+        </div>
       </div>
     </div>
   {{- end -}}

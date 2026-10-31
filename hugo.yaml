@@ -22,40 +22,47 @@ markup:
 menu:
   main:
     - name: "所有文章"
-      pageRef: /archives
+      pageRef: /blog
       weight: 1
+
+    - name: "分類"
+      pageRef: /categories
+      weight: 2
 
     - name: "標籤"
       pageRef: /tags
-      weight: 2
+      weight: 3
 
     - name: "部落捲"
       pageRef: /blogroll
-      weight: 3
+      weight: 4
 
     - name: "關於"
       pageRef: /about
-      weight: 4
+      weight: 5
 
     - name: "愛用"
       pageRef: /use
-      weight: 5
+      weight: 6
 
     - name: "近況"
       pageRef: /now
-      weight: 6
+      weight: 7
 
     - name: GitHub
-      weight: 7
       url: "https://github.com/Niugnep65535"
       params:
         icon: github
 
     - name: Mail
-      weight: 8
       url: "mailto:penguin@niugnep.idv.tw"
       params:
         icon: mail
+
+    - name: Search
+      params:
+        type: search
+  
 
 params:
   navbar:
@@ -69,3 +76,20 @@ params:
   editURL:
     enable: false
     base: "https://github.com/imfing/hextra-starter-template/edit/main/content"
+
+  # Search
+  search:
+    enable: true
+    type: flexsearch
+    flexsearch:
+      # index page by: content | summary | heading | title
+      index: content
+      
+  favicon:
+    png: /img/favicon.png
+
+hasCJKLanguage: true
+imaging:
+  resampleFilter: lanczos
+  quality: 75
+  anchor: smart

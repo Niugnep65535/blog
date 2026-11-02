@@ -88,6 +88,16 @@ params:
       
   favicon:
     png: /img/favicon.png
+    
+  comments:
+    enable: true
+    type: giscus
+
+    giscus:
+      repo: Niugnep65535
+      repoId: R_kgDORI815g
+      category: Announcements
+      categoryId: DIC_kwDORI815s4C82_p
 
 hasCJKLanguage: true
 imaging:

@@ -98,6 +98,7 @@ params:
       repoId: R_kgDORI815g
       category: Announcements
       categoryId: DIC_kwDORI815s4C82_p
+      mapping: pathname
 
 hasCJKLanguage: true
 imaging:

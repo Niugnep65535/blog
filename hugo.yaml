@@ -66,6 +66,7 @@ menu:
   
 
 params:
+  banner: true
   navbar:
     displayTitle: true
     displayLogo: false

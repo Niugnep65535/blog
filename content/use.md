@@ -84,13 +84,10 @@ comments: false
 - [Elisa](https://apps.kde.org/elisa/)：KDE 音樂播放器。
 - [mpv](https://mpv.io/)：長得很終端機且幾乎全格式支援的媒體播放器。
 
-### 🔧 系統管理工具
-
-- [Btrfs Assistant](https://gitlab.com/btrfs-assistant/btrfs-assistant)：管理 Btrfs 檔案系統與快照。
-
 ### 🎮 遊戲
 
 - [Prism Launcher](https://prismlauncher.org/)：Minecraft 啟動器，方便管理模組與遊戲版本。
+- [Steam](https://store.steampowered.com/)：不用我多說吧？
 
 ### 🧑‍💻 網站製作
 

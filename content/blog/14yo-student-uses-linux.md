@@ -1,7 +1,7 @@
 ---
 title: 連國中生都用 Linux
 date: 2026-11-02
-darft: true
+draft: true
 ---
 之前看了 Wiwi 的[《連鋼琴師都用 Linux》](https://wiwi.blog/blog/pianist-using-linux/)和[《連 PewDiePie 都用 Linux》](https://wiwi.blog/blog/pewdiepie-linux)，想說我是不是可以來自誇一下？
 

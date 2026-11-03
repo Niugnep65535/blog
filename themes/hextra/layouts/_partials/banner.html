@@ -1,19 +1,85 @@
-{{- if site.Params.banner }}
-<div class="hextra-banner hx:max-md:sticky hx:top-0 hx:z-20 hx:px-6 hx:text-center hx:text-slate-50 hx:dark:text-white hx:bg-neutral-900 hx:dark:bg-neutral-800 hx:print:[display:none]">
-  <div class="hx:relative hx:flex hx:items-center hx:justify-center hx:font-medium hx:text-sm hx:py-2.5">
-    {{- with partial "custom/banner.html" . -}}
-      {{- . -}}
-    {{- else -}}
-      <div style="white-space: pre-wrap" class="hx:px-8">
-        {{- site.Params.banner.message | default "🎉 Welcome! This is a banner message." | .RenderString -}}
-      </div>
-    {{- end -}}
-    <button
-      class="hextra-banner-close-button hx:cursor-pointer hx:absolute hx:right-0 hx:text-white hx:font-bold hx:leading-none hx:hover:opacity-75 hx:transition hx:w-10 hx:h-10 hx:-mr-2 hx:md:mr-0 hx:flex hx:items-center hx:justify-center"
-      aria-label="{{ (T "closeBanner") | default "Close banner" }}"
-    >
-      {{- partial "utils/icon.html" (dict "name" "x" "attributes" "height=16") -}}
-    </button>
-  </div>
+ <style>
+.banner {
+    width: 100%;
+    background: linear-gradient(
+        120deg,
+        #540000,
+        #120000
+    );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    box-sizing: border-box;
+    font-family:
+        system-ui,
+        /* -apple-system,
+        BlinkMacSystemFont, 日常排擠果粉 */
+        /* "Segoe UI", 這次 Windows 也不放過 */
+        "Noto Sans TC", 
+        /* "Microsoft JhengHei", */
+        sans-serif;
+}
+.banner h1 {
+    font-size: 42px;
+    margin: 10px;
+}
+
+.banner p {
+    font-size: 18px;
+    margin: 0px;
+    margin-bottom: 10px;
+}
+.banner span, .banner a {
+    font-size: 18px;
+    margin: 0px;
+    margin-bottom: 0px;
+}
+.banner a {
+    color: #ffffff
+}
+#countdown {
+    font-weight: bold;
+}
+</style>
+
+<div class="banner">
+    <h1>Keep Android Open</h1>
+    <p>Google 將在 2027 推翻使用者安裝軟體的方式，極需眾人合力平反。
+    詳情見 <a href="https://keepandroidopen.org/zh-TW/">https://keepandroidopen.org/zh-TW/</a></p>
+    <p id="countdown"></p>
 </div>
-{{- end -}}
+
+<script>
+const countdown = document.getElementById("countdown");
+
+// 台灣時間 UTC+8
+const target = new Date("2027-01-01T00:00:00+08:00");
+
+function updateCountdown() {
+    const now = new Date();
+    const diff = target - now;
+
+    if (diff <= 0) {
+        countdown.textContent = "2027 到了，但還是請繼續跟 Google 抗爭！";
+        clearInterval(timer);
+        return;
+    }
+
+    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+    const hours = Math.floor(diff / (1000 * 60 * 60) % 24);
+    const minutes = Math.floor(diff / (1000 * 60) % 60);
+    const seconds = Math.floor(diff / 1000 % 60);
+
+    countdown.textContent =
+        `倒數 ${days} 天 ${hours} 小時 ${minutes} 分 ${seconds} 秒`;
+}
+
+const timer = setInterval(updateCountdown, 1000);
+updateCountdown();
+</script>

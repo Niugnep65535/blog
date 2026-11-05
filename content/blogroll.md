@@ -4,24 +4,31 @@ date: 2026-10-15
 draft: false
 comments: false
 ---
-這裡是我的部落捲，收錄了一些我喜歡、覺得有趣，或值得認識的部落格。
 
-部落捲（blogroll）是一種部落格文化中的傳統，列出站長推薦的其他網站，讓讀者能透過彼此的連結探索更多有趣的角落。比起演算法推薦，這裡更像是網路上的口耳相傳。
+> Blogroll 是 blog（部落格）加上 roll（名冊）的意思，是早期部落格文化的重要元素；就像朋友會互相推薦私房好店一樣，部落格版主們也會推薦自己喜歡的部落格，幫助整個生態圈的大家一起成長！
+>  
+> － [Wiwi.Blog](https://wiwi.blog)
 
-排名不代表推薦程度，個人評語也純屬個人觀感。
+這裡面也會放一些我覺得有意思的部落格，雖然也會放其它推薦的內容；註解基本由本人撰寫，主觀成分強，看看即可。
 
-- [夜星見 — The Never Ending Dreaming](https://yoruhosimi.pixnet.net/blog/)：夜星見的創作用部落格＊
-- [Ivon 的部落格](https://ivonblog.com/)：分享 GNU/Linux 情報、自由開源軟體、電腦手機資訊、人文思辨的所在＊
-- [豆子 Bean](https://mamegoodbean.pixnet.net/blog/)：豆子在痞客邦的小天地＊
-- [编程随想的博客](https://program-think.blogspot.com/?m=1)：中國大陸 IT 行業從業者、部落客作家、異見人士。
-- [Wiwi 官大為的部落格](https://wiwi.blog/)：Wiwi 官大為發廢文和分享經驗的地方。
-- [Richard Stallman's Personal Site](https://www.stallman.org/)：Richard Stallman 的個人網站。
-- [A吉胖的部落格](https://fatapple0406.github.io/)：放置各種隨興創作、日常紀錄和人生啟發的地方＊
-- [Leaftechblog](https://www.leaftechblog.cloudns.biz/)：Leaf 的科技部落格。
-- [SamHacker Blog](https://blog.samhacker.xyz/)：一個熱愛 Coding 的高中生的科技部落格。
-- [It's 小白不是小白](https://itsxiaobai.codeberg.page/pages)：喜歡開源跟自由軟體，偶爾玩一下混音的高中生。
-- [心是灵的博客](https://blog.xinsl.xin/)：發表一些電腦使用技巧與個人觀點的地方。
-- [Tommy's blog](https://calke.bearblog.dev/)：一個國中生（國一）創的簡單部落格。＊
-- [拉米的日誌](https://lami.lemigame.com/zh-TW/journal)：獨立遊戲《拉米：程式與咖啡》作者雷米的開發日誌。
+## 個人部落格
+- [夜星見 — The Never Ending Dreaming](https://yoruhosimi.pixnet.net/blog/)：我媽吃灰的部落格 <!-- 等她的新部落格弄好就會刪掉這行 -->
+- [Ivon 的部落格](https://ivonblog.com/)：常常分享心得與教學的部落格（NSFW 內容注意）
+- [豆子 Bean](https://mamegoodbean.pixnet.net/blog/)：本人以前的部落格，僅供挖墳
+- [编程随想的博客](https://program-think.blogspot.com/?m=1)：[淤泥滿身的英雄](https://youtu.be/Hlp8XD0R5qo?si=sCEx2I5YsYwZPGpr&t=86) <!-- 《孤勇者》「誰說淤泥滿身的不算英雄？」 -->
+- [Wiwi 官大為的部落格](https://wiwi.blog/)：自由軟體愛好者、[「鋼琴師」](https://wiwi.blog/blog/pianist-using-linux#%E9%8B%BC%E7%90%B4%E5%B8%AB)
+- [Richard Stallman's Personal Site](https://www.stallman.org/)：Richard Stallman 的個人網站（`en_US`）
+- [A吉胖的部落格](https://fatapple0406.github.io/)：為什麼到哪都能看到腐啊
+- [Leaftechblog](https://blog.新葉喵.com/)：會打 CTF 的老哥（新葉喵.com🤣） 
+- [SamHacker Blog](https://blog.samhacker.xyz/)：一個熱愛 Coding 的高中生的科技部落格
+- [It's 小白不是小白](https://itsxiaobai.codeberg.page/pages)：「小白是那隻狗，不是我」
+- [心是灵的博客](https://blog.xinsl.xin/)：很有意思的對岸老哥
+- [Tommy's blog](https://calke.bearblog.dev/)：國一部落客，SSR 啊
+- [拉米的日誌](https://lami.lemigame.com/zh-TW/journal)：給我把[《拉米：程式與咖啡》](https://store.steampowered.com/app/3196150/%E6%8B%89%E7%B1%B3%E7%A8%8B%E5%BC%8F%E8%88%87%E5%92%96%E5%95%A1/?l=tchinese)的願望清單按爆（？
 
-＊表示介紹來自該網站的官方說明。
+## 並非部落格
+這裡放的就不是部落格了，甚至不是獨立網站。我會標記平台
+* [GitHub / @hosimi0420-nya](https://github.com/hosimi0420-nya)：親媽肯定得放第一個對吧
+* [YouTube / 綾小路 Louis](https://www.youtube.com/@louis._.0308)：很厲害的音樂人，他[值得一個獨立網站](https://wiwi.blog/blog/ig-login-wall)
+* [貓咪學園](https://nekogakuen.blogspot.com/)：形式上來講是部落格，但是被當成官網用所以放這。算是一個過氣的遊戲團隊吧
+* [FilterGame](https://www.indiegametw.com/)：放獨立遊戲的平台，我都沒錢買pwp

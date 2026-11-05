@@ -1,6 +1,6 @@
 ---
 title: Niugnep 的近況
-date: 2026-10-19
+date: 2026-11-05
 draft: false
 comments: false
 ---
@@ -8,7 +8,7 @@ comments: false
 ## 生活方面
  * 住在新北市板橋區：學校、生活跟熟悉的食物都在這，暫時搬不走了
  * 一段結束：不出意料的爛，卻也出乎意料的好
- * 畢業旅行：太好了再水三篇文章
+ * 畢業旅行：因為颱風泡湯了pwp
  
 ## 最近放上網路的
  * [靠腰 feat. BlogBlogParty 10](https://niugnep.idv.tw/posts/languages-bbp10.html)：再度參加 BlogBlog 同樂會
@@ -18,8 +18,7 @@ comments: false
  * 堅果棒：保存期限意外的長
  
 ## 最近忙的
- * 技藝班：走個過場，坐等Arduino課程，然後幫技優甄審加個分
- * 自架服務：Nextcloud真的很棒
+ * 技藝班：下禮拜就是 Arduino 了，耶
 
 ## 最近看、聽、讀的
  * [貓咪學園](https://www.youtube.com/@NekoGakuen)：適合讀書時候聽

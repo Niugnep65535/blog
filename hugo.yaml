@@ -3,7 +3,6 @@ baseurl: "/"
 locale: "zh-Hant"
 title: "Niugnep 的部落格"
 theme: "hextra"
-copyright: "© 2026 Niugnep Hsueh · 透過 CC BY 4.0 授權"
 
 # import hextra as module
 #module:

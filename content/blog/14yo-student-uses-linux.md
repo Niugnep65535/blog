@@ -44,4 +44,4 @@ sudo pacman -S code vlc prismlauncher discord btop kitty # 自由加上你想裝
 
 都看到這裡了，還不試試看嗎？
 
-*給已經知道 Linux 的讀者：我人在外面，回家就補上 fastfetch*
+![](/img/fastfetch_261105.png)

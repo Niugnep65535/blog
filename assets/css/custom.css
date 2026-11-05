@@ -1,0 +1,5 @@
+.banner {
+    z-index: 99999;
+    position: sticky;
+    top: 0; /* 當捲動到離視窗頂部 0px 時開始固定 */
+}

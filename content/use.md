@@ -41,8 +41,7 @@ comments: false
 
 ### 🐧 作業系統
 
-- [Arch Linux](https://archlinux.org/)：關於我家網路不連台灣 mirror 會掉封包這件事...（`reflector` 神了）
-- [Debian GNU/Linux](https://www.debian.org/)：外出機還是穩一點好，畢竟不能拿出來天天滾
+- [Debian GNU/Linux](https://www.debian.org/)：當你知道常常忘記更新 Arch 是什麼感覺你就不敢用了
 - [Rocky Linux](https://rockylinux.org/)：用企業級標準開伺服器折磨自己
 
 ### 🪟 桌面環境／視窗管理員

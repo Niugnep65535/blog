@@ -22,7 +22,40 @@ printf("程式碼");
 ```
 ~~_**`甚至是全部加在一起`**_~~
 
-<div style="width: 100%; overflow: hidden; background: #333; color: #fff; padding: 10px 0; white-space: nowrap;"><div style="display: inline-block; padding-left: 100%; animation: marquee 15s linear infinite;" onmouseover="this.style.animationPlayState='paused'" onmouseout="this.style.animationPlayState='running'">或者乾脆搞個跑馬燈</div></div><style>@keyframes marquee { 0% { transform: translateX(0); } 100% { transform: translateX(-100%); } }</style>
+<style>
+.marquee-container {
+  width: 100%;
+  overflow: hidden;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+
+.marquee-text {
+  display: inline-block;
+  padding-left: 100%;
+  animation: marquee 15s linear infinite;
+}
+
+.marquee-container:hover .marquee-text {
+  animation-play-state: paused;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+</style>
+
+<div class="marquee-container">
+<div class="marquee-text">乃至乾脆放個跑馬燈</div>
+</div>
 
 都是你的自由！這都是 Facebook 等平台做不到的。
 

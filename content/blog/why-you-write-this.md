@@ -29,7 +29,7 @@ printf("程式碼");
 
 其實我有用 Cloudflare 的儀表板查看我部落格的瀏覽者，發現 `/index.xml` 的存取次數遠超其他頁面！這意味著我不只有讀者，還有忠實讀者用 RSS 不斷的爬取我的文章！這其實是可以給人非常大成就感的。
 
-![/img/analytics-261105.png](https://niugnep.idv.tw/img/analytics-261105.png)
+![/img/analytics-20261105.png](https://niugnep.idv.tw/img/analytics-20261105.png)
 
 ## 你這樣都沒朋友
 是。由於我的興趣原因，真實世界中跟我聊得來的朋友還真不多。

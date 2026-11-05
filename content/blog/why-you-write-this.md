@@ -22,41 +22,6 @@ printf("程式碼");
 ```
 ~~_**`甚至是全部加在一起`**_~~
 
-<style>
-.marquee-container {
-  width: 100%;
-  overflow: hidden;
-  background-color: #333;
-  color: #fff;
-  padding: 10px 0;
-  white-space: nowrap;
-  box-sizing: border-box;
-}
-
-.marquee-text {
-  display: inline-block;
-  padding-left: 100%;
-  animation: marquee 15s linear infinite;
-}
-
-.marquee-container:hover .marquee-text {
-  animation-play-state: paused;
-}
-
-@keyframes marquee {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
-</style>
-
-<div class="marquee-container">
-<div class="marquee-text">乃至乾脆放個跑馬燈</div>
-</div>
-
 都是你的自由！這都是 Facebook 等平台做不到的。
 
 ## 但是沒人看啊
@@ -64,7 +29,7 @@ printf("程式碼");
 
 其實我有用 Cloudflare 的儀表板查看我部落格的瀏覽者，發現 `/index.xml` 的存取次數遠超其他頁面！這意味著我不只有讀者，還有忠實讀者用 RSS 不斷的爬取我的文章！這其實是可以給人非常大成就感的。
 
-![/img/analytics-261105.png](/img/analytics-261105.png)
+![/img/analytics-261105.png](https://niugnep.idv.tw/img/analytics-261105.png)
 
 ## 你這樣都沒朋友
 是。由於我的興趣原因，真實世界中跟我聊得來的朋友還真不多。

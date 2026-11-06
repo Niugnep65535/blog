@@ -51,7 +51,7 @@ menu:
       
     - name: "紀錄點"
       pageRef: /checkpoint
-      weight: 7
+      weight: 8
       
     - name: "原始碼"
       pageRef: https://git.niugnep.idv.tw/niugnep/blog

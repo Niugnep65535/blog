@@ -9,7 +9,7 @@ categories:
  - 網際網路與 Web
 draft: false
 ---
-> ℹ️ 提示
+> [!NOTE]
 > 本文的內容可能已經過時。
 
 講真話我不知道為啥，我偏偏要寫一個自己的SSG。

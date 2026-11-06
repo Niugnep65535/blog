@@ -10,7 +10,7 @@ categories:
 draft: false
 ---
 
- > 注意！  
+ > [!CAUTION] 
  > 本篇文章有過激與政治內容，  
  > 請斟酌觀看。  
 

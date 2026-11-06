@@ -2,6 +2,7 @@
 title: 寫這個幹嘛 feat. BlogBlogParty 11
 date: 2026-11-05
 ---
+ > [!TIP]
  > 此為鄙人的 Blog Blog Party 第十一期投稿文章－－由 JN 負責的主題「[部落格文章（與~~它~~他們的產地）](https://blog.giveanornot.com/blogblogparty-blog-posts)」。如果你有部落格，也邀請你來投稿。
 
 蛤，你問我寫部落格幹嘛？

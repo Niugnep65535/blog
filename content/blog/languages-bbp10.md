@@ -8,6 +8,7 @@ tags:
 categories:
  - 不日常的日常
 ---
+ > [!TIP]
  > 此為鄙人的 Blog Blog Party 第十期投稿文章－－由 AngeCI 負責的主題「[語言的習得、傳承語推廣](https://angeci.github.io/blog/zh/blogblog-party-languages/)」。如果你有部落格，也邀請你來投稿。
 
 「幹」「靠」「夭壽」

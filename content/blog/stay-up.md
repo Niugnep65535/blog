@@ -7,6 +7,7 @@ tags:
 categories:
  - 日常與壓力垃圾桶
 ---
+ > [!TIP]
  > 此為鄙人的 Blog Blog Party 第九期投稿文章－－由 Jason Lai 負責的主題「[晚上不睡覺](https://jasonjlai.net/zh/3pwriting/stay-up.html)」。如果你有部落格，也邀請你來投稿。
 
 自從九年級之後，我幾乎每天都會來晚自習室報到。

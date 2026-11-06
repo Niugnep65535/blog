@@ -25,9 +25,9 @@ menu:
       pageRef: /blog
       weight: 1
 
-    - name: "分類"
-      pageRef: /categories
-      weight: 2
+  #  - name: "分類"
+  #    pageRef: /categories
+  #    weight: 2
 
     - name: "標籤"
       pageRef: /tags

@@ -48,6 +48,14 @@ menu:
     - name: "近況"
       pageRef: /now
       weight: 7
+      
+    - name: "紀錄點"
+      pageRef: /checkpoint
+      weight: 7
+      
+    - name: "原始碼"
+      pageRef: https://git.niugnep.idv.tw/niugnep/blog
+      weight: 9
 
     - name: GitHub
       url: "https://github.com/Niugnep65535"

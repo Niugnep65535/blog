@@ -24,7 +24,7 @@ jobs:
         
       - name: Copying Markdown version
         run: |
-          cp -r content/ public
+          cp -r content/* public
 
       - name: Deploy
         run: |

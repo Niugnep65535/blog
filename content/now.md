@@ -1,6 +1,6 @@
 ---
 title: Niugnep 的近況
-date: 2026-11-05
+date: 2026-11-10
 draft: false
 comments: false
 ---
@@ -22,4 +22,5 @@ comments: false
 
 ## 最近看、聽、讀的
  * [貓咪學園](https://www.youtube.com/@NekoGakuen)：適合讀書時候聽
- * Mixes：非常不錯
+ * Mixes：很好聽
+ * 《你的名字。》：書展買到的awa

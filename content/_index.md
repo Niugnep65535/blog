@@ -7,7 +7,7 @@ title: "Niugnep 的部落格"
 [RSS](index.xml) | [Email](mailto:penguin@niugnep.idv.tw)
 
  > [!IMPORTANT]
- > * 本站點將於 11/10 晚間進行例行維護作業。
+ > * 本站點將於今日台北時間 22 時左右進行例行維護作業。
  
 以下是本站點一些頁面：
  * [文章](/blog)：我的部落格文章都在這裡，也是主要更新的地方

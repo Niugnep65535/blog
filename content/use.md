@@ -122,13 +122,12 @@ comments: false
 
 - [Nextcloud](https://nextcloud.com/)：全家桶式的雲端硬碟，非常好用
 - [Gitea](https://about.gitea.com/)：自架 Git 程式碼庫，部落格原始碼就在這上面
-- [Nginx](https://nginx.org/)：部落格非得放 port 1337 嗎？（tunnel 連結你看不到內部 port 的）
 
 ### 🆓 其他免費服務
 
 - [GitHub](https://github.com/)：好用的程式碼平台
 - [Codeberg](https://codeberg.org/)：不夠穩定
-- [Cloudflare](https://www.cloudflare.com/)：Internet 大善人，功德過滿，這網站的網域就是用它託管的
+- [Cloudflare](https://www.cloudflare.com/)：Internet 大善人，功德過滿，這網站就是用它託管的
 - [~~Facebook~~](https://www.facebook.com/)：沒有留下的理由（已刪除）
 - [~~Instagram~~](https://www.instagram.com/)、[~~Threads~~](https://www.threads.com/)：偽人社群毋庸置疑（已移除）
 - [YouTube](https://www.youtube.com/)：比較少發片
@@ -162,7 +161,7 @@ comments: false
 
 - [LINE](https://www.line.me/tw/)：我只是在一堆史裡面，被迫挑了身邊人難分難捨的史
 - [Discord](https://discord.com/)：依然很有商業味道，但好用多了
-- [Signal](https://signal.org/)：我媽嫌麻煩，但是我在催她嘗試
+- [Signal](https://signal.org/)：我媽終於肯嘗試了
 
 ### 🌐 網路與網際網路相關
 
@@ -188,4 +187,4 @@ comments: false
 - [Fossify 音樂播放器](https://github.com/FossifyOrg/Music-Player)：好看好用的音樂播放器
 - [Fossify 繪圖](https://github.com/FossifyOrg/Paint)：這不是應該在平板用嗎？
 - [Fossify 行事曆](https://github.com/FossifyOrg/Calendar)：支援 CalDAV 的行事曆工具
-- [ReFra](https://github.com/IacobIonut01/ReFra)：有 Google 相簿那味的相簿軟體
+- [ReFra](https://github.com/IacobIonut01/ReFra)：有 Google 相簿那味的相簿軟體。正式版有編輯 bug，[6.0 alpha 2](https://github.com/IacobIonut01/ReFra/releases/tag/6.0.0-60002-nightly) 的離線版實測好用

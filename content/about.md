@@ -1,6 +1,6 @@
 ---
 title: 關於我
-date: 2026-10-16
+date: 2026-11-12
 draft: false
 comments: false
 ---
@@ -14,9 +14,7 @@ comments: false
  * 軟體開發：分享一些本人開發的小工具。
  * 日常隨筆：日常生活遇到的瑣事。（簡稱[幹話](https://niugnep.idv.tw/tags/%E5%B9%B9%E8%A9%B1)）
  
-本站透過Hugo架設，使用Stack主題。
-
-本站點預計於10/18進行第二階段重構，但是有可能拖到本月底。
+本站透過Hugo架設，使用Hextra主題。
 
 所有文章基於CC BY-SA 4.0發布，在標注作者的前提下，允許改作、引用或商業使用。但我並不喜歡全文搬運。
 

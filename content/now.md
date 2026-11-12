@@ -1,6 +1,6 @@
 ---
 title: Niugnep 的近況
-date: 2026-11-10
+date: 2026-11-12
 draft: false
 comments: false
 ---
@@ -11,14 +11,14 @@ comments: false
  * 畢業旅行：因為颱風泡湯了pwp
  
 ## 最近放上網路的
- * [靠腰 feat. BlogBlogParty 10](https://niugnep.idv.tw/posts/languages-bbp10.html)：再度參加 BlogBlog 同樂會
+ * [寫這個幹嘛](/blog/why-you-write-this)：再度參加 BlogBlog 同樂會
  
 ## 食物跟飲料
  * 檸檬柚子茶：這種能當果醬的沖泡飲料我一直很喜歡
  * 堅果棒：保存期限意外的長
  
 ## 最近忙的
- * 技藝班：下禮拜就是 Arduino 了，耶
+ * 技藝班：Arduino 基於 C++？主場優勢！
 
 ## 最近看、聽、讀的
  * [貓咪學園](https://www.youtube.com/@NekoGakuen)：適合讀書時候聽

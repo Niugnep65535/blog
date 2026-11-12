@@ -5,9 +5,6 @@ title: "Niugnep 的部落格"
 這裡是 Niugnep，一個國三的傢伙。  
 感謝你來看我的部落格！
 [RSS](index.xml) | [Email](mailto:penguin@niugnep.idv.tw)
-
- > [!IMPORTANT]
- > * 本站點將於台灣時間 12/8 晚間進行例行維護作業。
  
 以下是本站點一些頁面：
  * [文章](/blog)：我的部落格文章都在這裡，也是主要更新的地方

@@ -54,7 +54,7 @@ menu:
       weight: 8
       
     - name: "原始碼"
-      pageRef: https://git.niugnep.idv.tw/niugnep/blog
+      pageRef: https://niugnep.idv.tw/redir-gitea
       weight: 9
 
     - name: GitHub

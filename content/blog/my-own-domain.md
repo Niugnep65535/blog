@@ -8,7 +8,7 @@ categories:
  - 網際網路與 Web
 draft: false
 ---
-反正我就是分心，[不想唸書](https://niugnep.idv.tw/posts/i-hate-capfjhss.html)，無聊滑Wiwi的文章就滑到[這個](https://wiwi.blog/blog/get-your-own-domain/)。
+反正我就是分心，[不想唸書](/blog/i-hate-capfjhss)，無聊滑Wiwi的文章就滑到[這個](https://wiwi.blog/blog/get-your-own-domain/)。
 
 裡面有這麼一段話：  
 > 想註冊網域可以到 Porkbun 或 Cloudflare Registrar 這類的服務。價格通常一年幾百到一千多台幣不等（非熱門關鍵字的話），比你每個月訂閱的串流服務還便宜。

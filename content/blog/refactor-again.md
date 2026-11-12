@@ -8,7 +8,7 @@ categories:
  - 網際網路與 Web
 draft: false
 ---
-[上次](https://niugnep.idv.tw/posts/codeberg-is-better-than-github)剛推薦Codeberg，就被背刺了。
+[上次](/blog/codeberg-is-better-than-github)剛推薦Codeberg，就被背刺了。
 
 不知為何，我競賽那陣子Codeberg被炸的亂七八糟，我的部落格也非常不穩定，所以我又把架構換了。
 

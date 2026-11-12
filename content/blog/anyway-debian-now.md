@@ -9,7 +9,7 @@ draft: false
 ---
 你們知道什麼是啪啪打臉嗎？
 
-就在六月底，我寫了跟Arch有關的文章（[這裡](/posts/i-use-arch-btw.html)），並提到我暫時不會換別的發行版。然後真香定律把我押來了Debian Trixie。
+就在六月底，我寫了跟Arch有關的文章（[這裡](/blog/i-use-arch-btw)），並提到我暫時不會換別的發行版。然後真香定律把我押來了Debian Trixie。
 
 （什麼神經病桌布）  
 ![Debian + Ubuntu](/img/debian-ubuntu.png)

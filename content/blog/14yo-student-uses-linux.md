@@ -8,12 +8,9 @@ draft: false
 ## 我的電腦使用環境
 敝人用的是 [Arch Linux](https://archlinux.org)。這是個偏 geek 的發行版，對新手而言難度稍大。我是因為習慣了 `pacman` 生態，加上我家ㄉㄅ網路連不上國外鏡像，才選擇這發行版。
 
-平時配合 KDE Plasma 桌面環境，用起來還算順利－－滾掛也是真的容易。
+平時配合 KDE Plasma 桌面環境，用起來還算順利－－
 
-其實我應該到哪個生態都能習慣，之後[再](/blog/anyway-debian-now/)試試看 Debian 好了。
-
- > [!IMPORTANT]
- > 2026/11/10 更新：我已經跳到 Debian 了，平安無事。
+對，其實我考慮過 Debian，又回來了awa
 
 ## 使用體驗
 反正是比 Windows 來得好。

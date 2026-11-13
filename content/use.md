@@ -41,7 +41,8 @@ comments: false
 
 ### 🐧 作業系統
 
-- [Debian GNU/Linux](https://www.debian.org/)：當你知道常常忘記更新 Arch 是什麼感覺你就不敢用了
+- [Arch Linux](https://archlinux.org)：習慣難擋，話說[我也要變嗎](https://blog.giveanornot.com/help/#%e4%b8%89%e5%a5%b3%e8%a3%9d%e5%af%a6%e8%b8%90%e8%80%85femboy)
+- [Debian GNU/Linux](https://www.debian.org/)：我外出機都多久沒用了
 - [Rocky Linux](https://rockylinux.org/)：用企業級標準開伺服器折磨自己
 
 ### 🪟 桌面環境／視窗管理員

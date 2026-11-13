@@ -4,7 +4,7 @@ date: 2026-11-13
 ---
 給大家看看我的收件匣長甚麼樣
 
-![](fuck-careless.png)
+![](/img/fuck-careless.png)
 
 它們通常是由 `careless`開頭的信箱發布，但是我從來**沒有**訂閱過電子報。
 

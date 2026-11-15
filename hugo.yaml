@@ -73,6 +73,9 @@ menu:
   
 
 params:
+  theme:
+    default: dark
+    displayToggle: false
   navbar:
     displayTitle: true
     displayLogo: false

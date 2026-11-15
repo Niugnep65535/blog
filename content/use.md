@@ -21,7 +21,7 @@ comments: false
 
 ### 📱 手機（AArch64）
 
-- **Pixel 7 Pro**：目前主力機，在我[上一台手機壞掉之後](posts/phone-broken.html)，我爸給我的
+- **Pixel 7 Pro**：目前主力機，在我[上一台手機壞掉之後](/blog/phone-broken.html)，我爸給我的
 - **Galaxy A33 5G**：發現換手機對考試沒幫助後，吃灰中
 - **iPhone 11**：灰塵山
 

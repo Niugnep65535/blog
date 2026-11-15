@@ -1,5 +1,48 @@
-.banner {
-    z-index: 99999;
-    position: sticky;
-    top: 0; /* 當捲動到離視窗頂部 0px 時開始固定 */
+body, * {
+     font-family: "Huninn";
+     color: #cdd6f4;
+     background-color: #1e1e2e;
 }
+
+nav.hextra-max-navbar-width,
+.hextra-max-navbar-width * {
+    background: transparent;
+}
+
+.hextra-nav-container,
+footer,
+footer * {
+    background-color: #181825 !important;
+}
+
+footer * {
+    font-size: 0.97em;
+}
+
+.hextra-search-trigger,
+.hextra-search-trigger * {
+    background-color: #1e1e2e;
+}
+
+code, pre, kbd, samp,
+code *, pre *, kbd *, samp * {
+    font-family: "Roboto Mono", "Huninn" !important;
+    background-color: #45475a !important;
+}
+
+a:visited {
+    color: #cba6f7;
+}
+
+a {
+    color: #cba6f7;
+}
+
+.hextra-toc * {
+    box-shadow: none;
+}
+
+.hx:border-t {
+    opacity: 0;
+}
+

@@ -46,6 +46,7 @@ a {
     opacity: 0;
 }
 
-.hextra-alert-title, .hextra-alert-content {
+.hextra-alert-title, .hextra-alert-content,
+.hextra-alert-title *, .hextra-alert-content *{
     background: transparent;
 }

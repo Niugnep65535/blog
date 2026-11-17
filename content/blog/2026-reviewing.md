@@ -1,6 +1,7 @@
 ---
 title: Free as in Freedom —— Niugnep 的 2026 回顧
 date: 2026-12-25
+draft: true
 ---
 > [!IMPORTANT]
 > 給我自己以及各位冒險者：本文還未完工，預計聖誕節發布。屆時會刪掉這段。

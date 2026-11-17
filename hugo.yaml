@@ -104,7 +104,7 @@ params:
     type: giscus
 
     giscus:
-      repo: Niugnep65535/blog
+      repo: Niugnep65535/blog-comments
       repoId: R_kgDORI815g
       category: Announcements
       categoryId: DIC_kwDORI815s4C82_p

@@ -57,9 +57,11 @@ date: 2026-12-25
 ## 自架
 我從今年九月受到 [Wiwi](https://wiwi.blog) 的影響開始製作自架服務。
 
-目前有在用的有 Nextcloud、Gitea、Nginx...然後就沒有然後了。
+目前有在用的有 Nextcloud...然後就沒有然後了。
 
-我之後可能會再開新的吧，比如擁有了自己的公網 IP，或是租了伺服器當 gateway。
+因為開發與維護成本（時間成本），我已經[不想使用其它自架服務了](https://niugnep.idv.tw/blog/gave-up-gitea/)。自架對我一個學生來講，維護壓力實在太大了。
+
+等以後有時間、精力跟錢再說吧！
 
 ## Keep Android Open
 沒記錯的話應該是因為這個開始追趕自由軟體，不知道能不能在 2027 之前阻止 Google。

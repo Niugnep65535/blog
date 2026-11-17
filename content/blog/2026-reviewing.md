@@ -25,9 +25,9 @@ draft: true
 <!-- TODO: 放圖片 -->
 
 ## 自由軟體
-受到 [Ivon](https://ivonblog.com) 的啟發，以及 [Keep Android Open](https://keepandroidopen.org)的影響，我也開始接觸自由軟體。不知何時開始受到了 RMS 等人的影響，覺得萬般皆下品，唯有自由高。
+受到 [Ivon](https://ivonblog.com) 的啟發，以及 [Keep Android Open](https://keepandroidopen.org)（這個後面細講）的影響，我也開始接觸自由軟體。不知何時開始受到了 RMS 等人的影響，覺得萬般皆下品，唯有自由高。
 
-最狂熱的時期，我甚至打算使用 [Palabola GNU/Linux-libre](https://www.parabola.nu/) 做為長期主力發行版。當然這件事最後沒發生。
+最狂熱的時期，我甚至打算使用 [Parabola GNU/Linux-libre](https://www.parabola.nu/) 做為長期主力發行版。當然這件事最後沒發生。
 
 其實這樣子很容易抑鬱，因為你總是認為自己 / 別人 / 某人不夠自由。我真心佩服 RMS 的毅力以及信仰。
 
@@ -68,6 +68,8 @@ draft: true
 沒記錯的話應該是因為這個開始追趕自由軟體，不知道能不能在 2027 之前阻止 Google。
 
 當初看到的時候超級憤慨，以至於被我媽唸說吃飯搞得大家很燥。不對啊，要是沒有人燥，Google 不就得逞了？
+
+還是希望大家躁起來。我也開始在[到處](https://github.com/Niugnep65535/Niugnep65535)宣傳了
 
 ## 願景
 2027 的願景......我也是真的不知道。

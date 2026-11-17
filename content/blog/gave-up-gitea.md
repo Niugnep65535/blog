@@ -22,10 +22,10 @@ Gitea Runner 斷掉、網頁出問題（1013）、更新壓力...全都會出現
 出問題的狀況就...基本沒有。除了要檢查 DNS 加上超白Ｏ的證書快取導致誤判（這玩意快取幹嘛）
 
 ## Ivon 是對的
-[Ivon](https://ivonblog.com) [使用了三年 Linux 後](https://ivonblog.com/posts/linux-learning-history-3th-year/)得出了感想：
+[Ivon](https://ivonblog.com) 在他[使用了三年 Linux 後](https://ivonblog.com/posts/linux-learning-history-3th-year/)得出了感想：
 > *看的清楚 反而朦朧*   
 > *自由　太多自由　反而想作籠裡的野獸*
-
+>
 > -- 五月天《反而》
 
 他在體驗過一輪各式發行版後，回歸了最穩定的 Ubuntu。學著跟隨商業公司的行為，哪怕 Canonical 有爭議也一樣。

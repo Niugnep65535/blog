@@ -51,3 +51,7 @@ a {
 .hextra-alert-title *, .hextra-alert-content *{
     background: transparent;
 }
+
+.hx:border-t .hx:pt-8 {
+    border-top: 5px solid #6c7086 !important;
+}

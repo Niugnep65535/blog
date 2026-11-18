@@ -1,6 +1,7 @@
 # Hugo configuration file
 baseurl: "/"
 locale: "zh-Hant"
+defaultContentLanguage: "zh-tw"
 title: "Niugnep 的部落格"
 theme: "hextra"
 

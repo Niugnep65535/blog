@@ -20,7 +20,8 @@ footer * {
 }
 
 .hextra-search-trigger,
-.hextra-search-trigger * {
+.hextra-search-trigger * ,
+aside.hextra-sidebar-container {
     background-color: #1e1e2e;
 }
 

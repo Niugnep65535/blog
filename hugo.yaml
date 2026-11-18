@@ -29,9 +29,9 @@ menu:
   #    pageRef: /categories
   #    weight: 2
 
-    - name: "標籤"
-      pageRef: /tags
-      weight: 3
+  #  - name: "標籤"
+  #    pageRef: /tags
+  #    weight: 3
 
     - name: "部落捲"
       pageRef: /blogroll
@@ -85,8 +85,8 @@ params:
     displayPoweredBy: false
 
   editURL:
-    enable: false
-    base: "https://github.com/imfing/hextra-starter-template/edit/main/content"
+    enable: true
+    base: "https://github.com/Niugnep65535/blog/blob/main/content"
 
   # Search
   search:

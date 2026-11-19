@@ -8,7 +8,7 @@
     --ctp-surface1: #bcc0cc;
     --ctp-text: #4c4f69;
     --ctp-overlay0: #9ca0b0;
-    --ctp-mauve: #8839ef;
+    --ctp-mauve: #8caaee;
 
     /* 覆寫 Hextra 原生主題色變數 */
     --hx-color-primary-400: var(--ctp-mauve);
@@ -26,7 +26,6 @@ html.dark {
     --ctp-surface1: #45475a;
     --ctp-text: #cdd6f4;
     --ctp-overlay0: #6c7086;
-    --ctp-mauve: #cba6f7;
 
     /* 覆寫 Hextra 原生深色底色與主題色變數 */
     --hx-color-dark: var(--ctp-base);

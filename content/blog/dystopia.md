@@ -13,3 +13,5 @@ Wiwi 說過[兩](https://wiwi.blog/blog/google-ai-search-sucks)[次](https://wiw
 > 抓捕周樹人，跟我魯迅有什麼關係？
 >
 > -- 中國電視劇《樓外樓》，2018
+
+（btw我想找的是烏托邦 P 的[《反烏托邦》](https://music.youtube.com/watch?v=JtBCswnNAfk)。你沒看錯，我真的用 YT Music，但我用的是 [ArchiveTune](https://github.com/rukamori/ArchiveTune)）

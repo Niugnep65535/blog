@@ -1,7 +1,47 @@
+/* =========================================
+   Catppuccin Latte（淺色模式 / 預設 :root）
+   ========================================= */
+:root {
+    --ctp-base: #eff1f5;
+    --ctp-mantle: #e6e9ef;
+    --ctp-surface0: #ccd0da;
+    --ctp-surface1: #bcc0cc;
+    --ctp-text: #4c4f69;
+    --ctp-overlay0: #9ca0b0;
+    --ctp-mauve: #8839ef;
+
+    /* 覆寫 Hextra 原生主題色變數 */
+    --hx-color-primary-400: var(--ctp-mauve);
+    --hx-color-primary-500: var(--ctp-mauve);
+    --hx-color-primary-600: var(--ctp-mauve);
+}
+
+/* =========================================
+   Catppuccin Mocha（深色模式 / html.dark）
+   ========================================= */
+html.dark {
+    --ctp-base: #1e1e2e;
+    --ctp-mantle: #181825;
+    --ctp-surface0: #313244;
+    --ctp-surface1: #45475a;
+    --ctp-text: #cdd6f4;
+    --ctp-overlay0: #6c7086;
+    --ctp-mauve: #cba6f7;
+
+    /* 覆寫 Hextra 原生深色底色與主題色變數 */
+    --hx-color-dark: var(--ctp-base);
+    --hx-color-primary-400: var(--ctp-mauve);
+    --hx-color-primary-500: var(--ctp-mauve);
+    --hx-color-primary-600: var(--ctp-mauve);
+}
+
+/* =========================================
+   版面與元件樣式
+   ========================================= */
 body, * {
-     font-family: "Huninn";
-     color: #cdd6f4;
-     background-color: #1e1e2e;
+    font-family: "Huninn";
+    color: var(--ctp-text);
+    background-color: var(--ctp-base);
 }
 
 nav.hextra-max-navbar-width,
@@ -12,7 +52,7 @@ nav.hextra-max-navbar-width,
 .hextra-nav-container,
 footer,
 footer * {
-    background-color: #181825 !important;
+    background-color: var(--ctp-mantle) !important;
 }
 
 footer * {
@@ -20,23 +60,20 @@ footer * {
 }
 
 .hextra-search-trigger,
-.hextra-search-trigger * ,
+.hextra-search-trigger *,
 aside.hextra-sidebar-container {
-    background-color: #1e1e2e;
+    background-color: var(--ctp-base);
 }
 
 code, pre, kbd, samp,
 code *, pre *, kbd *, samp * {
     font-family: "Roboto Mono", "Huninn" !important;
-    background-color: #45475a !important;
+    background-color: var(--ctp-surface1) !important;
 }
 
+a,
 a:visited {
-    color: #cba6f7;
-}
-
-a {
-    color: #cba6f7;
+    color: var(--ctp-mauve);
 }
 
 .hextra-toc * {
@@ -48,10 +85,10 @@ a {
 }
 
 .hextra-alert-title, .hextra-alert-content,
-.hextra-alert-title *, .hextra-alert-content *{
+.hextra-alert-title *, .hextra-alert-content * {
     background: transparent;
 }
 
 .hx:border-t .hx:pt-8 {
-    border-top: 5px solid #6c7086 !important;
+    border-top: 5px solid var(--ctp-overlay0) !important;
 }

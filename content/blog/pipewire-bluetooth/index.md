@@ -10,7 +10,7 @@ date: 2026-11-21
 
 然後我就能在電腦上放音樂清單了！耶！
 
-![](Screenshot_20261121-231029.png)![](Screenshot_20261121_231038.png)
+<img src="Screenshot_20261121-231029.png" height=185></img><img src="Screenshot_20261121_231038.png" height=185></img>
 <!-- 才發現 KDE 跟 GrapheneOS 截圖命名邏輯幾乎一樣 -->
 
 （這才是 AI 正確用法，而不是人家比賽得獎的時候生成高飽和海報還忘記去水印）

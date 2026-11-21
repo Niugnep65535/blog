@@ -6,6 +6,10 @@ title: "Niugnep 的部落格"
 感謝你來看我的部落格！
 [RSS](index.xml) | [Email](mailto:penguin@niugnep.idv.tw)
 
+> [!CAUTION]
+> Google 正在改變人們安裝軟體的方式，阻止他們是我們「每個人」的責任。  
+> 請支持 [Keep Android Open](https://keepandroidopen.org)！
+
 以下是本站點一些頁面：
  * [文章](/blog)：我的部落格文章都在這裡，也是主要更新的地方
  * [關於](/about)：你可以在這裡了解我

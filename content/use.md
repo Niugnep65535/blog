@@ -1,6 +1,6 @@
 ---
 title: Niugnep 用些什麼
-date: 2026-10-13
+date: 2026-11-21
 comments: false
 ---
 
@@ -121,8 +121,10 @@ comments: false
 
 ### 🏠 自架服務
 
-- [Nextcloud](https://nextcloud.com/)：全家桶式的雲端硬碟，非常好用
-- [Gitea](https://about.gitea.com/)：自架 Git 程式碼庫，部落格原始碼就在這上面
+> 台電老是跳電把我伺服器關掉，暫時不弄自架了
+
+- ~~[Nextcloud](https://nextcloud.com/)~~：全家桶式的雲端硬碟，非常好用（已關閉）
+- ~~[Gitea](https://about.gitea.com/)~~：自架 Git 程式碼庫，部落格原始碼就在這上面（已關閉）
 
 ### 🆓 其他免費服務
 
@@ -169,7 +171,7 @@ comments: false
 - [Fennec F-Droid](https://f-droid.org/zh_Hant/packages/org.mozilla.fennec_fdroid/)：可以同步但是移除 Mozilla 追蹤的 Firefox
 - [NewPipe](https://newpipe.net/)：看 YouTube 就沒這麼爽過！
 - [PipePipe](https://github.com/InfinityLoop1308/PipePipe)：長出 BiliBili 跟 NicoNico 支援的 NewPipe
-- [OpenTune](https://opentune.netlify.app/en)：YouTube Music 的超漂亮前端，被撅了
+- [ArchiveTune](https://github.com/rukamori/ArchiveTune)：YouTube Music 的超漂亮前端，被 OpenTune 抄了之後[撅](https://github.com/github/dmca/blob/master/2026/08/2026-08-25-archivetune.md)[死](https://github.com/Arturo254/OpenTune)對方的那個 <!-- 給沒看過倉庫的冒險勇者：OpenTune 被 DMCA 申訴成功，逃到了 Codeberg，不太老實呢 -->
 - [DAVx⁵](https://www.davx5.com/)：行事曆跟聯絡人的同步工具
 
 ### 🀄 輸入法

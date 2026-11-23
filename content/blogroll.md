@@ -27,6 +27,7 @@ comments: false
 * [拉米的日誌](https://lami.lemigame.com/zh-TW/journal)：給我把[《拉米：程式與咖啡》](https://store.steampowered.com/app/3196150/%E6%8B%89%E7%B1%B3%E7%A8%8B%E5%BC%8F%E8%88%87%E5%92%96%E5%95%A1/?l=tchinese)的願望清單按爆（？
 * [Pront Lin](https://prontlin.com/)：能遇到同一屆的同學挺意外
 * [資工小廢物 - JN](https://blog.giveanornot.com/)：哇原來是 programming socks
+* [Fangcat_Dev](https://www.091209.xyz/)：B 站 up 主，以影片文字稿為主，應該是不可變系統愛好者（`zh_CN`）
 
 ## 並非部落格
 這裡放的就不是部落格了，甚至不是獨立網站。我會標記平台。

@@ -1,5 +1,5 @@
 # Hugo configuration file
-baseurl: "/"
+baseurl: "https://niugnep.idv.tw/"
 locale: "zh-Hant"
 defaultContentLanguage: "zh-tw"
 title: "Niugnep 的部落格"

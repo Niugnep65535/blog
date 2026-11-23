@@ -13,10 +13,19 @@ draft: true
  
 做為我完全接觸自由軟體、Open Web、自組部落格的第一年，應該挺值得紀錄的吧？
 
+## Keep Android Open
+[Keep Android Open](https://keepandroidopen.org) 是個向 Google 抗議的活動（？）網站。
+
+三月得知的，沒記錯的話應該是因為這個開始追趕自由軟體，不知道能不能在 2027 之前阻止 Google。
+
+當初看到的時候超級憤慨，以至於被我媽唸說吃飯搞得大家很燥。不對啊，要是沒有人燥，Google 不就得逞了？
+
+還是希望大家躁起來。我也開始在[到處](https://github.com/Niugnep65535/Niugnep65535)宣傳了 <!-- 我沒打錯，profile readme 上來就是這件事 -->
+
 ## Linux 不知道第幾次體驗
 大概 4/11，忘記什麼原因來著，我跳到了 CachyOS。
 
-如果沒記錯，是受到了 [Keep Android Open](https://keepandroidopen.org)（這個後面細講）的影響，讓我開始試著使用 Degoogle 軟體與自由的 Linux。如果沒有這事件的話，我可能還不會建立部落格。
+如果沒記錯，是受到了 Keep Android Open 的影響，讓我開始試著使用 Degoogle 軟體與自由的 Linux。如果沒有這事件的話，我可能還不會建立部落格。
 
 那時候是 Windows 跳 CachyOS，然後沒有雙系統。其實此前我就有用過 Linux 了，不過脫離 Debian 系還是第一次。
 
@@ -24,7 +33,7 @@ draft: true
 
 不過後續又跳了 Debian、Ubuntu、Fedora等發行版，最後選擇了 Debian。
 
-<!-- TODO: 放圖片 -->
+<!-- TODO: 放 fastfetch -->
 
 ## 自由軟體
 受到 [Ivon](https://ivonblog.com) 的啟發，以及 Keep Android Open 的影響，我也開始接觸自由軟體。不知何時開始受到了 RMS 等人的影響，覺得萬般皆下品，唯有自由高。
@@ -68,6 +77,19 @@ draft: true
 
 我其實挺不能接受，但是我已經放棄了。一來我沒那個臉跟學校講（就看資料組長會不會找到這網站），二來看學校生幹圖也挺好笑的。
 
+## 部落格
+五月，搭建部落格。
+
+我一開始受到 [Ivon](https://ivonblog.com) 啟發才撰寫部落格。半年過去，已然成為日常。
+
+在 [BlogBlog.Club](https://blogblog.club) 之類的網站找到更多同好，甚至交到在網路上的朋友（[Leaf](https://blog.新葉喵.com)、[It's小白](https://itsxiaobai.codeberg.page/pages/)）。
+
+甚至我去 [IndiePing](https://indieping.giveanornot.com/) 自搜都能找到 [ttheng](https://microblog.ttheng.com/)、[ordinarykuma](https://ordinarykuma.bearblog.dev/)、[Pront](https://prontlin.com/) 找到我。
+
+非常感謝他們！
+
+（也有點意外，Niugnep 是企鵝 penguin 倒過來寫，理論上是菜市場名，結果台灣居然沒幾個跟我 ID 重複的）
+
 ## 自架
 我從今年九月受到 [Wiwi](https://wiwi.blog) 的影響開始製作自架服務。
 
@@ -81,18 +103,18 @@ draft: true
 
 反正我應該會做吧。
 
-## Keep Android Open
-三月得知的，沒記錯的話應該是因為這個開始追趕自由軟體，不知道能不能在 2027 之前阻止 Google。
-
-當初看到的時候超級憤慨，以至於被我媽唸說吃飯搞得大家很燥。不對啊，要是沒有人燥，Google 不就得逞了？
-
-還是希望大家躁起來。我也開始在[到處](https://github.com/Niugnep65535/Niugnep65535)宣傳了 <!-- 我沒打錯，profile readme 上來就是這件事 -->
-
 ## 願景
 2027 的願景......我也是真的不知道。
 
 大概就是希望考上某某高工、租一台 gateway，以及希望自己能夠維持[改善的生活習慣](https://niugnep.idv.tw/blog/refresh-my-life/)吧。
 
 最後也希望 2027 能成為[「Year of Linux Desktop」](https://yearofthelinuxdesktop.net/)，就像社群的慣例那樣。
+
+> *這段胡亂拼湊的詞語*  
+> *如果傷到你也請你忘記*  
+> *但若你又找不到意義*  
+> *希望這首歌能被記起*  
+> 
+> 烏托邦 P《反烏托邦》
 
 新年快樂！

@@ -7,3 +7,7 @@
 ![](img.png)
 
 坐等他買 `wiwi.dev` 取代 `code.wiwi.blog`。
+
+（原來是 Claude 嗎？XD）
+
+![](claude.png)

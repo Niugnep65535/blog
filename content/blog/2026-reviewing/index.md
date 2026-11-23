@@ -16,6 +16,8 @@ draft: true
 ## Linux 不知道第幾次體驗
 大概 4/11，忘記什麼原因來著，我跳到了 CachyOS。
 
+如果沒記錯，是受到了 [Keep Android Open](https://keepandroidopen.org)（這個後面細講）的影響，讓我開始試著使用 Degoogle 軟體與自由的 Linux。如果沒有這事件的話，我可能還不會建立部落格。
+
 那時候是 Windows 跳 CachyOS，然後沒有雙系統。其實此前我就有用過 Linux 了，不過脫離 Debian 系還是第一次。
 
 才過了約莫兩天吧，我跳到了 Arch。當時的理由也很簡單：「CachyOS 太簡單了，沒難度」，純粹的 nerd 心態😅
@@ -25,7 +27,7 @@ draft: true
 <!-- TODO: 放圖片 -->
 
 ## 自由軟體
-受到 [Ivon](https://ivonblog.com) 的啟發，以及 [Keep Android Open](https://keepandroidopen.org)（這個後面細講）的影響，我也開始接觸自由軟體。不知何時開始受到了 RMS 等人的影響，覺得萬般皆下品，唯有自由高。
+受到 [Ivon](https://ivonblog.com) 的啟發，以及 Keep Android Open 的影響，我也開始接觸自由軟體。不知何時開始受到了 RMS 等人的影響，覺得萬般皆下品，唯有自由高。
 
 最狂熱的時期，我甚至打算使用 [Parabola GNU/Linux-libre](https://www.parabola.nu/) 做為長期主力發行版。當然這件事最後沒發生。
 
@@ -80,11 +82,11 @@ draft: true
 反正我應該會做吧。
 
 ## Keep Android Open
-沒記錯的話應該是因為這個開始追趕自由軟體，不知道能不能在 2027 之前阻止 Google。
+三月得知的，沒記錯的話應該是因為這個開始追趕自由軟體，不知道能不能在 2027 之前阻止 Google。
 
 當初看到的時候超級憤慨，以至於被我媽唸說吃飯搞得大家很燥。不對啊，要是沒有人燥，Google 不就得逞了？
 
-還是希望大家躁起來。我也開始在[到處](https://github.com/Niugnep65535/Niugnep65535)宣傳了
+還是希望大家躁起來。我也開始在[到處](https://github.com/Niugnep65535/Niugnep65535)宣傳了 <!-- 我沒打錯，profile readme 上來就是這件事 -->
 
 ## 願景
 2027 的願景......我也是真的不知道。

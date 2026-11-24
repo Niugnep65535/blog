@@ -1,26 +1,17 @@
 ---
 title: Niugnep 的近況
-date: 2026-11-12
+date: 2026-11-24
 draft: false
 comments: false
 ---
+## 近期活動
+* 第二次段考：煩死啦！
+* 技能競賽：第 57 屆開放報名了
+* 運動會：還好 12/6 辦運動會的學校一堆，找不到我awa
 
-## 生活方面
- * 住在新北市板橋區：學校、生活跟熟悉的食物都在這，暫時搬不走了
- * 一段結束：不出意料的爛，卻也出乎意料的好
- * 畢業旅行：因為颱風泡湯了pwp
- 
-## 最近放上網路的
- * [寫這個幹嘛](/blog/why-you-write-this)：再度參加 BlogBlog 同樂會
- 
-## 食物跟飲料
- * 檸檬柚子茶：這種能當果醬的沖泡飲料我一直很喜歡
- * 堅果棒：保存期限意外的長
- 
-## 最近忙的
- * 技藝班：Arduino 基於 C++？主場優勢！
+## 近期製作 / 貢獻的專案
+* [Anti spam mail](https://github.com/Niugnep65535/anti-spam-mail)：防垃圾信件的 Cloudflare Workers 腳本
+* [CSneko/JustARod](https://github.com/CSneko/JustARod)：我 PR 掛半天了這隻貓不理我
 
-## 最近看、聽、讀的
- * [貓咪學園](https://www.youtube.com/@NekoGakuen)：適合讀書時候聽
- * Mixes：很好聽
- * 《你的名字。》：書展買到的awa
+## 發現的新奇玩意
+* [ArchiveTune](https://github.com/rukamori/ArchiveTune)：YouTube Music 的超漂亮前端，被 OpenTune 抄了之後[撅](https://github.com/github/dmca/blob/master/2026/08/2026-08-25-archivetune.md)[死](https://github.com/Arturo254/OpenTune)對方的那個 

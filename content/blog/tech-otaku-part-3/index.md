@@ -1,6 +1,6 @@
 ---
 title: 技術宅（第三回）
-date: 2026-11-25T20:00:00Z
+date: 2026-11-25T12:00:00Z
 ---
 書接[上回](/blog/tech-otaku-part-2/)，我提到我改用了 crDroid。
 

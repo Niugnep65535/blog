@@ -13,7 +13,7 @@ draft: false
 這次的7 Pro，我選擇的不是上次提到的GrapheneOS和LineageOS，而是選擇了Samsung Galaxy在開源界最大的敵人——crDroid。  
 crDroid是一個允許使用者高度自定義的第三方Android韌體——多高度？連設定選單跟字體都能調，你的手機能嗎？  
 GrapheneOS我幾乎用不到它的功能；LineageOS我雖然有興趣但玩過了；crDroid我只在阿哲的[這部影片](https://youtu.be/ZrScJpREg6E?si=MpaKcotEUjXVgLDS&t=512)被那個設定畫面震撼到。  
-此外把我推出GrapheneOS的還有小白（[這裡](https://itsxiaobai.github.io/)）。他之前在寄信給我一堆留言時提到，GrapheneOS+Pixel耗電跟發燙都很扯。其實我覺得合理，畢竟每次解鎖螢幕畫面都要動到加密硬碟確實麻煩，而且我也沒有那種很扯的資安要求。
+此外把我推出GrapheneOS的還有小白（[這裡](https://itsxiaobai.codeberg.page/pages/)）。他之前在寄信給我一堆留言時提到，GrapheneOS+Pixel耗電跟發燙都很扯。其實我覺得合理，畢竟每次解鎖螢幕畫面都要動到加密硬碟確實麻煩，而且我也沒有那種很扯的資安要求。
 
 ## 使用體驗
 先上截圖：  

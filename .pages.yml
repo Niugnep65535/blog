@@ -1,0 +1,32 @@
+content:
+  - name: blog
+    label: 部落格文章
+    type: collection
+    path: content/blog
+    # 關鍵設定 1：指定文章建立為「資料夾/index.md」的結構
+    filename: "{primary}/index.md"
+    # 關鍵設定 2：將圖片預設存在該文章資料夾內（例如與 index.md 同層，或放在 images/ 子目錄）
+    media:
+      input: "{folder}"          # 圖片實際存放於 content/blog/文章資料夾/ 底下
+      output: "./"               # Markdown 內寫入相對路徑（如 ![alt](photo.jpg) 或直接寫檔名）
+    view:
+      fields: [ title, date, draft ]
+      primary: title             # 決定上方 {primary} 檔名生成的依據欄位（會自動轉為 slug）
+    fields:
+      - name: title
+        label: 文章標題
+        type: string
+        required: true
+      - name: date
+        label: 發布日期
+        type: date
+      - name: draft
+        label: 草稿
+        type: boolean
+        default: true
+      - name: cover
+        label: 封面圖片
+        type: image              # 這裡選取或上傳的圖片，也會自動存進該文章資料夾
+      - name: body
+        label: 內文
+        type: rich-text

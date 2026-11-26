@@ -2,7 +2,7 @@
 遷移至 GitHub 的部落格，再繼續搞 Gitea 我就要掛了
 
 ## Before Emailing
-I hate the marketing plans. It's not needed to a blog.
+I hate the marketing plans. They aren't needed for a personal blog.
 
 DO NOT send those to me!
 

@@ -1,6 +1,6 @@
 <br> <!-- 土法排版 -->
 # 「正因為曾經淋過雨，<br>才會想為他人撐一把傘。」
--- [SamHacker Blog](https://blog.samhacker.xyz/)
+<!-- [SamHacker Blog](https://blog.samhacker.xyz/) -->
 
 <p id="greeting"></p>
 

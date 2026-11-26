@@ -1,6 +1,18 @@
----
-title: "Niugnep 的部落格"
----
+# 「正因為曾經淋過雨，<br>才會想為他人撐一把傘。」
+-- [SamHacker Blog](https://blog.samhacker.xyz/)
+
+<p id="greeting"></p>
+
+<script>
+ const now = new Date().getHours();
+ const greeting = document.getElementById("greeting")
+ greeting.textContent = 
+   now < 6 || now > 22 ? "夜已深，記得早點睡喔！" :
+   now < 12 ? "早安，記得吃早餐喔！" :
+   now < 17 ? "午安，記得吃午餐喔！" :
+   now < 21 ? "晚安，記得吃晚餐喔！" :
+   "辛苦了，早點休息吧！"
+</script>
 
 這裡是 Niugnep，一個國三的傢伙。  
 感謝你來看我的部落格！

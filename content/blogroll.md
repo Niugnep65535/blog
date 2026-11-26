@@ -28,6 +28,8 @@ comments: false
 * [Pront Lin](https://prontlin.com/)：能遇到同一屆的同學挺意外
 * [資工小廢物 - JN](https://blog.giveanornot.com/)：哇原來是 programming socks
 * [Fangcat_Dev](https://www.091209.xyz/)：B 站 up 主，以影片文字稿為主，應該是不可變系統愛好者（`zh_CN`）
+* [羊毛的可愛小窩](https://yomo-kawaii.idv.tw/)：哇，真的是好可愛的羊毛（？）
+* [NudoBlog 小透明龍女](https://blog.nudoragon.com/)：第一印象只有 MtF 怎麼辦
 
 ## 並非部落格
 這裡放的就不是部落格了，甚至不是獨立網站。我會標記平台。

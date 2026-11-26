@@ -1,6 +1,6 @@
 ---
 title: 部落捲
-date: 2026-11-11
+date: 2026-11-26
 draft: false
 comments: false
 ---
@@ -9,7 +9,7 @@ comments: false
 >  
 > － [Wiwi.Blog](https://wiwi.blog)
 
-這裡面也會放一些我覺得有意思的部落格，雖然也會放其它推薦的內容。非繁體中文內容會表示；註解基本由本人撰寫，主觀成分強，看看即可。
+這裡面也會放一些我覺得有意思的部落格，雖然也會放其它推薦的內容。非繁體中文內容會標示；註解基本由本人撰寫，主觀成分強，看看即可。
 
 ## 個人部落格
 * [夜星見 — The Never Ending Dreaming](https://yoruhosimi.pixnet.net/blog/)：我媽吃灰的部落格 <!-- 等她的新部落格弄好就會刪掉這行 -->
@@ -30,6 +30,7 @@ comments: false
 * [Fangcat_Dev](https://www.091209.xyz/)：B 站 up 主，以影片文字稿為主，應該是不可變系統愛好者（`zh_CN`）
 * [羊毛的可愛小窩](https://yomo-kawaii.idv.tw/)：哇，真的是好可愛的羊毛（？）
 * [NudoBlog 小透明龍女](https://blog.nudoragon.com/)：第一印象只有 MtF 怎麼辦
+* [Ikuka 的第二個家](https://ikuka.blog/)：日文老師，感覺很酷
 
 ## 並非部落格
 這裡放的就不是部落格了，甚至不是獨立網站。我會標記平台。

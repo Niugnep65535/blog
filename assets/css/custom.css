@@ -35,7 +35,9 @@ html.dark {
 }
 
 html.dark body {
-    background-image: url("/mocha.jpg");
+    background-image: 
+        linear-gradient(rgba(30, 30, 46, 0.5), rgba(30, 30, 46, 0.75)),
+        url("/mocha.jpg");
 }
 
 /* =========================================

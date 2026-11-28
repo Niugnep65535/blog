@@ -34,15 +34,6 @@ html.dark {
     --hx-color-primary-600: var(--ctp-mauve);
 }
 
-html.dark body {
-    background-image: 
-        linear-gradient(rgba(30, 30, 46, 0.5), rgba(30, 30, 46, 0.75)),
-        url("/mocha.jpg");
-    background-size: cover;       /* 讓圖片等比例填滿整個區塊 */
-    background-position: center;  /* 圖片置中對齊 */
-    background-repeat: no-repeat; /* 避免圖片重複拼貼 */
-}
-
 /* =========================================
    版面與元件樣式
    ========================================= */

@@ -49,7 +49,7 @@ html.dark body {
 body, * {
     font-family: "Huninn";
     color: var(--ctp-text);
-    background-color: var(--ctp-base);
+    /* background-color: var(--ctp-base); */
 }
 
 nav.hextra-max-navbar-width,

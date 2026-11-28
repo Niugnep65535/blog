@@ -34,6 +34,10 @@ html.dark {
     --hx-color-primary-600: var(--ctp-mauve);
 }
 
+html.dark body {
+    background-image: url("/mocha.jpg");
+}
+
 /* =========================================
    版面與元件樣式
    ========================================= */
